@@ -1,4 +1,69 @@
 # my-php-containers
 A place to keep php code your can incorporate into your webpages
 
-First Container
+# my-go-examples
+
+[![Code Climate](https://codeclimate.com/github/JeffDeCola/my-go-examples/badges/gpa.svg)](https://codeclimate.com/github/JeffDeCola/my-go-examples)
+[![Issue Count](https://codeclimate.com/github/JeffDeCola/my-go-examples/badges/issue_count.svg)](https://codeclimate.com/github/JeffDeCola/my-go-examples/issues)
+[![Go Report Card](https://goreportcard.com/badge/jeffdecola/my-go-examples)](https://goreportcard.com/report/jeffdecola/my-go-examples)
+[![GoDoc](https://godoc.org/github.com/JeffDeCola/my-go-examples?status.svg)](https://godoc.org/github.com/JeffDeCola/my-go-examples)
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
+
+`my-go-examples` _is a place to keep my go code snippets and examples._
+
+[GitHub Webpage](https://jeffdecola.github.io/my-go-examples/)
+
+# EXAMPLES
+
+* [json](https://github.com/JeffDeCola/my-go-examples/tree/master/json)
+
+   _Encode a struct to json and decode back to a struct._
+
+* [gotests-complex-function](https://github.com/JeffDeCola/my-go-examples/tree/master/gotests-complex-function)
+
+   _Testing a function with complex inputs and outputs._
+
+* [gomock](https://github.com/JeffDeCola/my-go-examples/tree/master/gomock)
+
+   _A helloween theme is used for gomock on an interface for unit testing._
+
+* [read-file](https://github.com/JeffDeCola/my-go-examples/tree/master/read-file)
+
+   _Reading a file a few different ways._
+
+* [linked-list](https://github.com/JeffDeCola/my-go-examples/tree/master/linked-list)
+
+   _An example of a Singly Linked List (i.e. using just a head pointer)._
+
+* [recursion](https://github.com/JeffDeCola/my-go-examples/tree/master/recursion)
+
+   _A function calling itself to make a fibonacci series._
+
+* [logging-error-handling](https://github.com/JeffDeCola/my-go-examples/tree/master/logging-error-handling)
+
+   _Logging and error handling._
+
+## TESTED USING CONCOURSE
+
+A Concourse Pipeline will automate unit testing and update the GitHub WebPage.
+
+![IMAGE - my-go-examples concourse ci piepline - IMAGE](docs/pics/my-go-examples-pipeline.jpg)
+
+A _ci/.credentials.yml_ file needs to be created for your _slack_url_ and _repo_github_token_.
+
+Use fly to upload the the pipeline file _ci/pipline.yml_ to Concourse:
+
+```bash
+fly -t ci set-pipeline -p my-go-examples -c ci/pipeline.yml --load-vars-from ci/.credentials.yml
+```
+
+## CONCOURSE RESOURCES IN PIPELINE
+
+`my-go-examples` also contains a few extra concourse resources:
+
+* A resource (_resource-slack-alert_) uses a [docker image](https://hub.docker.com/r/cfcommunity/slack-notification-resource)
+  that will notify slack on your progress.
+* A resource (_resource-repo-status_) use a [docker image](https://hub.docker.com/r/dpb587/github-status-resource)
+  that will update your git status for that particular commit.
+
+The above resources can be removed from the pipeline.
