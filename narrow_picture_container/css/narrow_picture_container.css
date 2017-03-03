@@ -1,0 +1,33 @@
+/* ####################### NARROW PICTURE CONTAINER ################ */
+
+/* FOR ALL DYNAMIC CONTAINERS *************/
+
+.narrow_picture_container {
+ 	/* padding: 10px; */
+   	height: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.narrow_picture_container img {
+  	position: absolute;
+    margin: auto;
+	width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* ####################### FOO NARROW PICTURE CONTAINER ############ */
+
+#foo_narrow_picture_container {
+}
+
+
+/* ####################### BAR NARROW PICTURE CONTAINER ############ */
+
+#bar_narrow_picture_container {
+}

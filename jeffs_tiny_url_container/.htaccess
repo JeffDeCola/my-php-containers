@@ -1,0 +1,58 @@
+# Protect the .htaccess file
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Disable directory browsing
+# For security reasons, Option all cannot be overridden.
+#Options All -Indexes
+Options ExecCGI Includes IncludesNOEXEC SymLinksIfOwnerMatch -Indexes
+
+#Disable the server's signature used to identify the server
+ServerSignature Off
+
+# limit file uploads to 10mb
+#LimitRequestBody 10240000
+
+# Protect Some very important files
+#<Files wp-config.php>
+#Order Allow,Deny
+#Deny from all
+#</Files>
+
+#who has access who doesnt
+order allow,deny
+#deny from 000.000.000.000
+allow from all
+
+#custom error docs
+ErrorDocument 404 http://www.jeffdecola.com/index.php?page=404
+ErrorDocument 403 http://www.jeffdecola.com/index.php?page=403
+ErrorDocument 500 http://www.jeffdecola.com/index.php?page=500
+
+#redirect old to new
+#Redirect 301 /old.php http://www.quadrimonial.com/new.php
+
+# Protect bandwidth - Prevent Hotlinking - Not really needed until its a problem
+#RewriteCond %{HTTP_REFERER} !^$
+#RewriteCond %{HTTP_REFERER} !^http://(.+\.)?YOURDOMAIN\.com/ [NC]
+#RewriteRule .(jpg|jpeg|png|gif)$ http://ANOTHERDOMAIN.com/nohotlinking.jpg [NC,R,L]
+
+#block referring domains
+#RewriteEngine on
+#RewriteCond %{HTTP_REFERER} digg\.com [NC]
+#RewriteRule .* ? [F]
+
+# php compression ? use with caution
+#<ifmodule mod_php4.c>
+#php_value zlib.output_compression 16386
+#</ifmodule>
+
+# set the canonical url
+RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^jeffdecola\.com$ [NC]
+#RewriteRule ^(.*)$ http://www.jeffdecola.com/$1 [R=301,L]
+
+# Internally rewrite shortened URL requests to de-shortened URL lookup script filepath plus query string
+RewriteRule ^([\w\d]{4})$ php_scripts/jeffs_tiny_url_decoder.php?decode=$1 [L]
