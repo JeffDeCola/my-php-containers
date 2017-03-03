@@ -6,7 +6,8 @@
 [![GoDoc](https://godoc.org/github.com/JeffDeCola/my-php-containers?status.svg)](https://godoc.org/github.com/JeffDeCola/my-php-containers)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
 
-`my-php-containers` _is a place to keep my php container examples. Designed for Dynamic Screen Widths._
+`my-php-containers` _is a place to keep my php container examples.
+Designed for Dynamic Screen Widths._
 
 [GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
 
