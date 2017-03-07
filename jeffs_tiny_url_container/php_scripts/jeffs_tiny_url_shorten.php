@@ -1,5 +1,7 @@
 <?php
 
+	include 'sql_pw.php';
+
 	$shortened_url_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_shortened.php";
 	$database_error_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
 	$form_error_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_form_error.php";
@@ -25,7 +27,7 @@
 	// WE GOT A URL (OR WE GOT SOMETHING)
 	
 	// OPEN THE DATABASE
-	$con = mysql_connect("localhost","jeffryad_userurl","b75623b");  
+	$con = mysql_connect("localhost","jeffryad_userurl","$pw");  
 	if (!$con)  {  
 		header( "Location: $database_error_page" );
 		exit;

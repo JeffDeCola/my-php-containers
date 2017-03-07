@@ -39,10 +39,12 @@
     
    	<?php  
 
+		include '../php_scripts/sql_pw.php';
+
 		$database_error_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
 
 		// OPEN THE DATABASE
-		$con = mysql_connect("localhost","jeffryad_userurl","b75623b");  
+		$con = mysql_connect("localhost","jeffryad_userurl","$pw");  
 		if (!$con)  {  
 			header( "Location: $database_error_page" );
 			exit;
