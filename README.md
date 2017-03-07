@@ -37,11 +37,11 @@ Designed for Dynamic Screen Widths._
 
 * [video_container](https://github.com/JeffDeCola/my-php-containers/tree/master/video_container)
 
-   _Logging and error handling._
+   _For Youtube or Vimeo with optional background._
 
-## TESTED USING CONCOURSE
+## GITHUB WEBPAGE UPDATED USING CONCOURSE
 
-A Concourse Pipeline will automate unit testing and update the GitHub WebPage.
+A Concourse Pipeline will automatically update the GitHub WebPage.
 
 ![IMAGE - my-php-containers concourse ci piepline - IMAGE](docs/pics/my-php-containers-pipeline.jpg)
 
