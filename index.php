@@ -56,13 +56,13 @@
 	?>    
 
 	<div id="title">
-    	<h1> JEFF'S CONTAINERS </h1>
+    	<h1> JEFF'S PHP CONTAINERS </h1>
     	<h2> Designed for Dynamic Screen Widths</h2>
         <br />
      	<?php if ($container_name == "all") { ?>
-        	<p> <a href="https://github.com/JeffDeCola/my-php-containers"> Get the following containers on github </a> </p>
+        	<p> <a href="https://github.com/JeffDeCola/my-php-containers"> Get any of the following php containers on GitHub </a> </p>
    		<?php } else { ?>
-           	<p> <a href="https://github.com/JeffDeCola/my-php-containers"> Get this container on github </a> </p>
+           	<p> <a href="https://github.com/JeffDeCola/my-php-containers"> Get this container on GitHub </a> </p>
     	<?php } ?>
     </div>
     
@@ -164,8 +164,7 @@
     <?php if (($container_name == "all") || ($container_name == "video_container")) { ?>
         <div class="container_header">
             <h2> VIDEO CONTAINER </h2>
-         	<p> Shorten long URLs to tiny ones </p>
-            <p> Youtube and Vimeo Examples </p>
+         	<p> For Youtube or Vimeo with optional background </p>
          	<?php if ($container_name == "all") { ?>
          		<p> <a href="http://www.jeffryadecola.com/my-php-containers/index.php?container_name=video_container">
                 See this container on its own page </a> </p>
