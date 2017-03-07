@@ -1,6 +1,6 @@
 <?php
 
-	include 'sql_pw.php';
+	include 'sql_pw-ignore.php';
 
 	$shortened_url_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_shortened.php";
 	$database_error_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";

@@ -39,7 +39,7 @@
     
    	<?php  
 
-		include '../php_scripts/sql_pw.php';
+		include '../php_scripts/sql_pw-ignore.php';
 
 		$database_error_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
 
