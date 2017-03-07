@@ -1,8 +1,8 @@
 ---
 layout: default
-title: JeffDeCola/my-go-examples
-projectname : my-go-examples
-summary: A place to keep my go code snippets and examples
+title: JeffDeCola/my-php-containers
+projectname : my-php-containers
+summary: A place to keep my php container examples. Designed for Dynamic Screen Widths.
 ---
 
 {% include README.md %}
