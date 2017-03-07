@@ -8,7 +8,7 @@ echo "pwd is: " $PWD
 echo "List whats in the current directory"
 ls -lat 
 
-# Note: my-php-containers-updated already created becasue of yml file
+# Note: my-php-containers-updated already created becasue of yml file 
 git clone my-php-containers my-php-containers-updated
 
 cd my-php-containers-updated
