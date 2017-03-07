@@ -1,9 +1,9 @@
 <?php
 
 	// PAGES
-	$formurl = "http://www.jeffryadecola.com/containers";
-	$errorurl = "http://www.jeffryadecola.com/containers/contact_form_container/pages/contact_form_error.php";
-	$thankyouurl = "http://www.jeffryadecola.com/containers/contact_form_container/pages/contact_form_thank_you.php";
+	$formurl = "http://www.jeffryadecola.com/my-php-containers";
+	$errorurl = "http://www.jeffryadecola.com/my-php-containers/contact_form_container/pages/contact_form_error.php";
+	$thankyouurl = "http://www.jeffryadecola.com/my-php-containers/contact_form_container/pages/contact_form_thank_you.php";
 
 	// CONFIGURE
 	$email_is_required = 1;  // Really set this to 1
