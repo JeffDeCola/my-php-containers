@@ -38,6 +38,7 @@ template.css
 index.php
 dwsync.xml
 sql_pw-ignore.php
+update_concourse.cmd
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
