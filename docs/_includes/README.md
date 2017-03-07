@@ -1,4 +1,55 @@
 
 # EXAMPLES
 
-I think i leave this blank.
+* [jeffs_tiny_url_container](https://github.com/JeffDeCola/my-php-containers/tree/master/jeffs_tiny_url_container)
+
+   _Shorten long URLs to tiny ones._
+
+* [jeffs_simple_chat_container](https://github.com/JeffDeCola/my-php-containers/tree/master/jeffs_simple_chat_container)
+
+   _TBD._
+
+* [narrow_picture_container](https://github.com/JeffDeCola/my-php-containers/tree/master/narrow_picture_container)
+
+   _Allow a picture to scale and display across the screen._
+
+* [social_media_bar_container](https://github.com/JeffDeCola/my-php-containers/tree/master/social_media_bar_container)
+
+   _Provide links to social media, built with Dynamic Items Container._
+
+* [dynamic_items_container](https://github.com/JeffDeCola/my-php-containers/tree/master/dynamic_items_container)
+
+   _Displays items (e.g. Menu) that will center and collapse properly on smaller screens._
+
+* [contact_form_container](https://github.com/JeffDeCola/my-php-containers/tree/master/contact_form_container)
+
+   _An online contact form that is sent to an email._
+
+* [video_container](https://github.com/JeffDeCola/my-php-containers/tree/master/video_container)
+
+   _For Youtube or Vimeo with optional background._
+
+## GITHUB WEBPAGE UPDATED USING CONCOURSE
+
+A Concourse Pipeline will automatically update the GitHub WebPage.
+
+![IMAGE - my-php-containers concourse ci piepline - IMAGE](pics/my-php-containers-pipeline.jpg)
+
+A _ci/.credentials.yml_ file needs to be created for your _slack_url_ and _repo_github_token_.
+
+Use fly to upload the the pipeline file _ci/pipline.yml_ to Concourse:
+
+```bash
+fly -t ci set-pipeline -p my-php-containers -c ci/pipeline.yml --load-vars-from ci/.credentials.yml
+```
+
+## CONCOURSE RESOURCES IN PIPELINE
+
+`my-php-containers` also contains a few extra concourse resources:
+
+* A resource (_resource-slack-alert_) uses a [docker image](https://hub.docker.com/r/cfcommunity/slack-notification-resource)
+  that will notify slack on your progress.
+* A resource (_resource-repo-status_) use a [docker image](https://hub.docker.com/r/dpb587/github-status-resource)
+  that will update your git status for that particular commit.
+
+The above resources can be removed from the pipeline.
