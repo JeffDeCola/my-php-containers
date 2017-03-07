@@ -308,7 +308,7 @@
 				<?php if ($_GET['page'] == "") {?>
                     HOME
                 <?php } else  {?>
-                    <a href="http://www.jeffryadecola.com/containers"> 
+                    <a href="http://www.jeffryadecola.com/my-php-containers"> 
                         HOME 
                     </a>
                 <?php } ?>    

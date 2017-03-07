@@ -1,7 +1,7 @@
 <?php
 
-	$sorry_url_page = "http://www.jeffryadecola.com/containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_does_not_exist.php";
-	$database_error_page = "http://www.jeffryadecola.com/containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
+	$sorry_url_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_does_not_exist.php";
+	$database_error_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
 
 	// OPEN THE DATABASE
 	$con1 = mysql_connect("localhost","jeffryad_userurl","b75623b");  
