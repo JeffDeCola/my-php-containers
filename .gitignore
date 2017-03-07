@@ -31,12 +31,13 @@ build/
 # Gemfile.lock
 # .ruby-version
 # .ruby-gemset
+/_notes/
 .credentials.yml
 coverage.out
 main_layout.css
-template.css
 index.php
 dwsync.xml
+template.css
 sql_pw-ignore.php
 update_concourse.cmd
 
