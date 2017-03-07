@@ -1,17 +1,17 @@
 #!/bin/bash
-# my-go-examples readme-github-pages.sh
+# my-php-containers readme-github-pages.sh
 
 set -e -x
 
-# The code is located in /my-go-examples
+# The code is located in /my-php-containers
 echo "pwd is: " $PWD
 echo "List whats in the current directory"
 ls -lat 
 
-# Note: my-go-examples-updated already created becasue of yml file
-git clone my-go-examples my-go-examples-updated
+# Note: my-php-containers-updated already created becasue of yml file
+git clone my-php-containers my-php-containers-updated
 
-cd my-go-examples-updated
+cd my-php-containers-updated
 ls -lat 
 
 # FOR GITHUB WEBPAGES
