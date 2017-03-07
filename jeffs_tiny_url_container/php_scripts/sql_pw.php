@@ -1,3 +1,3 @@
 <?php
-	$pw = 'hsUty!_!-m{$';
+	$pw = 'ddd';
 ?>
