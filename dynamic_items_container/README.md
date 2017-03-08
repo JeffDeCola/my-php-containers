@@ -18,23 +18,23 @@ PHP
 
 ```php
 <div class="box_container">
-  
+
 	<div class="box_items_container">
-                  
+
           <div class="box_item">
               <p> box_item 1 </p>
           </div>
-  
+
           <div class="box_item">
               <p> box_item 2 </p>
           </div>
-  
+
           <div class="box_item">
               <p> box_item 3 </p>
           </div>
-                          
+
 	</div>
-  
+
 </div>
 ```
 
