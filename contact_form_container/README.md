@@ -21,4 +21,4 @@ it will link to the thank you page.
 
 * Copy and paste the code into your php code 
 * Change the links
-* update email in `/php_scripts/contact_form.php`
+* Update email in `/php_scripts/contact_form.php`
