@@ -1,33 +1,43 @@
 # TINY URL CONTAINER
 
-`tiny_url_container` _will Shorten long URLs to tiny ones._
+`tiny_url_container` _will shorten Long URLs to Tiny URLs._
 
 [See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=jeffs_tiny_url_container)
 
 ## CREATE A MYSQL DATABASE
 
-Create a MySQL databsae and enter the user and password into
-`/php_scripts/jeffs_tiny_url_shorten.php`
+Create a MySQL database and enter the user and password into
+`/php_scripts/jeffs_tiny_url_shorten.php` and `jeffs_tiny_url_decoder.php`.
 
-## SHORTEN URL
+## SHORTEN THE URL FORM
 
-Enter a long url into the form. Submit shalll send
-the long URL using POST to `/php_scripts/jeffs_tiny_url_shorten.php`
+Enter a Long URL into the form. Submit shall send
+the Long URL using POST to `/php_scripts/jeffs_tiny_url_shorten.php`.
 
-This script will make sure you are human, creates a random number
-and send the following to a MySQL database.
+This script will check you are human, creates a `Tiny URL 
+Unique Number` and send the following to a MySQL database.
 
 * Date and Time
 * The Long URL
-* Random Number
+* Tiny URL Unique Number 
 
-## USING THE SMALL URL
+The `Tiny URL Unique Number` (e.g. 1234) is used at the end of your Tiny URL.
 
-The short URL points to a directory that has a `.htaccess` file
-with the following line:
+```bash
+Thehttp://yourwebsite.com/1234
+```
+
+If there is a database error or a form error the script will link
+to the error page.
+
+## USING THE TINY URL
+
+In the location you would like to use the Tiny URL, add the following to your 
+.htaccess file.
 
 ```bash
 RewriteRule ^([\w\d]{4})$ php_scripts/jeffs_tiny_url_decoder.php?decode=$1 [L]
 ```
-It calls the php script `jeffs_tiny_url_decoder.php` to automatically
-link to the long URL.
+This calls the php script `jeffs_tiny_url_decoder.php` that uses 
+the `Tiny URL Unique Number` to look up the Long URL.  It then automatically 
+links to the original webpage.
