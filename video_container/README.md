@@ -12,7 +12,7 @@ width of the screen.  You may also add a background.
 The container uses jquery script fitVids.js by Chris Coyier
 to size the screen.
 
-![IMAGE - video_container - IMAGE](../docs/pics/video_container_pic.jpg)
+![IMAGE - video_container - IMAGE](../docs/pics/video_container_the_frontier.jpg)
 
 ## TO USE
 
