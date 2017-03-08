@@ -7,27 +7,33 @@
    _Shorten long URLs to tiny ones._
 
 * [jeffs_simple_chat_container](https://github.com/JeffDeCola/my-php-containers/tree/master/jeffs_simple_chat_container)
+[(see demo - offsite)](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=jeffs_tiny_url_container)
 
    _TBD._
 
 * [narrow_picture_container](https://github.com/JeffDeCola/my-php-containers/tree/master/narrow_picture_container)
+[(see demo - offsite)](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=narrow_picture_container)
 
    _Allow a picture to scale and display across the screen._
 
 * [social_media_bar_container](https://github.com/JeffDeCola/my-php-containers/tree/master/social_media_bar_container)
+[(see demo - offsite)](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=social_media_bar_container)
 
    _Provide links to social media, built with Dynamic Items Container._
 
 * [dynamic_items_container](https://github.com/JeffDeCola/my-php-containers/tree/master/dynamic_items_container)
+[(see demo - offsite)](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=dynamic_items_container)
 
    _Displays items (e.g. Menu) that will center and collapse properly
 on smaller screens._
 
 * [contact_form_container](https://github.com/JeffDeCola/my-php-containers/tree/master/contact_form_container)
+[(see demo - offsite)](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=contact_form_container)
 
    _An online contact form that is sent to an email._
 
 * [video_container](https://github.com/JeffDeCola/my-php-containers/tree/master/video_container)
+[(see demo - offsite)](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=video_container)
 
    _For Youtube or Vimeo with optional background._
 
