@@ -4,14 +4,9 @@
 
 [See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=jeffs_tiny_url_container)
 
-![IMAGE - jeffs_tiny_url_container - IMAGE](../docs/pics/jeffs_tiny_url_container.jpg)
-
-## CREATE A MYSQL DATABASE
-
-Create a MySQL database and enter the user and password into
-`/php_scripts/jeffs_tiny_url_shorten.php` and `jeffs_tiny_url_decoder.php`.
-
 ## SHORTEN THE URL FORM
+
+![IMAGE - jeffs_tiny_url_container - IMAGE](../docs/pics/jeffs_tiny_url_container.jpg)
 
 Enter a Long URL into the form. Submit shall send
 the Long URL using POST to `/php_scripts/jeffs_tiny_url_shorten.php`.
@@ -47,6 +42,7 @@ links to the original webpage.
 ## TO USE
 
 * Copy and paste the code into your php code 
-* Create a mysql database
+* Create a MySQL database and update `jeffs_tiny_url_shorten.php` and
+`jeffs_tiny_url_decoder.php
 * Change the links
 * Update you .htaccess file

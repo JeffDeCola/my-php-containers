@@ -9,7 +9,8 @@ center and collapse properly on smaller screens.__
 
 ## FUCTIONALITY
 
-This container is based around the following functionailty:
+This container is based around the following functionailty.
+The red box represents the width of the screen.
 
 ![IMAGE - dynamic_items_container - IMAGE](../docs/pics/dynamic_items_container_wireimage.jpg)
 
