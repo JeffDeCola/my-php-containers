@@ -9,9 +9,10 @@ Designed for Dynamic Screen Widths._
 
 [GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
 
-# EXAMPLES
+## EXAMPLES
 
 * [jeffs_tiny_url_container](https://github.com/JeffDeCola/my-php-containers/tree/master/jeffs_tiny_url_container)
+[(see demo - offsite)](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=jeffs_tiny_url_container)
 
    _Shorten long URLs to tiny ones._
 
@@ -29,7 +30,8 @@ Designed for Dynamic Screen Widths._
 
 * [dynamic_items_container](https://github.com/JeffDeCola/my-php-containers/tree/master/dynamic_items_container)
 
-   _Displays items (e.g. Menu) that will center and collapse properly on smaller screens._
+   _Displays items (e.g. Menu) that will center and collapse properly
+on smaller screens._
 
 * [contact_form_container](https://github.com/JeffDeCola/my-php-containers/tree/master/contact_form_container)
 
