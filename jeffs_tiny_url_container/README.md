@@ -4,7 +4,7 @@
 
 [See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=jeffs_tiny_url_container)
 
-![IMAGE - jeffs_tiny_url_container - IMAGE](docs/pics/jeffs_tiny_url_container.jpg)
+![IMAGE - jeffs_tiny_url_container - IMAGE](../docs/pics/jeffs_tiny_url_container.jpg)
 
 ## CREATE A MYSQL DATABASE
 
