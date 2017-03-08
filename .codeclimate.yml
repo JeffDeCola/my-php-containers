@@ -1,22 +1,8 @@
----
 engines:
-  fixme:
+  phpcodesniffer:
     enabled: true
-  gofmt:
-    enabled: true
-  golint:
-    enabled: true
-  govet:
-    enabled: true
-  markdownlint:
-    enabled: true
-    checks:
-      MD030:
-        enabled: false
+
 ratings:
   paths:
-  - "**.go"
-exclude_paths:
-- "**/vendor/**/*"
-- "**/mocks/**/*"
+  - "**.php"
 
