@@ -327,10 +327,10 @@
             <!-- THIS DEFINES THE HEIGHT -->
             <div class="nav_dynamic_item_item">
 				<?php if ($_GET['page'] == "404") {?>
-                    404
+                    JEFFS TINY URL CONTAINER
                 <?php } else  {?>
-                    <a href="http://www.jeffryadecola.com/index.php?page=404"> 
-                        404
+                    <a href="http://www.jeffryadecola.com/my-php-containers/index.php?container_name=jeffs_tiny_url_container"> 
+                        JEFFS TINY URL CONTAINER
                     </a>
                 <?php } ?>    
           	</div>
@@ -347,10 +347,10 @@
             <!-- THIS DEFINES THE HEIGHT -->
             <div class="nav_dynamic_item_item">
 				<?php if ($_GET['page'] == "500") {?>
-                    500
+                    VIDEO CONTAINER
                 <?php } else  {?>
-                    <a href="http://www.jeffryadecola.com/index.php?page=500"> 
-                        500
+                    <a href="http://www.jeffryadecola.com/my-php-containers/index.php?container_name=video_container"> 
+                        VIDEO CONTAINER
                     </a>
                 <?php } ?>    
             </div>
@@ -367,10 +367,10 @@
             <!-- THIS DEFINES THE HEIGHT -->
             <div class="nav_dynamic_item_item">
 				<?php if ($_GET['page'] == "403") {?>
-                    403
+                    GITHUB
                 <?php } else  {?>
-                    <a href="http://www.jeffryadecola.com/index.php?page=403"> 
-                        403
+                    <a href="https://github.com/JeffDeCola/my-php-containers"> 
+                        GITHUB
                     </a>
                 <?php } ?>    
             </div>
