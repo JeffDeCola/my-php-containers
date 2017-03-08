@@ -7,7 +7,7 @@ sent to an email._
 
 ## CONTACT FORM
 
-![IMAGE - contact_form_container - IMAGE](../docs/pics/contact_form_container.jpg)
+![IMAGE - contact_form_container - IMAGE](../docs/pics/contact_form_container_pic.jpg)
 
 Complete the form and submit shall send
 the information using POST to `/php_scripts/contact_form.php`.
