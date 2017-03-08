@@ -3,7 +3,7 @@
 `social_media_bar_container` _will provide links to social media,
 built with Dynamic Items Container._
 
-[GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
+[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=social_media_bar_container)
 
 ![IMAGE - social_media_bar_container - IMAGE](../docs/pics/social_media_bar_container.jpg)
 
@@ -16,9 +16,9 @@ and configures it with:
 * Social Media Images
 * Social Media Links
 
-Refer to the
+For functionality, refer to the
 [dynamic_items_container](https://github.com/JeffDeCola/my-php-containers/tree/master/dynamic_items_container) 
-for functionality.
+
 
 ## TO USE
 
