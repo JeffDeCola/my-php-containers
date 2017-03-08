@@ -23,4 +23,4 @@ Create a div with class=narrow_picture_container
 </div>
 ```
 
-Place .narrow_picture_container and .narrow_picture_container img into your css.
+Place `.narrow_picture_container` and `.narrow_picture_container img` into your css.
