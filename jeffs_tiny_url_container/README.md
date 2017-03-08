@@ -44,7 +44,7 @@ links to the original webpage.
 
 ## TO USE
 
-* Copy and paste the code into your php code.  
+* Copy and paste the code into your php code 
 * Create a mysql database
 * Change the links
 * Update you .htaccess file
