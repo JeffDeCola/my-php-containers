@@ -4,7 +4,7 @@
 * [jeffs_tiny_url_container](https://github.com/JeffDeCola/my-php-containers/tree/master/jeffs_tiny_url_container)
 [(_see offsite demo_)](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=jeffs_tiny_url_container)
 
-   _Shorten long URLs to tiny ones._
+   _Shorten Long URLs to Tiny URLs._
 
 * [jeffs_simple_chat_container](https://github.com/JeffDeCola/my-php-containers/tree/master/jeffs_simple_chat_container)
 [(_see offsite demo_)](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=jeffs_tiny_url_container)
