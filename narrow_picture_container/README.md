@@ -10,6 +10,7 @@ and display across the screen._
 The image will scale to the size of the screen while keeping the
 vertical hieght centered.
 
+![IMAGE - narrow_picture_container - IMAGE](../docs/pics/narrow_picture_container.jpg)
 
 ## TO USE
 
