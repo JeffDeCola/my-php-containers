@@ -1,9 +1,9 @@
 # JEFFS SIMPLE CHAT CONTAINER
 
-`jeffs_simple_chat_container` _TBD._
+`jeffs_simple_chat_container` _coming soon._
 
-[GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
+[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=jeffs_simple_chat_container)
 
-## TBD
+## COMING SOON
 
 

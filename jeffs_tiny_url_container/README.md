@@ -1,6 +1,6 @@
 # TINY URL CONTAINER
 
-`tiny_url_container` _will shorten Long URLs to Tiny URLs._
+`jeffs_tiny_url_container` _will shorten Long URLs to Tiny URLs._
 
 [See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=jeffs_tiny_url_container)
 
@@ -24,7 +24,7 @@ Unique Number` and send the following to a MySQL database.
 The `Tiny URL Unique Number` (e.g. 1234) is used at the end of your Tiny URL.
 
 ```bash
-Thehttp://yourwebsite.com/1234
+http://yourwebsite.com/1234
 ```
 
 If there is a database error or a form error the script will link
@@ -41,3 +41,10 @@ RewriteRule ^([\w\d]{4})$ php_scripts/jeffs_tiny_url_decoder.php?decode=$1 [L]
 This calls the php script `jeffs_tiny_url_decoder.php` that uses 
 the `Tiny URL Unique Number` to look up the Long URL.  It then automatically 
 links to the original webpage.
+
+## TO USE
+
+* Copy and paste the code into your php code.  
+* Create a mysql database
+* Change the links
+* Update you .htaccess file
