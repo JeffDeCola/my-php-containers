@@ -5,7 +5,7 @@ built with Dynamic Items Container._
 
 [GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
 
-![IMAGE - social_media_bar_container - IMAGE](docs/pics/social_media_bar_container.jpg)
+![IMAGE - social_media_bar_container - IMAGE](../docs/pics/social_media_bar_container.jpg)
 
 ## USES THE DYNAMIC ITEMS CONTAINER
 
