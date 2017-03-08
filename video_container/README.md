@@ -6,7 +6,7 @@
 
 ## YOUTUBE OR VIMEO
 
-Have you vimeo or youtube videos scaled properly to the 
+Have you vimeo or youtube videos scaled properly to the
 width of the screen.  You may also add a background.
 
 The container uses jquery script fitVids.js by Chris Coyier
