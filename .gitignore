@@ -32,7 +32,6 @@ build/
 # .ruby-version
 # .ruby-gemset
 /_notes/
-.htaccess
 .credentials.yml
 coverage.out
 main_layout.css
