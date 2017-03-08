@@ -3,13 +3,15 @@
 `dynamic_items_container` _will displays items (e.g. Menu) that will
 center and collapse properly on smaller screens.__
 
-[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=social_media_bar_container)
+[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=dynamic_items_container)
 
 ![IMAGE - dynamic_items_container - IMAGE](../docs/pics/dynamic_items_container.jpg)
 
 ## FUCTIONALITY
 
 This container is based around the following functionailty:
+
+![IMAGE - dynamic_items_container - IMAGE](../docs/pics/dynamic_items_container_wireimage.jpg)
 
 PHP
 
