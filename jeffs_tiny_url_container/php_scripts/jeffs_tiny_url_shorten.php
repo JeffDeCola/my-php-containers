@@ -19,7 +19,7 @@
 	}
 	
 	// ARE YOU HUMAN?
-	if ($answer_question != ($number1 + $number2) ){
+	if ($answer_question != ($number1 + $number2)){
 		header( "Location: $form_error_page" );
 		exit ;
 	}

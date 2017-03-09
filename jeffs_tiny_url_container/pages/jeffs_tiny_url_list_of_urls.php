@@ -54,42 +54,42 @@
 		mysql_select_db("jeffryad_tinyurl", $con);   
 	  	
 		// GET ENTIRE CONTENTS OF TABLE - BY REVERSE ORDER - id is generic (could use random_number_id)
- 		$data = mysql_query("SELECT * FROM URL_TABLE ORDER BY the_date DESC"); 
+ 		$data = mysql_query("SELECT * FROM URL_TABLE ORDER BY the_date DESC");
        
 	    // MAKE THE TABLE
- 		echo '<table table id="jeffs_tiny_url_list_table">'; 
- 		
+ 		echo '<table table id="jeffs_tiny_url_list_table">';
+
 			// PLACE CONTENTS IN ARRAY
-			while($info = mysql_fetch_array($data)) { 
-				echo '<tr class="jeffs_tiny_url_list_row">'; 
-					echo '<td class="jeffs_tiny_url_list_random_number">';		
-						echo $info['random_number_id'];
-					echo "</td>";		
-					echo '<td class="jeffs_tiny_url_list_long_url">';		
-						echo $info['long_url_escape'];
-					echo "</td>";		
-				echo "</tr>"; 
+            while($info = mysql_fetch_array($data)) {
+                echo '<tr class="jeffs_tiny_url_list_row">';
+                    echo '<td class="jeffs_tiny_url_list_random_number">';
+                        echo $info['random_number_id'];
+                    echo "</td>";
+                    echo '<td class="jeffs_tiny_url_list_long_url">';
+                        echo $info['long_url_escape'];
+                    echo "</td>";
+                echo "</tr>";
+
+                echo '<tr class="jeffs_tiny_url_list_row">';
+                    echo '<td class="jeffs_tiny_url_list_date">';
+                        echo $info['the_date'];
+                    echo "</td>";
+                    echo '<td class="jeffs_tiny_url_list_short_url">';
+                        // ******* THIS LINKS POINTS TO TINY URL DIR WHERE .htaccess file is  *****************************
+                        echo '<a href="'.$info['long_url_escape'].'">http://JeffDeCola.com/t/'.$info['short_url'].'</a>';
+                        // ******* THIS LINKS POINTS TO TINY URL DIR WHERE .htaccess file is  *****************************
+                    echo "</td>";
+                echo "</tr>";
+
+                echo '<tr class="jeffs_tiny_url_list_row">';
+                    echo '<td>';
+                        echo "<br/>";
+                    echo "</td>";
+                echo "</tr>";
 				
-				echo '<tr class="jeffs_tiny_url_list_row">'; 
-					echo '<td class="jeffs_tiny_url_list_date">';
-						echo $info['the_date'];
-					echo "</td>";		
-					echo '<td class="jeffs_tiny_url_list_short_url">';
-						// ******* THIS LINKS POINTS TO TINY URL DIR WHERE .htaccess file is  *****************************
-						echo '<a href="'.$info['long_url_escape'].'">http://JeffDeCola.com/t/'.$info['short_url'].'</a>';
-						// ******* THIS LINKS POINTS TO TINY URL DIR WHERE .htaccess file is  *****************************
-					echo "</td>";		
-				echo "</tr>"; 
-				
-				echo '<tr class="jeffs_tiny_url_list_row">'; 		
-					echo '<td>';		
-						echo "<br/>";
-					echo "</td>";		
-				echo "</tr>"; 
- 
-			}
-		
- 		echo "</table>"; 
+            }
+
+         echo "</table>"; 
       
 		// CLOSE DATABASE
 		mysql_close($con);  
