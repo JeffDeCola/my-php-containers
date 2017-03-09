@@ -309,7 +309,7 @@
             
 				<?php if ($_GET['page'] == "") {?>
                     HOME
-                <?php } else  {?>
+                <?php } else {?>
                     <a href="http://www.jeffryadecola.com/my-php-containers"> 
                         HOME 
                     </a>
@@ -330,7 +330,7 @@
             <div class="nav_dynamic_item_item">
 				<?php if ($_GET['page'] == "404") {?>
                     JEFFS TINY URL CONTAINER
-                <?php } else  {?>
+                <?php } else {?>
                     <a href="http://www.jeffryadecola.com/my-php-containers/index.php?container_name=jeffs_tiny_url_container"> 
                         JEFFS TINY URL CONTAINER
                     </a>
@@ -350,7 +350,7 @@
             <div class="nav_dynamic_item_item">
 				<?php if ($_GET['page'] == "500") {?>
                     VIDEO CONTAINER
-                <?php } else  {?>
+                <?php } else {?>
                     <a href="http://www.jeffryadecola.com/my-php-containers/index.php?container_name=video_container"> 
                         VIDEO CONTAINER
                     </a>
@@ -370,7 +370,7 @@
             <div class="nav_dynamic_item_item">
 				<?php if ($_GET['page'] == "403") {?>
                     GITHUB
-                <?php } else  {?>
+                <?php } else {?>
                     <a href="https://github.com/JeffDeCola/my-php-containers"> 
                         GITHUB
                     </a>

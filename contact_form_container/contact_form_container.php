@@ -3,7 +3,7 @@
     <p> I'll get back to you ASAP </p>
     
     <!-- ARE YOU HUMAN? -->
-    <?php 
+    <?php
         $number1 = rand(1, 5);
         $number2 = rand(1, 5);
     ?>

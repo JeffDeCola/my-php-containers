@@ -27,7 +27,7 @@
 	// WE GOT A URL (OR WE GOT SOMETHING)
 	
 	// OPEN THE DATABASE
-	$con = mysql_connect("localhost", "jeffryad_userurl","$pw");
+	$con = mysql_connect("localhost", "jeffryad_userurl", "$pw");
 	if (!$con) {
 		header("Location: $database_error_page");
 		exit;
