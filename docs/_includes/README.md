@@ -1,4 +1,4 @@
+# THIS WILL BE UPDATED BY CONCOURSE CI
 
-# EXAMPLES
-
-I think i leave this blank.
+Concourse CI will copy and edit
+`README.md` to `/docs/_includes/README.md`.
