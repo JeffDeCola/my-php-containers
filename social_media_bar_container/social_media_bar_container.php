@@ -59,7 +59,7 @@
   						link=http://TheFrontierPicture.com&
   						picture=http://www.TheFrontierPicture.com/images/facebook/the_frontier_facebook_profile_400.jpg&
   						name=TheFrontierPicture.com&
-  						caption=<?php echo urlencode ("The Frontier - A Film Starring Max Gail"); ?>&
+  						caption=<?php echo urlencode("The Frontier - A Film Starring Max Gail"); ?>&
   						description=<?php echo urlencode("A comic drama about three unlikely 
 							individuals at crossroads in their lives, who come together and help each other find their way forward.");?>&
   						redirect_uri=http://www.TheFrontierPicture.com" target="_blank"> 

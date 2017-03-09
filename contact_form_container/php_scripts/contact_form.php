@@ -39,9 +39,7 @@
 	// IF USING RECAPTCHA - THIS IS THE CHECK
 	if (strlen($my_recaptcha_private_key)) {
 		require_once('recaptchalib.php');
-		$resp = recaptcha_check_answer($my_recaptcha_private_key, $_SERVER['REMOTE_ADDR'],
-		$_POST['recaptcha_challenge_field'],
-		$_POST['recaptcha_response_field']);
+		$resp = recaptcha_check_answer($my_recaptcha_private_key, $_SERVER['REMOTE_ADDR'], $_POST['recaptcha_challenge_field'], $_POST['recaptcha_response_field']);
 		if (!$resp->is_valid) {
 			header("Location: $errorurl");
 			exit ;
@@ -84,10 +82,10 @@
 	// 4 - CREATE THE HEADER
 
 		// A - header seperator
-		$headersep = (!isset( $uself ) || ($uself == 0)) ? "\r\n" : "\n";
+		$headersep = (!isset($uself) || ($uself == 0)) ? "\r\n" : "\n";
 		
 		// Is it utf or iso-8859-1
-		$content_type = (!isset( $use_utf8 ) || ($use_utf8 == 0)) ? 'Content-Type: text/plain; charset="iso-8859-1"' :
+		$content_type = (!isset($use_utf8) || ($use_utf8 == 0)) ? 'Content-Type: text/plain; charset="iso-8859-1"' :
 		'Content-Type: text/plain; charset="utf-8"';
 	
 		// For the from field - Must use because it will look like spam otherwise
@@ -107,7 +105,7 @@
 	
 		// Basically are we using the from address?
 		if ($use_envsender) {
-			mail($mailto, $subject, $messageproper, $headers, $envsender );
+			mail($mailto, $subject, $messageproper, $headers, $envsender);
 		}
 		else {
 			mail($mailto, $subject, $messageproper, $headers);
