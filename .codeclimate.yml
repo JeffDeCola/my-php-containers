@@ -4,7 +4,10 @@ engines:
     checks:
       Generic WhiteSpace DisallowTabIndent TabsUsed:
         enabled: false
-
+      Generic Files LineLength TooLong:
+        enabled: false
+      Generic WhiteSpace ScopeIndent IncorrectExact:
+        enabled: false
 ratings:
   paths:
   - "**.php"
