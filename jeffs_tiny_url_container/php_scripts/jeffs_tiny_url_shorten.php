@@ -27,8 +27,8 @@
 	// WE GOT A URL (OR WE GOT SOMETHING)
 	
 	// OPEN THE DATABASE
-	$con = mysql_connect("localhost", "jeffryad_userurl","$pw");  
-	if (!$con)  {  
+	$con = mysql_connect("localhost", "jeffryad_userurl","$pw");
+	if (!$con) {
 		header("Location: $database_error_page");
 		exit;
 	}
@@ -44,7 +44,7 @@
 	//CHECK TO SEE IF THAT NUMBER HAS BEEN USED BEFORE
 	
 		//GET THE TABLE ROW
-		$result=mysql_query("select * from URL_TABLE where short_url='$short_url'"); 
+		$result=mysql_query("select * from URL_TABLE where short_url='$short_url'");
 
 		// GET THE ENTIRE ROW
 		$row = mysql_fetch_array($result);
@@ -64,7 +64,7 @@
 	$sql = "insert into URL_TABLE values('$the_date','$random_number_id','$long_url_escape','$short_url')";
 	
 	// WRITE TO TABLE IN DATABASE
-	mysql_query($sql,$con);
+	mysql_query($sql, $con);
 	
 	// CLOSE DATABASE
 	mysql_close($con);
