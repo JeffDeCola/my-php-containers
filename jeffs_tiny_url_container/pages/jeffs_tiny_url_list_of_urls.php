@@ -33,29 +33,30 @@
     <br />
     
    	<FORM>
-    	<INPUT class="jeffs_tiny_url_button" TYPE="button" VALUE="Back" onClick="history.go(-1);return true;" style="cursor:pointer">
+    	<INPUT class="jeffs_tiny_url_button" TYPE="button" VALUE="Back"
+        onClick="history.go(-1);return true;" style="cursor:pointer">
     </FORM> 
 	<br />
     
-   	<?php  
+   	<?php
 
 		include '../php_scripts/sql_pw-ignore.php';
 
 		$database_error_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
 
 		// OPEN THE DATABASE
-		$con = mysql_connect("localhost","jeffryad_userurl","$pw");  
-		if (!$con)  {  
-			header( "Location: $database_error_page" );
+		$con = mysql_connect("localhost", "jeffryad_userurl","$pw");
+		if (!$con) {
+			header("Location: $database_error_page");
 			exit;
-  		}  
+		}
 
 		// SELECT DATABASE
-		mysql_select_db("jeffryad_tinyurl", $con);   
-	  	
+		mysql_select_db("jeffryad_tinyurl", $con);
+		
 		// GET ENTIRE CONTENTS OF TABLE - BY REVERSE ORDER - id is generic (could use random_number_id)
  		$data = mysql_query("SELECT * FROM URL_TABLE ORDER BY the_date DESC");
-       
+ 
 	    // MAKE THE TABLE
  		echo '<table table id="jeffs_tiny_url_list_table">';
 
@@ -86,13 +87,13 @@
                         echo "<br/>";
                     echo "</td>";
                 echo "</tr>";
-				
+
             }
 
-         echo "</table>"; 
+         echo "</table>";
       
 		// CLOSE DATABASE
-		mysql_close($con);  
+		mysql_close($con);
 
     ?>  
         

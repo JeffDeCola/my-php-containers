@@ -1,6 +1,7 @@
 <div id="jeffs_tiny_url_container">
 
-	<p> <a href="http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_list_of_urls.php">Database List</a> </p>
+	<p> <a href="http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_list_of_urls.php">
+    	Database List</a> </p>
     
     <!-- ARE YOU HUMAN? -->
     <?php 
@@ -8,7 +9,10 @@
         $number2 = rand (1, 5);
     ?>
 
-    <form id="jeffs_tiny_url_form" action="http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/php_scripts/jeffs_tiny_url_shorten.php" method="post">  
+    <form
+    id="jeffs_tiny_url_form"
+    action="http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/php_scripts/jeffs_tiny_url_shorten.php"
+    method="post">  
 
 	<table id="jeffs_tiny_url_table">
 
