@@ -30,7 +30,7 @@
 	}
 	
 	// ARE YOU HUMAN
-	if ($answer != ($number1 + $number2) ){
+	if ($answer != ($number1 + $number2)) {
 		header( "Location: $errorurl" );
 		exit ;
 	}

@@ -4,11 +4,12 @@
     
     <!-- ARE YOU HUMAN? -->
     <?php 
-        $number1 = rand (1 , 5);
-        $number2 = rand (1 , 5);
+        $number1 = rand (1, 5);
+        $number2 = rand (1, 5);
     ?>
 
-    <form id="contact_form" action="http://www.jeffryadecola.com/my-php-containers/contact_form_container/php_scripts/contact_form.php" method="post">
+    <form id="contact_form"
+    action="http://www.jeffryadecola.com/my-php-containers/contact_form_container/php_scripts/contact_form.php" method="post">
 
         <table id="contact_table">
 

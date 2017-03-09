@@ -4,8 +4,8 @@
     
     <!-- ARE YOU HUMAN? -->
     <?php 
-        $number1 = rand (1 , 5);
-        $number2 = rand (1 , 5);
+        $number1 = rand (1, 5);
+        $number2 = rand (1, 5);
     ?>
 
     <form id="jeffs_tiny_url_form" action="http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/php_scripts/jeffs_tiny_url_shorten.php" method="post">  
