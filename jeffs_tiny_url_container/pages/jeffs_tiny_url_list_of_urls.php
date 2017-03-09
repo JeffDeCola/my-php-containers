@@ -45,7 +45,7 @@
 		$database_error_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
 
 		// OPEN THE DATABASE
-		$con = mysql_connect("localhost", "jeffryad_userurl","$pw");
+		$con = mysql_connect("localhost", "jeffryad_userurl", "$pw");
 		if (!$con) {
 			header("Location: $database_error_page");
 			exit;
@@ -61,7 +61,7 @@
  		echo '<table table id="jeffs_tiny_url_list_table">';
 
 			// PLACE CONTENTS IN ARRAY
-            while($info = mysql_fetch_array($data)) {
+            while ($info = mysql_fetch_array($data)) {
                 echo '<tr class="jeffs_tiny_url_list_row">';
                     echo '<td class="jeffs_tiny_url_list_random_number">';
                         echo $info['random_number_id'];

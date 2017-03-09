@@ -37,15 +37,16 @@
 	}
 	
 	// IF USING RECAPTCHA - THIS IS THE CHECK
-		if (strlen($my_recaptcha_private_key)) {
-			require_once('recaptchalib.php');
-			$resp = recaptcha_check_answer($my_recaptcha_private_key, $_SERVER['REMOTE_ADDR'],
-			$_POST['recaptcha_challenge_field'], $_POST['recaptcha_response_field']);
-			if (!$resp->is_valid) {
-				header("Location: $errorurl");
-				exit ;
-			}
+	if (strlen($my_recaptcha_private_key)) {
+		require_once('recaptchalib.php');
+		$resp = recaptcha_check_answer($my_recaptcha_private_key, $_SERVER['REMOTE_ADDR'],
+		$_POST['recaptcha_challenge_field'],
+		$_POST['recaptcha_response_field']);
+		if (!$resp->is_valid) {
+			header("Location: $errorurl");
+			exit ;
 		}
+	}
 
 	// OK, LETS DO THIS ************************************************************************
 
@@ -65,7 +66,7 @@
 		// If the email field is blank - MUST HAVE A REPLY TO EMAIL
 		// But just set email required so you don't need to worry about this
 		if (empty($email)) {
-			$email = $mailto ;
+			$email = $mailto;
 		}
 		
 		// Build the array to mail
@@ -78,16 +79,16 @@
 			"$comments" .
 			"\n\n\n" .
 			"This email was sent from: \n" .
-			"$http_referrer \n\n" ;
+			"$http_referrer \n\n";
 
 	// 4 - CREATE THE HEADER
 
 		// A - header seperator
-		$headersep = (!isset( $uself ) || ($uself == 0)) ? "\r\n" : "\n" ;
+		$headersep = (!isset( $uself ) || ($uself == 0)) ? "\r\n" : "\n";
 		
 		// Is it utf or iso-8859-1
 		$content_type = (!isset( $use_utf8 ) || ($use_utf8 == 0)) ? 'Content-Type: text/plain; charset="iso-8859-1"' :
-		'Content-Type: text/plain; charset="utf-8"' ;
+		'Content-Type: text/plain; charset="utf-8"';
 	
 		// For the from field - Must use because it will look like spam otherwise
 		$name = "Contact Form at jeffryadecola.com";
@@ -96,11 +97,11 @@
 		$headers =
 			"From: \"$name\" <$mailto>" . $headersep . "Reply-To: \"$fullname\" <$email>" .
 			$headersep . "X-Mailer: chfeedback.php 2.15.0" .
-			$headersep . 'MIME-Version: 1.0' . $headersep . $content_type ;
+			$headersep . 'MIME-Version: 1.0' . $headersep . $content_type;
 			
 	// 5 - ARE YOU USING -f FLAG
 	
-		$envsender = "-f$mailto" ;
+		$envsender = "-f$mailto";
 
 	// 6 - MAIL THE MESSAGE
 	
@@ -116,6 +117,6 @@
 	
 		header("Location: $thankyouurl");
 	
-		exit ;
+		exit;
 		
 ?>
