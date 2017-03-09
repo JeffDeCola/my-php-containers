@@ -24,23 +24,25 @@
 	$number2 = $_POST['number2'];
 		
 	// IS EMAIL REQUIRED, NAME REUIRED, OR COMMENTS REUIRED
-	if (($email_is_required && (empty($email) || !preg_match('/@/', $email))) || ($name_is_required && empty($fullname)) || ($comments_is_required && empty($comments))) {
-		header( "Location: $errorurl" );
+	if (($email_is_required && (empty($email) || !preg_match('/@/', $email))) ||
+	($name_is_required && empty($fullname)) || ($comments_is_required && empty($comments))) {
+		header("Location: $errorurl");
 		exit ;
 	}
 	
 	// ARE YOU HUMAN
 	if ($answer != ($number1 + $number2)) {
-		header( "Location: $errorurl" );
+		header("Location: $errorurl");
 		exit ;
 	}
 	
 	// IF USING RECAPTCHA - THIS IS THE CHECK
-		if (strlen($my_recaptcha_private_key )) {
-			require_once( 'recaptchalib.php' );
-			$resp = recaptcha_check_answer ( $my_recaptcha_private_key, $_SERVER['REMOTE_ADDR'], $_POST['recaptcha_challenge_field'], $_POST['recaptcha_response_field'] );
+		if (strlen($my_recaptcha_private_key)) {
+			require_once('recaptchalib.php');
+			$resp = recaptcha_check_answer($my_recaptcha_private_key, $_SERVER['REMOTE_ADDR'],
+			$_POST['recaptcha_challenge_field'], $_POST['recaptcha_response_field']);
 			if (!$resp->is_valid) {
-				header( "Location: $errorurl" );
+				header("Location: $errorurl");
 				exit ;
 			}
 		}
@@ -58,7 +60,7 @@
 	// 3 - CREATE THE MESSAGE TO SEND
 	
 		// WHAT IS THE URL
-		$http_referrer = getenv("HTTP_REFERER" );
+		$http_referrer = getenv("HTTP_REFERER");
 		
 		// If the email field is blank - MUST HAVE A REPLY TO EMAIL
 		// But just set email required so you don't need to worry about this
@@ -84,14 +86,16 @@
 		$headersep = (!isset( $uself ) || ($uself == 0)) ? "\r\n" : "\n" ;
 		
 		// Is it utf or iso-8859-1
-		$content_type = (!isset( $use_utf8 ) || ($use_utf8 == 0)) ? 'Content-Type: text/plain; charset="iso-8859-1"' : 'Content-Type: text/plain; charset="utf-8"' ;
+		$content_type = (!isset( $use_utf8 ) || ($use_utf8 == 0)) ? 'Content-Type: text/plain; charset="iso-8859-1"' :
+		'Content-Type: text/plain; charset="utf-8"' ;
 	
 		// For the from field - Must use because it will look like spam otherwise
 		$name = "Contact Form at jeffryadecola.com";
 		
-		// The header - MUST USE MAILTO 
+		// The header - MUST USE MAILTO
 		$headers =
-			"From: \"$name\" <$mailto>" . $headersep . "Reply-To: \"$fullname\" <$email>" . $headersep . "X-Mailer: chfeedback.php 2.15.0" .
+			"From: \"$name\" <$mailto>" . $headersep . "Reply-To: \"$fullname\" <$email>" .
+			$headersep . "X-Mailer: chfeedback.php 2.15.0" .
 			$headersep . 'MIME-Version: 1.0' . $headersep . $content_type ;
 			
 	// 5 - ARE YOU USING -f FLAG
@@ -100,7 +104,7 @@
 
 	// 6 - MAIL THE MESSAGE
 	
-		// Basically are we using the from address? 
+		// Basically are we using the from address?
 		if ($use_envsender) {
 			mail($mailto, $subject, $messageproper, $headers, $envsender );
 		}
@@ -110,7 +114,7 @@
 	
 	// 7 - SUCCESSS - GOTO THANK OU URL
 	
-		header( "Location: $thankyouurl" );
+		header("Location: $thankyouurl");
 	
 		exit ;
 		
