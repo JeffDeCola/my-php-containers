@@ -4,9 +4,9 @@
     	Database List</a> </p>
     
     <!-- ARE YOU HUMAN? -->
-    <?php 
-        $number1 = rand (1, 5);
-        $number2 = rand (1, 5);
+    <?php
+        $number1 = rand(1, 5);
+        $number2 = rand(1, 5);
     ?>
 
     <form
