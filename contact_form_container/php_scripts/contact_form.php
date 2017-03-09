@@ -106,8 +106,7 @@
 		// Basically are we using the from address?
 		if ($use_envsender) {
 			mail($mailto, $subject, $messageproper, $headers, $envsender);
-		}
-		else {
+		} else {
 			mail($mailto, $subject, $messageproper, $headers);
 		}
 	

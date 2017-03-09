@@ -95,7 +95,7 @@
 		// CLOSE DATABASE
 		mysql_close($con);
 
-    ?>  
+    ?>
         
 </body>
 

@@ -8,6 +8,8 @@ engines:
         enabled: false
       Generic WhiteSpace ScopeIndent IncorrectExact:
         enabled: false
+      PSR2 Files ClosingTag NotAllowed:
+        enabled: false
 ratings:
   paths:
   - "**.php"
