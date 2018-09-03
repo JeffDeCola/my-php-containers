@@ -11,8 +11,8 @@ _All sections in alphabetical order._
 * [dynamic_items_container](https://github.com/JeffDeCola/my-php-containers/tree/master/dynamic_items_container)
 [(_see offsite demo_)](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=dynamic_items_container)
 
-   _Displays items (e.g. Menu) that will center and collapse properly
-on smaller screens._
+   _Displays items (e.g. Menu) that will center and collapse properly on
+   smaller screens._
 
 * [jeffs_simple_chat_container](https://github.com/JeffDeCola/my-php-containers/tree/master/jeffs_simple_chat_container)
 [(_see offsite demo_)](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=jeffs_simple_chat_container)
