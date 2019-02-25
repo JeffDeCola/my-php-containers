@@ -9,7 +9,7 @@ Designed for Dynamic Screen Widths._
 
 These examples also contain info I gathered from other sources.
 
-View my entire list of go examples on
+View my entire list of php examples on
 [my-php-containers GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
 
 ## PHP CONTAINERS
