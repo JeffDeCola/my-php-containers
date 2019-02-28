@@ -59,4 +59,3 @@
           
 </div>
 <!-- END OF jeffs_simple_chat_container -->
-

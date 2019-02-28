@@ -1,6 +1,6 @@
 # my-php-containers
 
-[![Code Climate](https://codeclimate.com/github/JeffDeCola/my-php-containers/badges/gpa.svg)](https://codeclimate.com/github/JeffDeCola/my-php-containers)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a7fd79cc4717b3da27d6/maintainability)](https://codeclimate.com/github/JeffDeCola/my-php-containers/maintainability)
 [![Issue Count](https://codeclimate.com/github/JeffDeCola/my-php-containers/badges/issue_count.svg)](https://codeclimate.com/github/JeffDeCola/my-php-containers/issues)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
 
