@@ -17,9 +17,14 @@ version: "2"
 #     channel: alternate channel to use (stable is default)
 #     config: plugin configuration
 plugins:
- markdownlint:
+  markdownlint:
     enabled: true
- markdownlint:
+  shellcheck:
+    enabled: true
+    plugins:
+  csslint:
+    enabled: true
+  ssonar-php:
     enabled: true
 
 # exclude_patterns: Exclude files and/or directories from analysis
