@@ -19,6 +19,8 @@ version: "2"
 plugins:
  markdownlint:
     enabled: true
+ markdownlint:
+    enabled: true
 
 # exclude_patterns: Exclude files and/or directories from analysis
 # - <pattern>
