@@ -5,5 +5,3 @@
 [See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=jeffs_simple_chat_container)
 
 ## COMING SOON
-
-

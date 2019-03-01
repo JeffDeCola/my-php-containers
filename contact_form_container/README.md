@@ -15,10 +15,10 @@ the information using POST to `/php_scripts/contact_form.php`.
 This script will check you are human and email the information.
 
 If there is an error will link to the error page. If everything worked,
-it will link to the thank you page. 
+it will link to the thank you page.
 
 ## TO USE
 
-* Copy and paste the code into your php code 
+* Copy and paste the code into your php code
 * Change the links
 * Update email in `/php_scripts/contact_form.php`
