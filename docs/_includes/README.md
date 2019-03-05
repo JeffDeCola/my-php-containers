@@ -42,8 +42,8 @@ _All sections in alphabetical order._
 ## MY GITHUB WEBPAGE IS UPDATED USING CONCOURSE
 
 For fun, I use concourse to update
-[my-php-containers GitHub Webpage](https://jeffdecola.github.io/my-php-containers/) and alert me of
-the changes via repo status and slack.
+[my-php-containers GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
+and alert me of the changes via repo status and slack.
 
 The github webpage update is accomplished this by copying and editing
 this `README.md` file to `/docs/_includes/README.md`.
