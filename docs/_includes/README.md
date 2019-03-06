@@ -56,4 +56,4 @@ shows the entire ci flow. Visually, it looks like,
 ![IMAGE - my-php-containers concourse ci pipeline - IMAGE](pics/my-php-containers-pipeline.jpg)
 
 For more information on using concourse for continuous integration,
-refer to my cheat sheet on [concourse](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/operations-tools/continuous-integration-continuous-deployment/concourse-cheat-sheet).
+refer to my cheat sheet on [concourse](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations-tools/continuous-integration-continuous-deployment/concourse-cheat-sheet).
