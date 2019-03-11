@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ####################### MAIN_LAYOUT.CSS ######################### */
+
+/* ####################### ENTIRE ################################## */
+
+#entire_wrapper {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+
+#title {
+	padding:10px;
+}
+
+#container_button {
+	color: #F2D1D1;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-top: 7px;
+	background-color: #D76A6C;
+	width: 65px;
+}
+
+.container_header {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: #D76A6C;
+}
+
+.container_header p {
+	margin-bottom: .8em;
+}
+
+.container_header a:link, .container_header a:visited  {
+	color: #F2D1D1;
+}
+
+/* ####################### FOOTER ################################## */
+
+#footer_wrapper {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+
+#footer_wrapper h1, #footer_wrapper h2 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* ####################### FOOTER COPYRIGHT CONATAINER ############## */
+
+#footer_copyright_container {
+	padding: 10px;
+	font-size: 10px;
+	color: #000;
+}
