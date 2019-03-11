@@ -10,16 +10,14 @@ built with Dynamic Items Container._
 ## USES THE DYNAMIC ITEMS CONTAINER
 
 This container uses the
-[dynamic_items_container]
-(https://github.com/JeffDeCola/my-php-containers/tree/master/dynamic_items_container)
+[dynamic_items_container](https://github.com/JeffDeCola/my-php-containers/tree/master/dynamic_items_container)
 and configures it with:
 
 * Social Media Images
 * Social Media Links
 
 For functionality, refer to the
-[dynamic_items_container]
-(https://github.com/JeffDeCola/my-php-containers/tree/master/dynamic_items_container)
+[dynamic_items_container](https://github.com/JeffDeCola/my-php-containers/tree/master/dynamic_items_container)
 
 ## TO USE
 

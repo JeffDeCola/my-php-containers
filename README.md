@@ -1,6 +1,6 @@
 # my-php-containers
 
-[![Code Climate](https://codeclimate.com/github/JeffDeCola/my-php-containers/badges/gpa.svg)](https://codeclimate.com/github/JeffDeCola/my-php-containers)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a7fd79cc4717b3da27d6/maintainability)](https://codeclimate.com/github/JeffDeCola/my-php-containers/maintainability)
 [![Issue Count](https://codeclimate.com/github/JeffDeCola/my-php-containers/badges/issue_count.svg)](https://codeclimate.com/github/JeffDeCola/my-php-containers/issues)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
 
@@ -9,8 +9,8 @@ Designed for Dynamic Screen Widths._
 
 These examples also contain info I gathered from other sources.
 
-View my entire list of php examples on
-[my-php-containers GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
+View my entire list of php containers on
+[my GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
 
 ## PHP CONTAINERS
 
@@ -55,8 +55,8 @@ _All sections in alphabetical order._
 ## MY GITHUB WEBPAGE IS UPDATED USING CONCOURSE
 
 For fun, I use concourse to update
-[my-php-containers GitHub Webpage](https://jeffdecola.github.io/my-php-containers/) and alert me of
-the changes via repo status and slack.
+[my-php-containers GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
+and alert me of the changes via repo status and slack.
 
 The github webpage update is accomplished this by copying and editing
 this `README.md` file to `/docs/_includes/README.md`.
@@ -69,4 +69,4 @@ shows the entire ci flow. Visually, it looks like,
 ![IMAGE - my-php-containers concourse ci pipeline - IMAGE](docs/pics/my-php-containers-pipeline.jpg)
 
 For more information on using concourse for continuous integration,
-refer to my cheat sheet on [concourse](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/operations-tools/continuous-integration-continuous-deployment/concourse-cheat-sheet).
+refer to my cheat sheet on [concourse](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/operations-tools/continuous-integration-continuous-deployment/concourse-cheat-sheet).

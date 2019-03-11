@@ -1,16 +1,34 @@
-engines:
-  phpcodesniffer:
-    enabled: true
-    checks:
-      Generic WhiteSpace DisallowTabIndent TabsUsed:
-        enabled: false
-      Generic Files LineLength TooLong:
-        enabled: false
-      Generic WhiteSpace ScopeIndent IncorrectExact:
-        enabled: false
-      PSR2 Files ClosingTag NotAllowed:
-        enabled: false
-ratings:
-  paths:
-  - "**.php"
+# .codeclimate.yml
 
+version: "2"
+# prepare: Actions to perform before analysis begins
+#   fetch: Remote files to fetch (files are placed relative to the repo's root directory)
+#     url: url to fetch
+#     path: destination relative to repo's root directory
+
+# checks: Configuration of maintainability checks
+#   <name>
+#     enabled: true|false
+#     config: check configuration
+
+# plugins: Enable optional engines to run in addition to your analysis
+#   <name>
+#     enabled: true|false
+#     channel: alternate channel to use (stable is default)
+#     config: plugin configuration
+plugins:
+  markdownlint:
+    enabled: true
+  shellcheck:
+    enabled: true
+    plugins:
+  ssonar-php:
+    enabled: true
+#  csslint:
+#    enabled: true
+
+# exclude_patterns: Exclude files and/or directories from analysis
+# - <pattern>
+# - <pattern>
+exclude_patterns:
+- "docs/"

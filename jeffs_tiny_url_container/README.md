@@ -35,6 +35,7 @@ In the location you would like to use the Tiny URL, add the following to your
 ```bash
 RewriteRule ^([\w\d]{4})$ php_scripts/jeffs_tiny_url_decoder.php?decode=$1 [L]
 ```
+
 This calls the php script `jeffs_tiny_url_decoder.php` that uses
 the `Tiny URL Unique Number` to look up the Long URL.  It then automatically
 links to the original webpage.

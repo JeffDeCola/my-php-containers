@@ -8,7 +8,7 @@ and display across the screen._
 ## FILL THE WIDTH OF YOUR SCREEN WITH A NARROW PICTURE
 
 The image will scale to the size of the screen while keeping the
-vertical hieght centered.
+vertical height centered.
 
 ![IMAGE - narrow_picture_container - IMAGE](../docs/pics/narrow_picture_container.jpg)
 
@@ -19,7 +19,7 @@ Create a div with class=narrow_picture_container
 ```php
 <div class="narrow_picture_container>
 
-    	<img src="youpicturelink.jpg" alt="your note"/>
+    <img src="yourpicturelink.jpg" alt="your note"/>
 
 </div>
 ```
