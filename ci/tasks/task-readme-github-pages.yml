@@ -16,3 +16,4 @@ outputs:
 
 run:
   path: ./my-php-containers/ci/scripts/readme-github-pages.sh
+  # args: [-debug]
