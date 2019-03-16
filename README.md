@@ -7,14 +7,14 @@
 `my-php-containers` _is a place to keep my php container examples.
 Designed for Dynamic Screen Widths._
 
-These examples also contain info I gathered from other sources.
+These containers also contain info I gathered from other sources.
 
 View my entire list of php containers on
 [my GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
 
 ## PHP CONTAINERS
 
-_All sections in alphabetical order._
+_All containers in alphabetical order._
 
 * [contact_form_container](https://github.com/JeffDeCola/my-php-containers/tree/master/contact_form_container)
 [(_see offsite demo_)](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=contact_form_container)
