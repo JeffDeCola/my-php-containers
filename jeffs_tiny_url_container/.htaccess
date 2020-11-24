@@ -1,28 +1,3 @@
-# Protect the .htaccess file
-<Files .htaccess>
-Order Allow,Deny
-Deny from all
-</Files>
-
-# Disable directory browsing
-# For security reasons, Option all cannot be overridden.
-#Options All -Indexes
-Options ExecCGI Includes IncludesNOEXEC SymLinksIfOwnerMatch -Indexes
-
-#Disable the server's signature used to identify the server
-ServerSignature Off
-
-#who has access who doesnt
-order allow,deny
-allow from all
-
-#custom error docs
-ErrorDocument 404 http://www.jeffdecola.com/index.php?page=404
-ErrorDocument 403 http://www.jeffdecola.com/index.php?page=403
-ErrorDocument 500 http://www.jeffdecola.com/index.php?page=500
-
-# set the canonical url
-RewriteEngine On
 
 # Internally rewrite shortened URL requests to de-shortened URL lookup script filepath plus query string
 RewriteRule ^([\w\d]{4})$ php_scripts/jeffs_tiny_url_decoder.php?decode=$1 [L]

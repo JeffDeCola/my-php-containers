@@ -42,17 +42,17 @@
 
 		include '../php_scripts/sql_pw-ignore.php';
 
-		$database_error_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
+		$database_error_page = "http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
 
 		// OPEN THE DATABASE
-		$con = mysql_connect("localhost", "jeffryad_userurl", "$pw");
+		$con = mysql_connect("localhost", "jeffdeco_jeff", "$pw");
 		if (!$con) {
 			header("Location: $database_error_page");
 			exit;
 		}
 
 		// SELECT DATABASE
-		mysql_select_db("jeffryad_tinyurl", $con);
+		mysql_select_db("jeffdeco_jeffs_tiny_url_container", $con);
 		
 		// GET ENTIRE CONTENTS OF TABLE - BY REVERSE ORDER - id is generic (could use random_number_id)
  		$data = mysql_query("SELECT * FROM URL_TABLE ORDER BY the_date DESC");

@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="narrow_picture_container/css/narrow_picture_container.css"> 
+
 <div id="foo_narrow_picture_container" class="narrow_picture_container">
 
 	<figure>

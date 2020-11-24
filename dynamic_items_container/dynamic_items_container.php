@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="dynamic_items_container/css/dynamic_items_container.css"> 
+
 <br />
 <h3> Example of a group of four items (middle aligned)</h3>
 <br />

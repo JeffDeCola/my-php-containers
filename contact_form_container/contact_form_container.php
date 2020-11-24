@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="contact_form_container/css/contact_form_container.css"> 
+
 <div id="contact_form_container">
 
     <p> I'll get back to you ASAP </p>
@@ -9,7 +11,7 @@
     ?>
 
     <form id="contact_form"
-    action="http://www.jeffryadecola.com/my-php-containers/contact_form_container/php_scripts/contact_form.php" method="post">
+    action="http://www.jeffdecola.com/my-php-containers/contact_form_container/php_scripts/contact_form.php" method="post">
 
         <table id="contact_table">
 

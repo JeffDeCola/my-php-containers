@@ -1,3 +1,7 @@
+<link rel="stylesheet" type="text/css" href="video_container/css/video_container.css"> 
+<script type="text/javascript" src="video_container/jqs/custom.js"></script>
+<script type="text/javascript" src="video_container/jqs/fitvids.js"></script>
+    
 <div id="foo_video_container" class="video_container">
 
     <div class="video_items_container">

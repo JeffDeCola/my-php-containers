@@ -5,12 +5,11 @@
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
 
 `my-php-containers` _is a place to keep my php container examples.
-Designed for Dynamic Screen Widths._
+All containers designed for dynamic screen widths._
 
 These containers also contain info I gathered from other sources.
 
-View my entire list of php containers on
-[my GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
+[GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
 
 ## PHP CONTAINERS
 
