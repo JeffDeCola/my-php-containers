@@ -2,9 +2,9 @@
 
 	include 'sql_pw-ignore.php';
 
-	$shortened_url_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_shortened.php";
-	$database_error_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
-	$form_error_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_form_error.php";
+	$shortened_url_page = "http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_shortened.php";
+	$database_error_page = "http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
+	$form_error_page = "http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_form_error.php";
 
 	// GET THE DATA FROM THE FORM (POST)
 	$long_url= $_POST['long_url'];
@@ -23,18 +23,18 @@
 		header("Location: $form_error_page");
 		exit;
 	}
-	
+
 	// WE GOT A URL (OR WE GOT SOMETHING)
 	
 	// OPEN THE DATABASE
-	$con = mysql_connect("localhost", "jeffryad_userurl", "$pw");
+	$con = @mysql_connect("localhost", "jeffdeco_jeff", "$pw");
 	if (!$con) {
 		header("Location: $database_error_page");
 		exit;
 	}
 
 	// SELECT DATABASE
-	mysql_select_db("jeffryad_tinyurl", $con);
+	mysql_select_db("jeffdeco_jeffs_tiny_url_container", $con);
 	$long_url_escape = mysql_real_escape_string($long_url);
 
 	// GET A RANDOM NUMBER AND BASE CONVERT IT TO BASE 36 (10 numbers plus 26 letters)

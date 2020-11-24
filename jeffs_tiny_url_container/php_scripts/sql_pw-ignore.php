@@ -1,3 +1,3 @@
 <?php
-	$pw = 'r=C[DOgf-l*x';
+	$pw = 'dy[p$cS?%O]4';
 ?>

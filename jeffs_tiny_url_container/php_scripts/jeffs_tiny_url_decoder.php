@@ -2,18 +2,18 @@
 
 	include 'sql_pw-ignore.php';
 
-	$sorry_url_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_does_not_exist.php";
-	$database_error_page = "http://www.jeffryadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
+	$sorry_url_page = "http://www.jeffadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_does_not_exist.php";
+	$database_error_page = "http://www.jeffadecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
 
 	// OPEN THE DATABASE
-	$con1 = mysql_connect("localhost", "jeffryad_userurl", "$pw");
+	$con1 = mysql_connect("localhost", "jeffdeco_jeff", "$pw");
 	if (!$con1) {
 		header("Location: $database_error_page");
 		exit;
   	}
 	
 	// SELECT DATABASE
-	mysql_select_db("jeffryad_tinyurl", $con1);
+	mysql_select_db("jeffdeco_jeffs_tiny_url_container", $con1);
 	
 	// WHAT WAS THE CODE SENT FROM .htaccess (REDIRECTED 4 CHARACTERS AT END OF thewhipnovel.com/s/????
 	$decode_code_from_user= mysql_real_escape_string($_GET["decode"]);

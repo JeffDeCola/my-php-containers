@@ -31,7 +31,7 @@
             <br />
         
     	 	<FORM> 
-            	<INPUT class="contact_button" TYPE="button" VALUE="Home" onClick="location.href='http://www.jeffryadecola.com/my-php-containers'" style="cursor:pointer"> 
+            	<INPUT class="contact_button" TYPE="button" VALUE="Home" onClick="location.href='http://www.jeffdecola.com/my-php-containers'" style="cursor:pointer"> 
           	</FORM> 
 
         </div>

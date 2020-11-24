@@ -1,9 +1,9 @@
 <?php
 
 	// PAGES
-	$formurl = "http://www.jeffryadecola.com/my-php-containers";
-	$errorurl = "http://www.jeffryadecola.com/my-php-containers/contact_form_container/pages/contact_form_error.php";
-	$thankyouurl = "http://www.jeffryadecola.com/my-php-containers/contact_form_container/pages/contact_form_thank_you.php";
+	$formurl = "http://www.jeffdecola.com/my-php-containers";
+	$errorurl = "http://www.jeffdecola.com/my-php-containers/contact_form_container/pages/contact_form_error.php";
+	$thankyouurl = "http://www.jeffdecola.com/my-php-containers/contact_form_container/pages/contact_form_thank_you.php";
 
 	// CONFIGURE
 	$email_is_required = 1;  // Really set this to 1
@@ -50,11 +50,11 @@
 
 	// 1 - WHERE IS IT GOING
 	
-		$mailto = 'webmaster@jeffryadecola.com' ;
+		$mailto = 'webmaster@jeffdecola.com' ;
 	
 	// 2 - WAHT IS THE SUBJECT
 	
-		$subject = "Contact Jeff Form at jeffryadecola.com" ;
+		$subject = "Contact Jeff Form at jeffdecola.com" ;
 
 	// 3 - CREATE THE MESSAGE TO SEND
 	
@@ -89,7 +89,7 @@
 		'Content-Type: text/plain; charset="utf-8"';
 	
 		// For the from field - Must use because it will look like spam otherwise
-		$name = "Contact Form at jeffryadecola.com";
+		$name = "Contact Form at jeffdecola.com";
 		
 		// The header - MUST USE MAILTO
 		$headers =
