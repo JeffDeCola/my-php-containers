@@ -3,7 +3,7 @@
 _Displays items (e.g. menu or picture) that will center and collapse properly on
 smaller screens._
 
-[See Offsite Demo](http://www.jeffdecola.com/my-php-containers/index.php?page=dynamic_items_container)
+[See offsite demo](http://www.jeffdecola.com/my-php-containers/index.php?page=dynamic_items_container)
 
 ## EXAMPLE
 
@@ -16,7 +16,7 @@ The red box represents the width of the screen.
 
 ![IMAGE - dynamic_items_container - IMAGE](../docs/pics/dynamic_items_container_wireimage.jpg)
 
-PHP
+PHP,
 
 ```php
 <div class="box_container">
@@ -40,7 +40,7 @@ PHP
 </div>
 ```
 
-CSS
+CSS,
 
 ```css
 .box_container {

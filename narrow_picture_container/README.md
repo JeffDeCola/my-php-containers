@@ -2,7 +2,7 @@
 
 _Allow a picture to scale and display across the screen._
 
-[See Offsite Demo](http://www.jeffdecola.com/my-php-containers/index.php?page=narrow_picture_container)
+[See offsite demo](http://www.jeffdecola.com/my-php-containers/index.php?page=narrow_picture_container)
 
 ## EXAMPLE
 

@@ -4,35 +4,35 @@
 /* ####################### FOR ALL DYNAMIC CONTAINERS ############## */
 
 .video_container {
-	text-align: center;		/* Center it */
-	overflow: hidden;
+    text-align: center; /* Center it */
+    overflow: hidden;
 }
-	
+
 .video_items_container {
-	position: relative;		
-	left: 50%;
+    position: relative;
+    left: 50%;
 }
 
 .video_item_top { /* NOT USED */
-	display: inline-block;	
-	vertical-align: top;
-	position: relative;		
-	left: -50%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: -50%;
 }
-	
-/* MUST USE MIDDLE BY ITSELF */	
+
+/* MUST USE MIDDLE BY ITSELF */
 .video_item_middle {
-	display: inline-block;	
-	vertical-align: middle;
-	position: relative;	
-	left: -50%;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: -50%;
 }
 
 .video_item_bottom { /* NOT USED */
-	display: inline-block;	
-	vertical-align: bottom;
-	position: relative;		
-	left: -50%;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    left: -50%;
 }
 
 /* ####################### FOO VIDEO CONTAINER ##################### */
@@ -45,33 +45,33 @@
 /* ALL ITEMS *********************/
 
 .foo_video_item {
-	width: 80%;
+    width: 80%;
 }
 
 /* SPECIFIC ITEMS *****************/
 
 /* Defines Height */
 #foo_video_player {
-	width:100%;
-	position:relative;
-	height:96%; 
-	padding-top:2%;
-	padding-bottom:2%;
-	width:96%; 
-	padding-left:2%;
-	padding-right:2%;
-	z-index:2;
+    width:100%;
+    position:relative;
+    height:96%;
+    padding-top:2%;
+    padding-bottom:2%;
+    width:96%;
+    padding-left:2%;
+    padding-right:2%;
+    z-index:2;
 }
 
 #foo_video_background {
-	width: 100%;
-	height: 100%;
-	position:absolute;
-	top: 0px;
-	left: 0px;
-	background-image: url(../images/video_container/trailer_background_glow.png); 
-	background-size:100% 100%;
-	opacity:0.2;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(../images/video_container/trailer_background_glow.png);
+    background-size:100% 100%;
+    opacity:0.2;
 }
 
 /* ####################### BAR VIDEO CONTAINER ##################### */
@@ -79,37 +79,37 @@
 /* VIDEO CONTAINER ****************/
 
 #bar_video_container {
-	background-color: #000;
+    background-color: #000;
 }
 
 /* ALL ITEMS *********************/
 
 .bar_video_item {
-	width: 80%;
+    width: 80%;
 }
 
 /* SPECIFIC ITEMS *****************/
 
 /* Defines Height */
 #bar_video_player {
-	width:100%;
-	position:relative;
-	height:96%; 
-	padding-top:2%;
-	padding-bottom:2%;
-	width:96%; 
-	padding-left:2%;
-	padding-right:2%;
-	z-index:2;
+    width:100%;
+    position:relative;
+    height:96%;
+    padding-top:2%;
+    padding-bottom:2%;
+    width:96%;
+    padding-left:2%;
+    padding-right:2%;
+    z-index:2;
 }
 
 #bar_video_background {
-	width: 100%;
-	height: 100%;
-	position:absolute;
-	top: 0px;
-	left: 0px;
-	background-image: url(../images/video_container/trailer_background_glow.png); 
-	background-size:100% 100%;
-	opacity:0.2;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(../images/video_container/trailer_background_glow.png);
+    background-size:100% 100%;
+    opacity:0.2;
 }

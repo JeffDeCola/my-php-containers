@@ -2,68 +2,68 @@
 /* CONTACT_FORM_CONTAINER.CSS */
 
 #contact_form_container {
-	padding: 10px;
-	padding-top: 20px;
-	text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 #contact_form {
-  	/* background-color: grey; */
-	width: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
+    /* background-color: grey; */
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #contact_table {
-	/* background-color:green; */
-   	margin: 0 auto;
-   	z-index: 1;
-	width: 100%;
+    /* background-color:green; */
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
 }
 
 .contact_label {
-	color: #3F7CD3;
+    color: #3F7CD3;
 }
 
 .contact_input {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-bottom: 25px;
-	margin-top: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    margin-top: 7px;
 }
 
 #t_name, #t_email, #t_phonenumber {
-	background-color: #CEDEF4;
-	width: 25%;
-	min-width: 220px;
-	max-width: 250px;
+    background-color: #CEDEF4;
+    width: 25%;
+    min-width: 220px;
+    max-width: 250px;
 }
 
 #t_comments {
-	background-color: #CEDEF4;
-	width: 50%;
-	min-width: 220px;
-	max-width: 500px;
+    background-color: #CEDEF4;
+    width: 50%;
+    min-width: 220px;
+    max-width: 500px;
 }
 
 #t_answer {
-	background-color: #CEDEF4;
-	width: 25px;
+    background-color: #CEDEF4;
+    width: 25px;
 }
 
 .contact_button {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-bottom: 25px;
-	margin-top: 7px;
-	background-color: #CEDEF4;
-	width: 65px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    margin-top: 7px;
+    background-color: #CEDEF4;
+    width: 65px;
 }
 
 #contact_form_container a:link, #contact_form_container a:visited  {
-	color: #777;
+    color: #777;
 }

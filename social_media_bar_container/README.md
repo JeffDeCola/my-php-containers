@@ -3,7 +3,7 @@
 _Provide links to social media, built with the
 [dynamic_items_container](https://github.com/JeffDeCola/my-php-containers/tree/master/dynamic_items_container)._
 
-[See Offsite Demo](http://www.jeffdecola.com/my-php-containers/index.php?page=social_media_bar_container)
+[See offsite demo](http://www.jeffdecola.com/my-php-containers/index.php?page=social_media_bar_container)
 
 ## EXAMPLE
 

@@ -1,11 +1,11 @@
 <!-- CONTACT FORM CONTAINER -->
 
-<link rel="stylesheet" type="text/css" href="contact_form_container/css/contact_form_container.css"> 
+<link rel="stylesheet" type="text/css" href="contact_form_container/css/contact_form_container.css">
 
 <div id="contact_form_container">
 
     <p> I'll get back to you ASAP </p>
-    
+
     <!-- ARE YOU HUMAN? -->
     <?php
         $number1 = rand(1, 5);
@@ -19,21 +19,21 @@
 
             <!-- ENTER NAME NAME -->
             <tr>
-                <td> 
-                    <label class="contact_label" for="t_name"> 
+                <td>
+                    <label class="contact_label" for="t_name">
                         Name
                     </label>
                 </td>
             </tr>
             <tr>
-                <td> 
+                <td>
                     <input id="t_name" class="contact_input" type="text" name="fullname" />
-                </td>  
+                </td>
             </tr>
 
             <!-- ENTER EMAIL ADDRESS -->
             <tr>
-                <td> 
+                <td>
                     <label class="contact_label" for="t_email">
                         Email address
                     </label>
@@ -72,7 +72,7 @@
                     <textarea id="t_comments" class="contact_input" name="comments" rows="6" > </textarea>
                 </td>
             </tr>
-            
+
             <!-- ARE YOU HUMAN? -->
             <tr>
                 <td>
@@ -85,7 +85,7 @@
                 <td>
                     <input type="hidden" name="number1" value="<?php echo $number1; ?>">
                     <input type="hidden" name="number2" value="<?php echo $number2; ?>">
-                    <input id="t_answer" class="contact_input" type="text" name="answer" /> 
+                    <input id="t_answer" class="contact_input" type="text" name="answer" />
                 </td>
             </tr>
 
@@ -97,8 +97,8 @@
             </tr>
 
         </table>
-        
+
     </form>
 
 </div>
-<!-- END OF contact_form_container -->     
+<!-- END OF contact_form_container -->
