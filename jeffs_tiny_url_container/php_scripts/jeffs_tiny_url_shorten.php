@@ -23,7 +23,7 @@
 		header("Location: $form_error_page");
 		exit;
 	}
-	
+
 	// OPEN THE DATABASE
 	$servername = "localhost";
 	$username = "jeffdeco_jeff";
@@ -31,9 +31,9 @@
 	$dbname = "jeffdeco_jeffs_tiny_url_container";
 
 	// CREATE DTABASE CONNECTION
-	$conn = new mysqli($servername, $username, $password, $dbname);
+	$conn = mysqli_connect($servername, $username, $password, $dbname);
 	// Check connection
-	if ($conn->connect_error) {
+	if (mysqli_connect_errno($conn)) {
 		header("Location: $database_error_page");
 		exit;
 	}

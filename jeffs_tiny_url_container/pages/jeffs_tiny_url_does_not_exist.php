@@ -1,6 +1,10 @@
 <!-- JEFF'S TINY URL DOES NOT EXIST -->
 
-<!doctype html>
+<?php
+	session_start();
+?>
+
+<!DOCTYPE html>
 
 <html>
 
@@ -14,8 +18,6 @@
 
 	<!-- LINK TO THE STYLE SHEETS -->
 	<link rel="stylesheet" type="text/css" href="../../../css/reset.css?v=<?php echo date('his'); ?>"/> 
-	<link rel="stylesheet" type="text/css" href="../../../css/template.css?v=<?php echo date('his'); ?>"/> 
-	<link rel="stylesheet" type="text/css" href="../../../css/main_layout.css?v=<?php echo date('his'); ?>"/> 
     <link rel="stylesheet" type="text/css" href="../css/jeffs_tiny_url_container.css?v=<?php echo date('his'); ?>"> 
 
     <!-- GOOGLE FONT -->
@@ -37,6 +39,8 @@
         <FORM>
             <INPUT class="jeffs_tiny_url_button" TYPE="button" VALUE="Back" onClick="history.go(-1);return true;" style="cursor:pointer">
         </FORM> 
+	
+    </div>
                     
 </body>
 
