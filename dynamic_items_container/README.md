@@ -1,6 +1,6 @@
 # DYNAMIC ITEMS CONTAINER
 
-_Displays items (e.g. A menu or picture) that will center and collapse properly on
+_Displays items (e.g. menu or picture) that will center and collapse properly on
 smaller screens._
 
 [See Offsite Demo](http://www.jeffdecola.com/my-php-containers/index.php?page=dynamic_items_container)

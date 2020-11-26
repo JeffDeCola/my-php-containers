@@ -395,8 +395,8 @@
                 <!-- THIS DEFINES THE HEIGHT -->
                 <div id="example_4_dynamic_item1a">
                     <img id="picture1_image"
-                    src="dynamic_items_container/images/dynamic_items_container/Sunflower-Green-Field-in-Mountain-Pics-low.jpg"
-                    alt="The-Frontier-Tenn-Beach-Still" />
+                    src="dynamic_items_container/images/Sunflower-Green-Field-in-Mountain-Pics-low.jpg"
+                    alt="Sunflower-Green-Field-in-Mountain-Pics-low" />
                 </div>
                 
                  <!-- THIS DEFINES THE HEIGHT -->
