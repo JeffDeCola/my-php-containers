@@ -2,7 +2,7 @@
 
 _An online contact form that is sent to an email._
 
-[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?page=contact_form_container)
+[See Offsite Demo](http://www.jeffdecola.com/my-php-containers/index.php?page=contact_form_container)
 
 ## CONTACT FORM
 

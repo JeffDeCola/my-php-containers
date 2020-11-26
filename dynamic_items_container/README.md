@@ -3,7 +3,7 @@
 _Displays items (e.g. A menu or picture) that will center and collapse properly on
 smaller screens._
 
-[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?page=dynamic_items_container)
+[See Offsite Demo](http://www.jeffdecola.com/my-php-containers/index.php?page=dynamic_items_container)
 
 ![IMAGE - dynamic_items_container - IMAGE](../docs/pics/dynamic_items_container.jpg)
 

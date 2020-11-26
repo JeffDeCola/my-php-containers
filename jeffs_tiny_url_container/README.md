@@ -2,7 +2,7 @@
 
 _Shorten Long URLs to Tiny URLs._
 
-[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?page=jeffs_tiny_url_container)
+[See Offsite Demo](http://www.jeffdecola.com/my-php-containers/index.php?page=jeffs_tiny_url_container)
 
 ## SHORTEN THE URL FORM
 
