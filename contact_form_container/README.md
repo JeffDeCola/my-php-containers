@@ -10,13 +10,15 @@ _An online contact form that is sent to an email._
 
 ## OVERVIEW
 
-Complete the form and submit shall send
-the information using POST to `/php_scripts/contact_form.php`.
+Complete the form and the submit button will send
+the information using POST to
+[/php_scripts/contact_form.php](https://github.com/JeffDeCola/my-php-containers/blob/master/contact_form_container/php_scripts/contact_form.php).
+This script will also check is you are human and then email that person.
 
-This script will check you are human and email the information.
-
-If there is an error will link to the error page. If everything worked,
-it will link to the thank you page.
+If there is an error will link to
+[contact_form_error.php](https://github.com/JeffDeCola/my-php-containers/blob/master/contact_form_container/pages/contact_form_error.php).
+If everything worked it will link to
+[contact_form_thank_you.php](https://github.com/JeffDeCola/my-php-containers/blob/master/contact_form_container/pages/contact_form_thank_you.php).
 
 ## TO USE
 
@@ -27,5 +29,5 @@ it will link to the thank you page.
   [contact_form_container.css](https://github.com/JeffDeCola/my-php-containers/blob/master/contact_form_container/css/contact_form_container.css)
 * Update links and configure as desired
 * Make sure to update your email in
-  [/php_scripts/contact_form.php](https://github.com/JeffDeCola/my-php-containers/blob/master/contact_form_container/php_scripts/contact_form.php)
+  [contact_form.php](https://github.com/JeffDeCola/my-php-containers/blob/master/contact_form_container/php_scripts/contact_form.php)
   or I will get the email. :)
