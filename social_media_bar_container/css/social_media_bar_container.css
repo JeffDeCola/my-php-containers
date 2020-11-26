@@ -1,6 +1,7 @@
-/* ####################### SOCIAL MEDIA BAR CONTAINER ############## */
+@charset "utf-8";
+/* SOCIAL_MEDIA_BAR_CONTAINER.CSS */
 
-/* FOR ALL DYNAMIC CONTAINERS *******/
+/* ####################### FOR ALL DYNAMIC CONTAINERS ############# */
 
 .social_media_bar_container {
 	text-align: center;		/* Center it */
@@ -95,7 +96,7 @@
 
 /* SPECIFIC ITEMS *****************/
 
-/* FACEBOOK LIKE *****************************************************/
+/* ####################### FACEBOOK LIKE ########################### */
 
 /* Defines Height */
 #foo_social_media_bar_item1 {
@@ -119,7 +120,7 @@
 	width:82px;    /* Must do this so the top doen't jump around */
 }
 
-/* FACEBOOK LINK AND SHARE *******************************************/
+/* ####################### FACEBOOK LINK AND SHARE ################# */
 
 /* Defines Height */
 #foo_social_media_bar_item2 {
@@ -156,7 +157,7 @@
 	float:left;
 }
 
-/* TWITTER LINK AND TWEET ********************************************/
+/* ####################### TWITTER LINK AND TWEET ################## */
 
 /* Defines Height */
 #foo_social_media_bar_item3 {
@@ -193,7 +194,7 @@
 	float:left;
 }
 
-/* GOOGLE LINK AND FOLLOW ********************************************/
+/* ####################### GOOGLE LINK AND FOLLOW ################## */
 
 /* Defines Height */
 #foo_social_media_bar_item4 {

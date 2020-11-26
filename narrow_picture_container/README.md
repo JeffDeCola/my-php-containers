@@ -1,9 +1,8 @@
 # NARROW PICTURE CONTAINER
 
-`narrow_picture_container` _ will allow a picture to scale
-and display across the screen._
+_Allow a picture to scale and display across the screen._
 
-[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=narrow_picture_container)
+[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?page=narrow_picture_container)
 
 ## FILL THE WIDTH OF YOUR SCREEN WITH A NARROW PICTURE
 

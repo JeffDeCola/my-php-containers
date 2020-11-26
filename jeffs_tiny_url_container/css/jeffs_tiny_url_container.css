@@ -1,4 +1,7 @@
-/* ####################### JEFFS TINY URL CONTAINER ################ */
+@charset "utf-8";
+/* JEFFS_TINY_URL_CONTAINER.CSS */
+
+/* ############################### JEFFS TINY URL CONTAINER ################## */
 
 #jeffs_tiny_url_container {
 	padding: 10px;
@@ -53,7 +56,8 @@
 	padding-right: 10px;
 	margin-bottom: 25px;
 	margin-top: 7px;
-	background-color: #D76A6C;
+	background-color: #6aafd7;
+	/* background-color: #D76A6C; */
 	width: 185px;
 }
 

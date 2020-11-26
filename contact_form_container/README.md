@@ -1,9 +1,8 @@
 # CONTACT FORM CONTAINER
 
-`contact_form_container` _is an online contact form that is
-sent to an email._
+_An online contact form that is sent to an email._
 
-[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=contact_form_container)
+[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?page=contact_form_container)
 
 ## CONTACT FORM
 

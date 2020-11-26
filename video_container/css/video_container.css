@@ -1,6 +1,7 @@
-/* ####################### VIDEO CONTAINER ######################### */
+@charset "utf-8";
+/* VIDEO_CONTAINER.CSS */
 
-/* FOR ALL DYNAMIC CONTAINERS *************/
+/* ####################### FOR ALL DYNAMIC CONTAINERS ############## */
 
 .video_container {
 	text-align: center;		/* Center it */
@@ -35,7 +36,7 @@
 }
 
 /* ####################### FOO VIDEO CONTAINER ##################### */
-	
+
 /* VIDEO CONTAINER ****************/
 
 #foo_video_container {
@@ -72,7 +73,6 @@
 	background-size:100% 100%;
 	opacity:0.2;
 }
-
 
 /* ####################### BAR VIDEO CONTAINER ##################### */
 

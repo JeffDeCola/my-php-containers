@@ -1,6 +1,10 @@
 <!-- CONTACT FORM - THANK YOU -->
 
-<!doctype html>
+<?php
+	session_start();
+?>
+
+<!DOCTYPE html>
 
 <html>
 
@@ -13,10 +17,8 @@
  	<meta name='Description' content='CONTACT FORM THANK YOU - Jeff DeCola '>
 
 	<!-- LINK TO THE STYLE SHEETS -->
-	<link rel="stylesheet" type="text/css" href="../../../css/reset.css"> 
-	<link rel="stylesheet" type="text/css" href="../../template.css"> 
-	<link rel="stylesheet" type="text/css" href="../../main_layout.css"> 
-    <link rel="stylesheet" type="text/css" href="../css/contact_form_container.css"> 
+	<link rel="stylesheet" type="text/css" href="../../../css/reset.css?v=<?php echo date('his'); ?>"/> 
+    <link rel="stylesheet" type="text/css" href="../css/contact_form_container.css?v=<?php echo date('his'); ?>"> 
 
     <!-- GOOGLE FONT -->
     <!-- Make sure to update Body tag in template.css with the font name -->
@@ -25,16 +27,18 @@
 </head>
 
 <body>     
-    	<div id="contact_form_container">
 
-	    	<h3> Your comment has been sent </h3> 
-            <br />
+    <div id="contact_form_container">
+
+	 	<h3> Your comment has been sent </h3> 
+      	<br />
         
-    	 	<FORM> 
-            	<INPUT class="contact_button" TYPE="button" VALUE="Home" onClick="location.href='http://www.jeffdecola.com/my-php-containers'" style="cursor:pointer"> 
-          	</FORM> 
+    	<FORM> 
+          	<INPUT class="contact_button" TYPE="button" VALUE="Home"
+            	   onClick="location.href='http://www.jeffdecola.com/my-php-containers/index.php?page=contact_form_container'" style="cursor:pointer"> 
+       	</FORM> 
 
-        </div>
+	</div>
         
 </body>
 

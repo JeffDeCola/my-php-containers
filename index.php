@@ -17,7 +17,6 @@
 		$whitelist = array( "",
 							"contact_form_container",
 							"dynamic_items_container",
-							// "jeffs_simple_chat_container",
 							"jeffs_tiny_url_container",
 							"narrow_picture_container",
 							"social_media_bar_container",
@@ -29,14 +28,14 @@
 				echo "<title> CONTAINERS - Jeff DeCola </title>";
  				echo "<meta name='Description' content='CONTAINERS - Jeff DeCola' />";
 			}
+			elseif ($_GET['page'] == "contact_form_container") {
+				echo "<title> CONTAINERS - contact_form_container - Jeff DeCola </title>";
+ 				echo "<meta name='Description' content='CONTAINERS - contact_form_container - Jeff DeCola' />";
+			}
 			elseif ($_GET['page'] == "dynamic_items_container") {
 				echo "<title> CONTAINERS - dynamic_items_container - Jeff DeCola </title>";
  				echo "<meta name='Description' content='CONTAINERS - dynamic_items_container - Jeff DeCola' />";
 			}					
-			/* elseif ($_GET['page'] == "jeffs_simple_chat_container") {
-				echo "<title> CONTAINERS - jeffs_simple_chat_container - Jeff DeCola </title>";
- 				echo "<meta name='Description' content='CONTAINERS - jeffs_simple_chat_container - Jeff DeCola' />";
-			} */	
 			elseif ($_GET['page'] == "jeffs_tiny_url_container") {
 				echo "<title> CONTAINERS - jeffs_tiny_url_container - Jeff DeCola </title>";
  				echo "<meta name='Description' content='CONTAINERS - jeffs_tiny_url_container - Jeff DeCola' />";
@@ -55,14 +54,14 @@
 			}
 			// For the index.php page
 			else  {
-				echo "<title> CONTAINERS - contact_form_container - Jeff DeCola </title>";
- 				echo "<meta name='Description' content='CONTAINERS - contact_form_container - Jeff DeCola' />";
+				echo "<title> CONTAINERS - Jeff DeCola </title>";
+ 				echo "<meta name='Description' content='CONTAINERS - Jeff DeCola' />";
 			}
 		}
 		// The page does not exist - Just give a 404 error
 		else {
-			echo "<title>404 - CONTAINERS PAGE NOT FOUND - Jeff DeCola </title>";
- 			echo "<meta name='Description' content='404 - CONTAINERS PAGE NOT FOUND - Jeff DeCola' />";
+			echo "<title>404 - CONTAINERS - PAGE NOT FOUND - Jeff DeCola </title>";
+ 			echo "<meta name='Description' content='404 - CONTAINERS - PAGE NOT FOUND - Jeff DeCola' />";
 		}
 	?>
 	            
@@ -73,14 +72,14 @@
     <!-- <meta name="google-site-verification" content="??" /> -->
     
 	<!-- THE PAGE ICON -->
-	<link rel="icon" type="image/png" href="../images/page_icon/pageicon.png"/>
+	<link rel="icon" type="image/ico" href="../images/page_icon/favicon.ico"/>
     
 	<!-- LINK TO THE STYLE SHEETS - FORCE UPDATE WITH DATE-->
 	<link rel="stylesheet" type="text/css" href="../css/reset.css?v=<?php echo date('his'); ?>"/> 
 	<link rel="stylesheet" type="text/css" href="../css/template.css?v=<?php echo date('his'); ?>"/> 
-	<link rel="stylesheet" type="text/css" href="../css/main_layout.css?v=<?php echo date('his'); ?>"/> 
-	<link rel="stylesheet" type="text/css" href="../css/specific_layout.css?v=<?php echo date('his'); ?>"/> 
-	<link rel="stylesheet" type="text/css" href="container_specific_layout.css?v=<?php echo date('his'); ?>"/> 
+	<link rel="stylesheet" type="text/css" href="../css/wrappers.css?v=<?php echo date('his'); ?>"/> 
+	<link rel="stylesheet" type="text/css" href="../css/containers.css?v=<?php echo date('his'); ?>"/> 
+	<link rel="stylesheet" type="text/css" href="css/containers.css?v=<?php echo date('his'); ?>"/> 
    
     <!-- GOOGLE FONT -->
     <!-- Make sure to update Body tag in template.css with the font name -->
@@ -109,6 +108,8 @@
     <div id="header_wrapper">
     	
         <header>
+
+        	<h2 class="hidden"> HEADER </h2>
  			
     		<h1> JEFF'S PHP CONTAINERS </h1>
 
@@ -124,18 +125,19 @@
     <div id="nav_wrapper">
 
 		<nav>
+
+            <h2 class="hidden"> Navigation </h2>
                     
          	<div id="nav_container">
 				<ul>
  					<li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=contact_form_container">contact_form_container</a> </li>
 					<li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=dynamic_items_container">dynamic_items_container</a> </li>
-					<!-- <li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=jeffs_simple_chat_container">jeffs_simple_chat_container</a> </li> -->
 					<li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=jeffs_tiny_url_container">jeffs_tiny_url_container</a> </li>
 					<li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=narrow_picture_container">narrow_picture_container</a> </li>
 					<li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=social_media_bar_container">social_media_bar_container</a> </li>
 					<li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=video_container">video_container</a> </li>
                     <br />
-                    <li><a href="https://github.com/JeffDeCola/my-php-containers"> GITHUB REPO </a> </li>
+                    <li><a href="https://github.com/JeffDeCola/my-php-containers"> MY PHP GITHUB REPO </a> </li>
                     <li><a href="http://www.jeffdecola.com"> HOME </a> </li>
 				</ul>
          	</div>
@@ -149,14 +151,14 @@
     
     	<section>
         
-       		<h2 class="hidden"> Main Section </h2>    
+        	<h2 class="hidden"> SECTION </h2>
             
-    	  	<div class="container_header">
+    	  	<div class="container_header_container">
            
            		<?php
                		if (in_array($_GET['page'], $whitelist)) {
 						if ($_GET['page'] == "") { ?>
-							<p> CHOOSE A CONTAINER </p>
+							<p> CHOOSE A CONTAINER ABOVE </p>
 						<?php }
 						elseif ($_GET['page'] == "contact_form_container") { ?>
 							<h2> CONTACT FORM CONTAINER </h2>
@@ -167,18 +169,11 @@
 						<?php }	
 						elseif ($_GET['page'] == "dynamic_items_container") { ?>
 							<h2> DYNAMIC ITEMS CONTAINER </h2>
-                            <p> Allow a picture to scale and display across the screen </p>
+                            <p> Displays items (e.g. A menu or picture) that will center and collapse properly on smaller screens </p>
                 			<p> Code located
                     			<a href="https://github.com/JeffDeCola/my-php-containers/tree/master/dynamic_items_container"> here </a>
                 			</p>
-						<?php }					
-						/* elseif ($_GET['page'] == "jeffs_simple_chat_container") { ?>
-							<h2> JEFFS SIMPLE CHAT CONTAINER </h2>
-                            <p> Coming Soon </p>
-                			<p> Code located
-                    			<a href="https://github.com/JeffDeCola/my-php-containers/tree/master/"jeffs_simple_chat_container"> here </a>
-                			</p> 
-						<?php }	*/				
+						<?php }			
 						elseif ($_GET['page'] == "jeffs_tiny_url_container") { ?>
 							<h2> JEFFS TINY URL CONTAINER </h2>
                             <p> Shorten Long URLs to Tiny URLs </p>
@@ -219,30 +214,39 @@
 					
 				?>
 		
-
    			</div>
           	<!-- END OF container_header -->        
 
             <div id="page_wrapper">
+            
+            	<div id="article_wrapper">
 
-           		<!-- CHOOSE PAGE -->
-	  	  		<?php
- 					if(in_array($_GET['page'], $whitelist)) {
+					<article>
+    
+   	 					<h2 class="hidden"> ARTICLE - HOME PAGE </h2>
+            
+           				<!-- CHOOSE PAGE -->
+	  	  				<?php
+ 							if(in_array($_GET['page'], $whitelist)) {
 						
-						//Is it the home page?
-						if ($_GET['page'] == "") {
-							echo "Choose a container above";
-						}
-						else {
-	  				  		include($_GET['page']."/".$_GET['page'].".php");
-						}
-					}
-					//NOT IN WHITELIST - Page does not exist - Just give a 404 error
-					else {
-						include ('../pages/jeffdecola_404.php');
-					}
-				?>
-                
+								//Is it the home page?
+								if ($_GET['page'] == "") {
+
+								}
+								else {
+	 		 				  		include($_GET['page']."/".$_GET['page'].".php");
+								}
+							}
+							//NOT IN WHITELIST - Page does not exist - Just give a 404 error
+							else {
+								include ('../pages/jeffdecola_404.php');
+							}
+						?>
+                        
+					</article>
+           
+          		</div>
+
         	</div> 
           	<!-- END OF page_wrapper -->        
 
@@ -255,7 +259,7 @@
     
      	<footer>
         	  	  	
-            <h2 class="hidden"> Footer </h2>
+            <h2 class="hidden"> FOOTER </h2>
             
             <div id="footer_copyright_container">
 	            <p> 
