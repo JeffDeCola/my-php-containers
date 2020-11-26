@@ -2,7 +2,7 @@
 
 _For Youtube or Vimeo with optional background._
 
-[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?page=video_container)
+[See Offsite Demo](http://www.jeffdecola.com/my-php-containers/index.php?page=video_container)
 
 ## YOUTUBE OR VIMEO
 
