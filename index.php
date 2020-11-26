@@ -169,7 +169,7 @@
 						<?php }	
 						elseif ($_GET['page'] == "dynamic_items_container") { ?>
 							<h2> DYNAMIC ITEMS CONTAINER </h2>
-                            <p> Displays items (e.g. A menu or picture) that will center and collapse properly on smaller screens </p>
+                            <p> Displays items (e.g. menu or picture) that will center and collapse properly on smaller screens </p>
                 			<p> Code located
                     			<a href="https://github.com/JeffDeCola/my-php-containers/tree/master/dynamic_items_container"> here </a>
                 			</p>
@@ -177,6 +177,7 @@
 						elseif ($_GET['page'] == "jeffs_tiny_url_container") { ?>
 							<h2> JEFFS TINY URL CONTAINER </h2>
                             <p> Shorten Long URLs to Tiny URLs </p>
+                            <p> Information stored in a mySQLi database </p>
                 			<p> Code located
                     			<a href="https://github.com/JeffDeCola/my-php-containers/tree/master/jeffs_tiny_url_container"> here </a>
                 			</p>
@@ -199,7 +200,7 @@
 						<?php }					
 						elseif ($_GET['page'] == "video_container") { ?>
 							<h2> VIDEO CONTAINER </h2>
-                            <p> For Youtube or Vimeo with optional background </p>
+                            <p> A video container for Youtube or Vimeo with an optional background image </p>
                 			<p> Code located
                     			<a href="https://github.com/JeffDeCola/my-php-containers/tree/master/video_container"> here </a>
                 			</p>

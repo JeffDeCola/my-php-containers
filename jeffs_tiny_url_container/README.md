@@ -1,6 +1,6 @@
 # TINY URL CONTAINER
 
-_Shorten Long URLs to Tiny URLs._
+_Shorten Long URLs to Tiny URLs. Information stored in a mySQLi database._
 
 [See Offsite Demo](http://www.jeffdecola.com/my-php-containers/index.php?page=jeffs_tiny_url_container)
 

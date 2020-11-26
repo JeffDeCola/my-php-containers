@@ -23,12 +23,12 @@ _All containers in alphabetical order._
 
 * [dynamic_items_container](https://github.com/JeffDeCola/my-php-containers/tree/master/dynamic_items_container)
 
-  _Displays items (e.g. A menu or picture) that will center and collapse properly on
+  _Displays items (e.g. menu or picture) that will center and collapse properly on
   smaller screens._
 
 * [jeffs_tiny_url_container](https://github.com/JeffDeCola/my-php-containers/tree/master/jeffs_tiny_url_container)
 
-  _Shorten Long URLs to Tiny URLs._
+  _Shorten Long URLs to Tiny URLs. Information stored in a mySQLi database._
 
 * [narrow_picture_container](https://github.com/JeffDeCola/my-php-containers/tree/master/narrow_picture_container)
 
