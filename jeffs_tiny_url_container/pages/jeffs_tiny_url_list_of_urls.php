@@ -1,6 +1,10 @@
 <!-- JEFF'S TINY URL LIST OF URLs -->
 
-<!doctype html>
+<?php
+	session_start();
+?>
+
+<!DOCTYPE html>
 
 <html>
 
@@ -14,8 +18,6 @@
 
 	<!-- LINK TO THE STYLE SHEETS -->
 	<link rel="stylesheet" type="text/css" href="../../../css/reset.css?v=<?php echo date('his'); ?>"/> 
-	<link rel="stylesheet" type="text/css" href="../../../css/template.css?v=<?php echo date('his'); ?>"/> 
-	<link rel="stylesheet" type="text/css" href="../../../css/main_layout.css?v=<?php echo date('his'); ?>"/> 
     <link rel="stylesheet" type="text/css" href="../../css/jeffs_tiny_url_container.css?v=<?php echo date('his'); ?>"> 
 
     <!-- GOOGLE FONT -->
@@ -28,8 +30,8 @@
         
  	<div id="jeffs_tiny_url_container">
 
-	<h1>JEFFS TINY DATABASE TEST TEST SET VER 6.0 </h1>
-    <p>Last one created listed first</p>
+	<h1> JEFFS TINY DATABASE </h1>
+    <p> Last one created listed first</p>
     <br />
     
    	<FORM>
@@ -39,8 +41,6 @@
 	<br />
     
    	<?php
-
-		echo "ver 6.0 echo command from phph <br>";
 		
 		/* include '../php_scripts/sql_pw-ignore.php';
 

@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* JEFFS_TINY_URL_CONTAINER.CSS */
 
-/* ############################### JEFFS TINY URL CONTAINER ################## */
+/* ############################## JEFFS TINY URL CONTAINER ################## */
 
 #jeffs_tiny_url_container {
 	padding: 10px;
@@ -24,7 +24,7 @@
 }
 
 .jeffs_tiny_url_label {
-	color: #CF4D50;
+	color: #3F7CD3;
 }
 
 .jeffs_tiny_url_input {
@@ -37,39 +37,39 @@
 }
 
 #t_long_url {
-	background-color: #F2D1D1;
+	background-color: #CEDEF4;
 	width: 50%;
 	min-width: 220px;
 	max-width: 700px;
 }
 
 #t_answer_question {
-	background-color: #F2D1D1;
+	background-color: #CEDEF4;
 	width: 25px;
 }
 
 .jeffs_tiny_url_button {
-	color: #F2D1D1;
+	color: #3F7CD3;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-bottom: 25px;
 	margin-top: 7px;
-	background-color: #6aafd7;
+	background-color: #CEDEF4;
 	/* background-color: #D76A6C; */
 	width: 185px;
 }
 
 #jeffs_tiny_url_container a:link, #jeffs_tiny_url_container a:visited  {
-	color: #782022;
+	color: #3d4ae6;
 }
 
 #jeffs_tiny_url_container a:hover, #jeffs_tiny_url_container a:active  {
-	color: #F2D1D1;
+	color: #7A91E5;
 }
 
-/* ############################### LIST OF URLS PAGE ######################### */
+/* ###################### DATABASE LIST OF URLS PAGE ######################### */
 
 #jeffs_tiny_url_list_table {
 	margin-left:20px;
