@@ -1,8 +1,8 @@
 # TINY URL CONTAINER
 
-`jeffs_tiny_url_container` _will shorten Long URLs to Tiny URLs._
+_Shorten Long URLs to Tiny URLs._
 
-[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=jeffs_tiny_url_container)
+[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?page=jeffs_tiny_url_container)
 
 ## SHORTEN THE URL FORM
 

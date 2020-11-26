@@ -13,10 +13,10 @@
  	<meta name='Description' content='JEFFS TINY URL DOES NOT EXIST - Jeff DeCola'>
 
 	<!-- LINK TO THE STYLE SHEETS -->
-	<link rel="stylesheet" type="text/css" href="../../../css/reset.css"> 
-	<link rel="stylesheet" type="text/css" href="../../template.css"> 
-	<link rel="stylesheet" type="text/css" href="../../main_layout.css"> 
-    <link rel="stylesheet" type="text/css" href="../css/jeffs_tiny_url_container.css"> 
+	<link rel="stylesheet" type="text/css" href="../../../css/reset.css?v=<?php echo date('his'); ?>"/> 
+	<link rel="stylesheet" type="text/css" href="../../../css/template.css?v=<?php echo date('his'); ?>"/> 
+	<link rel="stylesheet" type="text/css" href="../../../css/main_layout.css?v=<?php echo date('his'); ?>"/> 
+    <link rel="stylesheet" type="text/css" href="../css/jeffs_tiny_url_container.css?v=<?php echo date('his'); ?>"> 
 
     <!-- GOOGLE FONT -->
     <!-- Make sure to update Body tag in template.css with the font name -->

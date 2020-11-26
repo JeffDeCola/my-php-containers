@@ -1,8 +1,8 @@
 # VIDEO CONTAINER
 
-`video_container` _is for Youtube or Vimeo with optional background._
+_For Youtube or Vimeo with optional background._
 
-[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=video_container)
+[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?page=video_container)
 
 ## YOUTUBE OR VIMEO
 

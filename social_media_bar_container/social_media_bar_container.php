@@ -1,3 +1,5 @@
+<!-- SOCIAL MEDIA BAR CONTAINER -->
+
 <link rel="stylesheet" type="text/css" href="social_media_bar_container/css/social_media_bar_container.css"> 
 
 <div id="foo_social_media_bar_container" class="social_media_bar_container">

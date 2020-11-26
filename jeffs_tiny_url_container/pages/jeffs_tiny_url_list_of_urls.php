@@ -13,10 +13,10 @@
  	<meta name='Description' content='JEFFS TINY URL LIST OF URLS - Jeff DeCola'>
 
 	<!-- LINK TO THE STYLE SHEETS -->
-	<link rel="stylesheet" type="text/css" href="../../../css/reset.css"> 
-	<link rel="stylesheet" type="text/css" href="../../template.css"> 
-	<link rel="stylesheet" type="text/css" href="../../main_layout.css"> 
-    <link rel="stylesheet" type="text/css" href="../css/jeffs_tiny_url_container.css"> 
+	<link rel="stylesheet" type="text/css" href="../../../css/reset.css?v=<?php echo date('his'); ?>"/> 
+	<link rel="stylesheet" type="text/css" href="../../../css/template.css?v=<?php echo date('his'); ?>"/> 
+	<link rel="stylesheet" type="text/css" href="../../../css/main_layout.css?v=<?php echo date('his'); ?>"/> 
+    <link rel="stylesheet" type="text/css" href="../../css/jeffs_tiny_url_container.css?v=<?php echo date('his'); ?>"> 
 
     <!-- GOOGLE FONT -->
     <!-- Make sure to update Body tag in template.css with the font name -->
@@ -28,7 +28,7 @@
         
  	<div id="jeffs_tiny_url_container">
 
-	<h1>JEFFS TINY DATABASE </h1>
+	<h1>JEFFS TINY DATABASE TEST TEST SET VER 6.0 </h1>
     <p>Last one created listed first</p>
     <br />
     
@@ -40,28 +40,45 @@
     
    	<?php
 
-		include '../php_scripts/sql_pw-ignore.php';
+		echo "ver 6.0 echo command from phph <br>";
+		
+		/* include '../php_scripts/sql_pw-ignore.php';
 
 		$database_error_page = "http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
 
 		// OPEN THE DATABASE
-		$con = mysql_connect("localhost", "jeffdeco_jeff", "$pw");
-		if (!$con) {
+		$servername = "localhost";
+		$username = "jeffdeco_jeff";
+		$password = $pw;
+		$dbname = "jeffdeco_jeffs_tiny_url_container";
+
+		// CREATE DTABASE CONNECTION
+		$conn = mysqli_connect($servername, $username, $password, $dbname);
+		// Check connection
+		if (mysqli_connect_errno($conn)) {
 			header("Location: $database_error_page");
 			exit;
 		}
-
-		// SELECT DATABASE
-		mysql_select_db("jeffdeco_jeffs_tiny_url_container", $con);
 		
 		// GET ENTIRE CONTENTS OF TABLE - BY REVERSE ORDER - id is generic (could use random_number_id)
- 		$data = mysql_query("SELECT * FROM URL_TABLE ORDER BY the_date DESC");
+		$sql = "SELECT * FROM JEFFS_TINY_URL_TABLE ORDER BY the_date DESC";
+		$data = mysqli_query($conn, $sql);
+ 	
+		echo "asdfasdfasdf";
+   		while($row = mysqli_fetch_assoc($data)) {
+    		echo "the_date: " . $row["the_date"]. 			" - random_number_id: " . $row["random_number_id"].
+			"long_url_escape" . $row["long_url_escape"].	" - short_url: " . $row["short_url"].
+			"<br>";
+  		}
+ 
+ 
+ /*
  
 	    // MAKE THE TABLE
  		echo '<table table id="jeffs_tiny_url_list_table">';
 
 			// PLACE CONTENTS IN ARRAY
-            while ($info = mysql_fetch_array($data)) {
+            while ($info = mysqli_fetch_array($data)) {
                 echo '<tr class="jeffs_tiny_url_list_row">';
                     echo '<td class="jeffs_tiny_url_list_random_number">';
                         echo $info['random_number_id'];
@@ -90,13 +107,14 @@
 
             }
 
-         echo "</table>";
+         echo "</table>"; 
       
 		// CLOSE DATABASE
-		mysql_close($con);
+		mysqli_close($conn); */
 
     ?>
-        
+            <p>END</p>
+
 </body>
 
 </html>

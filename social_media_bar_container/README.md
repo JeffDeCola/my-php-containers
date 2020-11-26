@@ -1,9 +1,9 @@
 # SOCIAL MEDIA BAR CONTAINER
 
-`social_media_bar_container` _will provide links to social media,
-built with Dynamic Items Container._
+_Provide links to social media, built with Dynamic Items Container._
 
-[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?container_name=social_media_bar_container)
+
+[See Offsite Demo](http://www.jeffryadecola.com/my-php-containers/index.php?page=social_media_bar_container)
 
 ![IMAGE - social_media_bar_container - IMAGE](../docs/pics/social_media_bar_container.jpg)
 
