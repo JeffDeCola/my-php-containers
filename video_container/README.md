@@ -10,7 +10,7 @@ _A video container for Youtube or Vimeo with an optional background image._
 
 ## OVERVIEW
 
-The container uses jquery script fitVids.js by Chris Coyier
+The container uses jquery script `fitVids.js` by Chris Coyier
 to size the screen.
 
 ## TO USE

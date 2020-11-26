@@ -4,9 +4,11 @@ _An online contact form that is sent to an email._
 
 [See Offsite Demo](http://www.jeffdecola.com/my-php-containers/index.php?page=contact_form_container)
 
-## CONTACT FORM
+## EXAMPLE
 
 ![IMAGE - contact_form_container - IMAGE](../docs/pics/contact_form_container_pic.jpg)
+
+## OVERVIEW
 
 Complete the form and submit shall send
 the information using POST to `/php_scripts/contact_form.php`.
@@ -18,6 +20,12 @@ it will link to the thank you page.
 
 ## TO USE
 
-* Copy and paste the code into your php code
-* Change the links
-* Update email in `/php_scripts/contact_form.php`
+* Copy and paste the php container code
+  [video_container.php](https://github.com/JeffDeCola/my-php-containers/blob/master/video_container/video_container.php)
+  into your php code
+* Copy the css file
+  [video_container.css](https://github.com/JeffDeCola/my-php-containers/blob/master/video_container/css/video_container.css)
+* Update links and configure as desired
+* Make sure to update your email in
+  [/php_scripts/contact_form.php](https://github.com/JeffDeCola/my-php-containers/blob/master/video_container/php_scripts/contact_form.php)
+  or I will get the email. :)
