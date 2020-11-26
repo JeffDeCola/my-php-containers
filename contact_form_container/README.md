@@ -21,11 +21,11 @@ it will link to the thank you page.
 ## TO USE
 
 * Copy and paste the php container code
-  [video_container.php](https://github.com/JeffDeCola/my-php-containers/blob/master/video_container/video_container.php)
+  [contact_form_container.php](https://github.com/JeffDeCola/my-php-containers/blob/master/contact_form_container/contact_form_container.php)
   into your php code
 * Copy the css file
-  [video_container.css](https://github.com/JeffDeCola/my-php-containers/blob/master/video_container/css/video_container.css)
+  [contact_form_container.css](https://github.com/JeffDeCola/my-php-containers/blob/master/contact_form_container/css/contact_form_container.css)
 * Update links and configure as desired
 * Make sure to update your email in
-  [/php_scripts/contact_form.php](https://github.com/JeffDeCola/my-php-containers/blob/master/video_container/php_scripts/contact_form.php)
+  [/php_scripts/contact_form.php](https://github.com/JeffDeCola/my-php-containers/blob/master/contact_form_container/php_scripts/contact_form.php)
   or I will get the email. :)
