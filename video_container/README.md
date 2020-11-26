@@ -2,7 +2,7 @@
 
 _A video container for Youtube or Vimeo with an optional background image._
 
-[See Offsite Demo](http://www.jeffdecola.com/my-php-containers/index.php?page=video_container)
+[See offsite demo](http://www.jeffdecola.com/my-php-containers/index.php?page=video_container)
 
 ## EXAMPLE
 

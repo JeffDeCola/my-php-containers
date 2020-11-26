@@ -9,7 +9,7 @@ All containers designed for dynamic screen widths._
 
 These containers also contain info I gathered from other sources.
 
-[See Offsite Demos](http://www.jeffdecola.com/my-php-containers/index.php)
+[See offsite demos](http://www.jeffdecola.com/my-php-containers/index.php)
 
 [GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
 
