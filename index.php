@@ -190,7 +190,9 @@
 						<?php }					
 						elseif ($_GET['page'] == "social_media_bar_container") { ?>
 							<h2> SOCIAL MEDIA BAR CONTAINER </h2>
-                            <p> Provide links to social media, built with Dynamic Items Container. </p>
+                            <p> Provide links to social media, built with the
+                                <a href="https://www.jeffdecola.com/my-php-containers/index.php?page=dynamic_items_container"> dynamic_items_container </a>
+                            </p>
                 			<p> Code located
                     			<a href="https://github.com/JeffDeCola/my-php-containers/tree/master/social_media_bar_container"> here </a>
                 			</p>

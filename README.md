@@ -4,7 +4,7 @@
 [![Issue Count](https://codeclimate.com/github/JeffDeCola/my-php-containers/badges/issue_count.svg)](https://codeclimate.com/github/JeffDeCola/my-php-containers/issues)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
 
-_A place to keep my php container.
+_A place to keep my php containers.
 All containers designed for dynamic screen widths._
 
 These containers also contain info I gathered from other sources.

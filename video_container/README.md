@@ -1,20 +1,23 @@
 # VIDEO CONTAINER
 
-_For Youtube or Vimeo with optional background._
+_A video container for Youtube or Vimeo with an optional background image._
 
 [See Offsite Demo](http://www.jeffdecola.com/my-php-containers/index.php?page=video_container)
 
-## YOUTUBE OR VIMEO
+## EXAMPLE
 
-Have you vimeo or youtube videos scaled properly to the
-width of the screen.  You may also add a background.
+![IMAGE - video_container - IMAGE](../docs/pics/video_container_the_frontier.jpg)
+
+## OVERVIEW
 
 The container uses jquery script fitVids.js by Chris Coyier
 to size the screen.
 
-![IMAGE - video_container - IMAGE](../docs/pics/video_container_the_frontier.jpg)
-
 ## TO USE
 
-* Copy and paste the code into your php code
+* Copy and paste the php container code
+  [video_container.php](https://github.com/JeffDeCola/my-php-containers/blob/master/video_container/video_container.php)
+  into your php code
+* Copy the css file
+  [video_container.css](https://github.com/JeffDeCola/my-php-containers/blob/master/video_container/css/video_container.css)
 * Update links and configure as desired
