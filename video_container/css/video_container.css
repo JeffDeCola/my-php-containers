@@ -1,6 +1,35 @@
 @charset "utf-8";
 /* VIDEO_CONTAINER.CSS */
 
+/* #################### WRAPPER AND HEADER ########################### */
+
+#video_container_wrapper {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.example_header_container {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #3f7cd3;
+}
+
+.example_header_container h3 {
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
+.example_header_container p {
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
 /* ####################### FOR ALL DYNAMIC CONTAINERS ############## */
 
 .video_container {
@@ -35,23 +64,23 @@
     left: -50%;
 }
 
-/* ####################### FOO VIDEO CONTAINER ##################### */
+/* ####################### VIMEO VIDEO CONTAINER ##################### */
 
 /* VIDEO CONTAINER ****************/
 
-#foo_video_container {
+#vimeo_video_container {
 }
 
 /* ALL ITEMS *********************/
 
-.foo_video_item {
+.vimeo_video_item {
     width: 80%;
 }
 
 /* SPECIFIC ITEMS *****************/
 
 /* Defines Height */
-#foo_video_player {
+#vimeo_video_player {
     width:100%;
     position:relative;
     height:96%;
@@ -63,35 +92,35 @@
     z-index:2;
 }
 
-#foo_video_background {
+#vimeo_video_background {
     width: 100%;
     height: 100%;
     position:absolute;
     top: 0px;
     left: 0px;
-    background-image: url(../images/video_container/trailer_background_glow.png);
+    background-image: url(../images/trailer_background_glow.png);
     background-size:100% 100%;
     opacity:0.2;
 }
 
-/* ####################### BAR VIDEO CONTAINER ##################### */
+/* ####################### YOUTUBE VIDEO CONTAINER ################# */
 
 /* VIDEO CONTAINER ****************/
 
-#bar_video_container {
+#youtube_video_container {
     background-color: #000;
 }
 
 /* ALL ITEMS *********************/
 
-.bar_video_item {
+.youtube_video_item {
     width: 80%;
 }
 
 /* SPECIFIC ITEMS *****************/
 
 /* Defines Height */
-#bar_video_player {
+#youtube_video_player {
     width:100%;
     position:relative;
     height:96%;
@@ -103,13 +132,13 @@
     z-index:2;
 }
 
-#bar_video_background {
+#youtube_video_background {
     width: 100%;
     height: 100%;
     position:absolute;
     top: 0px;
     left: 0px;
-    background-image: url(../images/video_container/trailer_background_glow.png);
+    background-image: url(../images/trailer_background_glow.png);
     background-size:100% 100%;
     opacity:0.2;
 }
