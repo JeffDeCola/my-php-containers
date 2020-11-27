@@ -159,14 +159,14 @@
                             <h2> CONTACT FORM CONTAINER </h2>
                             <p> An online contact form that is sent to an email </p>
                             <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/contact_form_container"> here </a>
+                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/interaction/contact_form_container"> here </a>
                             </p>
                         <?php }
                         elseif ($_GET['page'] == "dynamic_items_container") { ?>
                             <h2> DYNAMIC ITEMS CONTAINER </h2>
                             <p> Displays items (e.g. menu or picture) that will center and collapse properly on smaller screens </p>
                             <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/dynamic_items_container"> here </a>
+                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/building-blocks/dynamic_items_container"> here </a>
                             </p>
                         <?php }
                         elseif ($_GET['page'] == "jeffs_tiny_url_container") { ?>
@@ -174,21 +174,21 @@
                             <p> Shorten Long URLs to Tiny URLs </p>
                             <p> Information stored in a mySQLi database </p>
                             <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/jeffs_tiny_url_container"> here </a>
+                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/interaction/jeffs_tiny_url_container"> here </a>
                             </p>
                         <?php }
                         elseif ($_GET['page'] == "narrow_picture_container") { ?>
                             <h2> NARROW PICTURE CONTAINER </h2>
                             <p> Allow a picture to scale and display across the screen </p>
                             <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/narrow_picture_container"> here </a>
+                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/visual/narrow_picture_container"> here </a>
                             </p>
                         <?php }
                         elseif ($_GET['page'] == "video_container") { ?>
                             <h2> VIDEO CONTAINER </h2>
                             <p> A video container for Youtube or Vimeo with an optional background image </p>
                             <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/video_container"> here </a>
+                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/visual/video_container"> here </a>
                             </p>
                         <?php }
                         // For the index.php page
@@ -222,8 +222,25 @@
                                 if ($_GET['page'] == "") {
                                     // Blank
                                 }
-                                else {
-                                    include($_GET['page']."/".$_GET['page'].".php");
+                                else if ($_GET['page'] == "contact_form_container")
+                                {
+                                    include("interaction/contact_form_container/contact_form_container.php");
+                                }
+                                else if ($_GET['page'] == "dynamic_items_container")
+                                {
+                                    include("building-blocks/dynamic_items_container/dynamic_items_container.php");
+                                }
+                                else if ($_GET['page'] == "jeffs_tiny_url_container")
+                                {
+                                    include("interaction/jeffs_tiny_url_container/jeffs_tiny_url_container.php");
+                                }
+                                else if ($_GET['page'] == "narrow_picture_container")
+                                {
+                                    include("visual/narrow_picture_container/narrow_picture_container.php");
+                                }
+                                else if ($_GET['page'] == "video_container")
+                                {
+                                    include("visual/video_container/video_container.php");
                                 }
                             }
                             // NOT IN WHITELIST - Page does not exist - Just give a 404 error

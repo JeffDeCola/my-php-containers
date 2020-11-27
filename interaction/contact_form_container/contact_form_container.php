@@ -1,6 +1,6 @@
 <!-- CONTACT FORM CONTAINER -->
 
-<link rel="stylesheet" type="text/css" href="contact_form_container/css/contact_form_container.css">
+<link rel="stylesheet" type="text/css" href="interaction/contact_form_container/css/contact_form_container.css">
 
 <div id="contact_form_container">
 
@@ -13,7 +13,7 @@
     ?>
 
     <form id="contact_form"
-    action="http://www.jeffdecola.com/my-php-containers/contact_form_container/php_scripts/contact_form.php" method="post">
+    action="http://www.jeffdecola.com/my-php-containers/interaction/contact_form_container/php_scripts/contact_form.php" method="post">
 
         <table id="contact_table">
 

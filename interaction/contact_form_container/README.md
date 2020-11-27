@@ -12,7 +12,7 @@ _An online contact form that is sent to an email._
 
 Complete the form and the submit button will send
 the information using POST to
-[contact_form.php](https://github.com/JeffDeCola/my-php-containers/blob/master/contact_form_container/interaction/php_scripts/contact_form.php).
+[contact_form.php](https://github.com/JeffDeCola/my-php-containers/blob/master/interaction/contact_form_container/php_scripts/contact_form.php).
 This script will also check is you are human and email that person.
 
 If there is an error will link to
