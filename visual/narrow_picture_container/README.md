@@ -6,7 +6,7 @@ _Allow a picture to scale and display across the screen._
 
 ## EXAMPLE
 
-![IMAGE - narrow_picture_container - IMAGE](../docs/pics/narrow_picture_container.jpg)
+![IMAGE - narrow_picture_container - IMAGE](../../docs/pics/narrow_picture_container.jpg)
 
 ## OVERVIEW
 

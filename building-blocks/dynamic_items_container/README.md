@@ -7,14 +7,14 @@ smaller screens._
 
 ## EXAMPLE
 
-![IMAGE - dynamic_items_container - IMAGE](../docs/pics/dynamic_items_container.jpg)
+![IMAGE - dynamic_items_container - IMAGE](../../docs/pics/dynamic_items_container.jpg)
 
 ## OVERVIEW
 
 This container is based around the following functionality.
 The red box represents the width of the screen.
 
-![IMAGE - dynamic_items_container - IMAGE](../docs/pics/dynamic_items_container_wireimage.jpg)
+![IMAGE - dynamic_items_container - IMAGE](../../docs/pics/dynamic_items_container_wireimage.jpg)
 
 PHP,
 
@@ -63,9 +63,8 @@ CSS,
 ## TO USE
 
 * Copy and paste the php container code
-  [dynamic_items_container.php](https://github.com/JeffDeCola/my-php-containers/blob/master/dynamic_items_container/dynamic_items_container.php)
+  [dynamic_items_container.php](https://github.com/JeffDeCola/my-php-containers/blob/master/building-blocks/dynamic_items_container/dynamic_items_container.php)
   into your php code
 * Copy the css file
-  [dynamic_items_container.css](https://github.com/JeffDeCola/my-php-containers/blob/master/dynamic_items_container/css/dynamic_items_container.css)
+  [dynamic_items_container.css](https://github.com/JeffDeCola/my-php-containers/blob/master/building-blocks/dynamic_items_container/css/dynamic_items_container.css)
 * Update links and configure as desired
-
