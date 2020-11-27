@@ -10,30 +10,31 @@ _Shorten Long URLs to Tiny URLs. Information stored in a mySQLi database._
 
 ## OVERVIEW
 
-Enter a Long URL into the form. Submit shall send
-the Long URL using POST to `/php_scripts/jeffs_tiny_url_shorten.php`.
+Enter a Long URL into the form. Submit sends
+the Long URL using POST to
+[jeffs_tiny_url_shorten.php](https://github.com/JeffDeCola/my-php-containers/blob/master/jeffs_tiny_url_container/php_scripts/jeffs_tiny_url_shorten.php).
 
-This script will check you are human, creates a `Tiny URL
-Unique Number` and send the following to a MySQL database.
+This script will check you are human then creates a `Tiny URL
+Unique Number` and send the following to a MySQLi database.
 
 * Date and Time
 * The Long URL
 * Tiny URL Unique Number
 
-The `Tiny URL Unique Number` (e.g. 1234) is used at the end of your Tiny URL.
+The `Tiny URL Unique Number` (e.g. 1234) is used at the end of your Tiny URL,
 
 ```bash
-http://yourwebsite.com/1234
+http://yourwebsite.com/s/1234
 ```
 
 If there is a database error or a form error the script will link
-to the error page.
+to the appropriate error page.
 
 ## TO USE
 
 There are a few steps but I tried to kept it simple.
 
-### PLACE .htaccess INTO YOUR TINY URL LOCATION
+### PLACE A .htaccess INTO YOUR TINY URL LOCATION
 
 In the location you would like to use the Tiny URL, add the following to your
 .htaccess file.
@@ -42,7 +43,9 @@ In the location you would like to use the Tiny URL, add the following to your
 RewriteRule ^([\w\d]{4})$ php_scripts/jeffs_tiny_url_decoder.php?decode=$1 [L]
 ```
 
-This calls the php script `jeffs_tiny_url_decoder.php` that uses
+This calls the php script
+[jeffs_tiny_url_decoder.php](https://github.com/JeffDeCola/my-php-containers/blob/master/jeffs_tiny_url_container/php_scripts/jeffs_tiny_url_decoder.php)
+which uses
 the `Tiny URL Unique Number` to look up the Long URL.  It then automatically
 links to the original webpage.  It's a cool trick.
 
@@ -52,7 +55,8 @@ Create a mySQLi database on your web server.
 
 ### YOUR mySQLi PASSWORD
 
-I create a separate password `.php` file.  I suggest doing this.
+I created a separate `.php` file to store the password.
+I suggest doing this.
 Don't worry, you will see this being called in the php code.
 
 ```php

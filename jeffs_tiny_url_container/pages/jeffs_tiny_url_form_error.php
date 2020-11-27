@@ -30,9 +30,9 @@
 
     <div id="jeffs_tiny_url_container">
 
-        <h3> Please fill in all fields </h3>
+        <h1> FORM ERROR </h1>
         <br />
-        <p> Make sure your answer is correct</p>
+        <p> Try Again</p>
         <br />
 
         <FORM>
