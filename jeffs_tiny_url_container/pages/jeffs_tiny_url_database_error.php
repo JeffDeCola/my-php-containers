@@ -30,10 +30,9 @@
 
     <div id="jeffs_tiny_url_container">
 
-        <h3> Oops! Database Error...</h3>
-        <p> Sorry, it appears there is a database issue. </p>
+        <h1> DATABASE ERROR </h1>
         <br />
-        <p> Try Again. </p>
+        <p> Sorry, it appears there is a database issue, try again </p>
         <br />
 
         <FORM>

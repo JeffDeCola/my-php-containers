@@ -30,14 +30,18 @@
 
     <div id="jeffs_tiny_url_container">
 
-        <h3> Sorry</h3>
-        <p> It appears the Tiny Link <b>"<?php echo $bad_tiny_link ?>"</b> </p>
-        <br/>
-        <p> does not exist anymore. </p>
+        <h1> TINY URL DOES NOT EXIST </h1>
         <br />
+        <p> <b> "<?php echo "http://JeffDeCola.com/s/".$_GET['bad_tiny_link'] ?>" </b> </p>
+        <br/>
 
         <FORM>
             <INPUT class="jeffs_tiny_url_button" TYPE="button" VALUE="Back" onClick="history.go(-1);return true;" style="cursor:pointer">
+        </FORM>
+        
+        <FORM>
+            <INPUT class="jeffs_tiny_url_button" type="button" value="Create a Tiny URL"
+                   onClick="location.href='https://www.jeffdecola.com/my-php-containers/index.php?page=jeffs_tiny_url_container'" style="cursor:pointer">
         </FORM>
 
     </div>

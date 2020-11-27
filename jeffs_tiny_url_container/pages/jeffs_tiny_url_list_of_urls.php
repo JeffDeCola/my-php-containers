@@ -18,7 +18,7 @@
 
     <!-- LINK TO THE STYLE SHEETS -->
     <link rel="stylesheet" type="text/css" href="../../../css/reset.css?v=<?php echo date('his'); ?>"/>
-    <link rel="stylesheet" type="text/css" href="../../css/jeffs_tiny_url_container.css?v=<?php echo date('his'); ?>">
+    <link rel="stylesheet" type="text/css" href="../css/jeffs_tiny_url_container.css?v=<?php echo date('his'); ?>">
 
     <!-- GOOGLE FONT -->
     <!-- Make sure to update Body tag in template.css with the font name -->
@@ -42,7 +42,7 @@
 
     <?php
 
-        /* include '../php_scripts/sql_pw-ignore.php';
+        include '../php_scripts/sql_pw-ignore.php';
 
         $database_error_page = "http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
 
@@ -63,16 +63,6 @@
         // GET ENTIRE CONTENTS OF TABLE - BY REVERSE ORDER - id is generic (could use random_number_id)
         $sql = "SELECT * FROM JEFFS_TINY_URL_TABLE ORDER BY the_date DESC";
         $data = mysqli_query($conn, $sql);
-
-        echo "asdfasdfasdf";
-        while($row = mysqli_fetch_assoc($data)) {
-            echo "the_date: " . $row["the_date"].           " - random_number_id: " . $row["random_number_id"].
-            "long_url_escape" . $row["long_url_escape"].    " - short_url: " . $row["short_url"].
-            "<br>";
-        }
-
-
- /*
 
         // MAKE THE TABLE
         echo '<table table id="jeffs_tiny_url_list_table">';
@@ -110,11 +100,11 @@
          echo "</table>";
 
         // CLOSE DATABASE
-        mysqli_close($conn); */
+        mysqli_close($conn);
 
     ?>
     
-    <p> END </p>
+    <p> END OF LIST </p>
 
 </body>
 

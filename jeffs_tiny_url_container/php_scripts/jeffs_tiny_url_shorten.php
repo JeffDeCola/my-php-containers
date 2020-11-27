@@ -17,7 +17,7 @@
         header("Location: $form_error_page");
         exit;
     }
-
+        
     // ARE YOU HUMAN?
     if ($answer_question != ($number1 + $number2)) {
         header("Location: $form_error_page");
@@ -32,7 +32,6 @@
 
     // CREATE DATABASE CONNECTION
     $conn = mysqli_connect($servername, $username, $password, $dbname);
-    // Check connection
     if (mysqli_connect_errno($conn)) {
         header("Location: $database_error_page");
         exit;
@@ -48,10 +47,8 @@
             PRIMARY KEY (random_number_id))";
     if(mysqli_query($conn, $table)){
         echo "Table created successfully";
-    } // else {
-    //  echo "Table already created";
-    // }
-
+    }
+    
     // 1 - DATE AND TIME
     $the_date = date("Y-m-d H:i:s");
 
@@ -59,7 +56,7 @@
     // CONVERT IT TO BASE 36 (10 numbers plus 26 letters)
     $random_number_id = rand(10000, 99999);  // 5 digits
     $short_url = base_convert($random_number_id, 20, 36);  // base 36
-
+    
         // CHECK TO SEE IF THAT NUMBER HAS BEEN USED BEFORE
 
         //GET THE TABLE ROW
@@ -90,7 +87,7 @@
     mysqli_query($conn, $sql);
 
     // TEST TABLE -  PRINT OUT ENTIRE TABLE
-    /*$test = "SELECT the_date, random_number_id, long_url_escape, short_url FROM JEFFS_TINY_URL_TABLE";
+    /* $test = "SELECT the_date, random_number_id, long_url_escape, short_url FROM JEFFS_TINY_URL_TABLE";
     $result = mysqli_query($conn, $test);
     echo "<br> The entire table is: <br>";
     if (mysqli_num_rows($result) > 0) {

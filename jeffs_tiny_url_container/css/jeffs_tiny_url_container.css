@@ -61,6 +61,10 @@
     width: 185px;
 }
 
+#jeffs_tiny_url_container h1  {
+    color: #3f7cd3;
+}
+
 #jeffs_tiny_url_container a:link, #jeffs_tiny_url_container a:visited  {
     color: #3d4ae6;
 }

@@ -24,11 +24,18 @@
     <!-- Make sure to update Body tag in template.css with the font name -->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Domine">
 
+    <!-- JQUERY -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script type="text/javascript" src="../jqs/custom.js"></script>
+    
 </head>
 
 <body>
 
     <div id="jeffs_tiny_url_container">
+
+        <h1> TINY URL CREATED </h1>
+        <br />
 
         <?php
             $long_url = $_GET['long_url'];
@@ -37,23 +44,24 @@
 
         <!-- BEFORE -->
         <h3> Original URL: </h3>
-        <br />
         <?php $parts = parse_url($long_url); ?>
         <p> <?php echo $long_url; ?></p>
-
+        
         <br />
 
          <!-- AFTER -->
         <h3> Tiny URL: </h3>
-        <br />
 
         <!-- ******* THIS LINKS POINTS TO TINY URL DIR WHERE .htaccess file is  -->
-        <p> http://JeffDeCola.com/s/ <?php echo $short_url ?></p>
+        <p id="copy_me"> http://JeffDeCola.com/s/<?php echo $short_url ?> </p>
         <!-- ******* THIS LINKS POINTS TO TINY URL DIR WHERE .htaccess file is  -->
         <br />
+        
+        <button class="jeffs_tiny_url_button" type="button" onclick="copyToClipboard('#copy_me')" style="cursor:pointer"> Copy to Clipboard </button>
 
         <FORM>
-            <INPUT class="jeffs_tiny_url_button" TYPE="button" VALUE="Home" onClick="location.href='http://www.jeffdecola.com/my-php-containers'" style="cursor:pointer">
+            <INPUT class="jeffs_tiny_url_button" type="button" value="Home"
+                   onClick="location.href='https://www.jeffdecola.com/my-php-containers/index.php?page=jeffs_tiny_url_container'" style="cursor:pointer">
         </FORM>
 
     </div>
