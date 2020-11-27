@@ -19,7 +19,6 @@
                             "dynamic_items_container",
                             "jeffs_tiny_url_container",
                             "narrow_picture_container",
-                            "social_media_bar_container",
                             "video_container");
 
         // THE PAGE TITLE
@@ -43,10 +42,6 @@
             elseif ($_GET['page'] == "narrow_picture_container") {
                 echo "<title> CONTAINERS - narrow_picture_container - Jeff DeCola </title>";
                 echo "<meta name='Description' content='CONTAINERS - narrow_picture_container - Jeff DeCola' />";
-            }
-            elseif ($_GET['page'] == "social_media_bar_container") {
-                echo "<title> CONTAINERS - social_media_bar_container - Jeff DeCola </title>";
-                echo "<meta name='Description' content='CONTAINERS - social_media_bar_container - Jeff DeCola' />";
             }
             elseif ($_GET['page'] == "video_container") {
                 echo "<title> CONTAINERS - video_container - Jeff DeCola </title>";
@@ -134,7 +129,6 @@
                     <li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=dynamic_items_container"> dynamic_items_container </a> </li>
                     <li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=jeffs_tiny_url_container"> jeffs_tiny_url_container </a> </li>
                     <li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=narrow_picture_container"> narrow_picture_container </a> </li>
-                    <li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=social_media_bar_container"> social_media_bar_container </a> </li>
                     <li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=video_container"> video_container </a> </li>
                     <br />
                     <li><a href="https://github.com/JeffDeCola/my-php-containers"> MY PHP GITHUB REPO </a> </li>
@@ -188,15 +182,6 @@
                             <p> Allow a picture to scale and display across the screen </p>
                             <p> Code located
                                 <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/narrow_picture_container"> here </a>
-                            </p>
-                        <?php }
-                        elseif ($_GET['page'] == "social_media_bar_container") { ?>
-                            <h2> SOCIAL MEDIA BAR CONTAINER </h2>
-                            <p> Provide links to social media, built with the
-                                <a href="https://www.jeffdecola.com/my-php-containers/index.php?page=dynamic_items_container"> dynamic_items_container </a>
-                            </p>
-                            <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/social_media_bar_container"> here </a>
                             </p>
                         <?php }
                         elseif ($_GET['page'] == "video_container") { ?>
