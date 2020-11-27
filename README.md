@@ -9,26 +9,41 @@ All containers designed for dynamic screen widths._
 
 These containers also contain info I gathered from other sources.
 
-[See offsite demos](http://www.jeffdecola.com/my-php-containers/index.php)
+Table of Contents,
+
+* [BUILDING BLOCKS](https://github.com/JeffDeCola/my-php-containers#building-blocks)
+* [INTERACTION](https://github.com/JeffDeCola/my-php-containers#interaction)
+* [VISUAL](https://github.com/JeffDeCola/my-php-containers#visual)
+
+Documentation and reference,
+
+* [php-cheat-sheet](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/development/languages/php-cheat-sheet)
+* [See offsite demos](http://www.jeffdecola.com/my-php-containers/index.php)
 
 [GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
 
 ## PHP CONTAINERS
 
-_All containers in alphabetical order._
+_All sections in alphabetical order._
 
-* [contact_form_container](https://github.com/JeffDeCola/my-php-containers/tree/master/contact_form_container)
-
-  _An online contact form that is sent to an email._
+### BUILDING BLOCKS
 
 * [dynamic_items_container](https://github.com/JeffDeCola/my-php-containers/tree/master/dynamic_items_container)
 
   _Displays items (e.g. menu or picture) that will center and collapse properly on
   smaller screens._
 
+### INTERACTION
+
+* [contact_form_container](https://github.com/JeffDeCola/my-php-containers/tree/master/contact_form_container)
+
+  _An online contact form that is sent to an email._
+
 * [jeffs_tiny_url_container](https://github.com/JeffDeCola/my-php-containers/tree/master/jeffs_tiny_url_container)
 
   _Shorten Long URLs to Tiny URLs. Information stored in a mySQLi database._
+
+### VISUAL
 
 * [narrow_picture_container](https://github.com/JeffDeCola/my-php-containers/tree/master/narrow_picture_container)
 
