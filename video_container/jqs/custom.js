@@ -6,8 +6,8 @@ $(document).ready(function() {
 // MAKE THE VIMEO WINDOW FLUID
 //*****************************************************************************************//
 
-    $('#foo_video_container').fitVids();
-    $('#bar_video_container').fitVids();
+    $('#vimeo_video_container').fitVids();
+    $('#youtube_video_container').fitVids();
 
 });
 
