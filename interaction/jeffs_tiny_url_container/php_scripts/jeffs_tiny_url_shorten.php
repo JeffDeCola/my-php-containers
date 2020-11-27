@@ -2,9 +2,9 @@
 
     include 'sql_pw-ignore.php';
 
-    $shortened_url_page = "http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_shortened.php";
-    $database_error_page = "http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
-    $form_error_page = "http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_form_error.php";
+    $shortened_url_page = "http://www.jeffdecola.com/my-php-containers/interaction/jeffs_tiny_url_container/pages/jeffs_tiny_url_shortened.php";
+    $database_error_page = "http://www.jeffdecola.com/my-php-containers/interaction/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
+    $form_error_page = "http://www.jeffdecola.com/my-php-containers/interaction/jeffs_tiny_url_container/pages/jeffs_tiny_url_form_error.php";
 
     // GET THE DATA FROM THE FORM (POST)
     $long_url= $_POST['long_url'];

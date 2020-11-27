@@ -2,8 +2,8 @@
 
     // PAGES
     $formurl = "http://www.jeffdecola.com/my-php-containers";
-    $errorurl = "http://www.jeffdecola.com/my-php-containers/contact_form_container/pages/contact_form_error.php";
-    $thankyouurl = "http://www.jeffdecola.com/my-php-containers/contact_form_container/pages/contact_form_thank_you.php";
+    $errorurl = "http://www.jeffdecola.com/my-php-containers/interaction/contact_form_container/pages/contact_form_error.php";
+    $thankyouurl = "http://www.jeffdecola.com/my-php-containers/interaction/contact_form_container/pages/contact_form_thank_you.php";
 
     // CONFIGURE
     $email_is_required = 1;  // Really set this to 1

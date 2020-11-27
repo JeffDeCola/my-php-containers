@@ -2,8 +2,8 @@
 
     include 'sql_pw-ignore.php';
 
-    $sorry_url_page = "http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_does_not_exist.php";
-    $database_error_page = "http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
+    $sorry_url_page = "http://www.jeffdecola.com/my-php-containers/interaction/jeffs_tiny_url_container/pages/jeffs_tiny_url_does_not_exist.php";
+    $database_error_page = "http://www.jeffdecola.com/my-php-containers/interaction/jeffs_tiny_url_container/pages/jeffs_tiny_url_database_error.php";
 
     // OPEN THE DATABASE
     $servername = "localhost";

@@ -1,10 +1,10 @@
 <!-- JEFFS TINY URL CONTAINER -->
 
-<link rel="stylesheet" type="text/css" href="jeffs_tiny_url_container/css/jeffs_tiny_url_container.css">
+<link rel="stylesheet" type="text/css" href="interaction/jeffs_tiny_url_container/css/jeffs_tiny_url_container.css">
 
 <div id="jeffs_tiny_url_container">
 
-    <p> <a href="http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/pages/jeffs_tiny_url_list_of_urls.php">
+    <p> <a href="http://www.jeffdecola.com/my-php-containers/interaction/jeffs_tiny_url_container/pages/jeffs_tiny_url_list_of_urls.php">
         Database List </a>
     </p>
 
@@ -16,7 +16,7 @@
 
     <form
     id="jeffs_tiny_url_form"
-    action="http://www.jeffdecola.com/my-php-containers/jeffs_tiny_url_container/php_scripts/jeffs_tiny_url_shorten.php"
+    action="http://www.jeffdecola.com/my-php-containers/interaction/jeffs_tiny_url_container/php_scripts/jeffs_tiny_url_shorten.php"
     method="post">
 
         <table id="jeffs_tiny_url_table">

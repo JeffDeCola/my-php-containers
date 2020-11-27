@@ -1,22 +1,22 @@
 <!-- NARROW PICTURE CONTAINER -->
 
-<link rel="stylesheet" type="text/css" href="narrow_picture_container/css/narrow_picture_container.css">
+<link rel="stylesheet" type="text/css" href="visual/narrow_picture_container/css/narrow_picture_container.css">
 
 <div id="narrow_picture_container_wrapper">
 
-    <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------------------------------------------- -->
     <div class="example_header_container">
 
         <h3> EXAMPLE 1 </h3>
         <p> What it does <p>
 
     </div>
-    <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------------------------------------------- -->
     
     <div id="example_1_narrow_picture_container" class="narrow_picture_container">
 
         <figure>
-            <img src="narrow_picture_container/images/antartica-low.jpg" alt="narrow image picture"/>
+            <img src="visual/narrow_picture_container/images/antartica-low.jpg" alt="narrow image picture"/>
         </figure>
 
     </div>
@@ -24,32 +24,32 @@
 
     <br />
 
-    <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------------------------------------------- -->
     <div class="example_header_container">
 
         <h3> EXAMPLE 2 </h3>
         <p> Another pic <p>
 
     </div>
-    <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------------------------------------------- -->
     
     <div id="example_2_narrow_picture_container" class="narrow_picture_container">
 
         <figure>
-            <img src="narrow_picture_container/images/Sunflower-Green-Field-in-Mountain-Pics-low.jpg" alt="narrow image picture"/>
+            <img src="visual/narrow_picture_container/images/Sunflower-Green-Field-in-Mountain-Pics-low.jpg" alt="narrow image picture"/>
         </figure>
 
     </div>
     <!-- END OF example_2_narrow_picture_container -->
 
-    <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------------------------------------------- -->
     <div class="example_header_container">
 
         <h3> HOW IT WORKS </h3>
         <p> Sreen width is in red </p>
         
     </div>
-    <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------------------------------------------- -->
  
     <br />
     
@@ -59,7 +59,7 @@
 
         <div class="box_picture_container">
 
-            <img src="narrow_picture_container/images/antartica-low.jpg" alt="narrow image picture"/>
+            <img src="visual/narrow_picture_container/images/antartica-low.jpg" alt="narrow image picture"/>
 
         </div>
 
