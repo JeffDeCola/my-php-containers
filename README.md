@@ -34,10 +34,6 @@ _All containers in alphabetical order._
 
   _Allow a picture to scale and display across the screen._
 
-* [social_media_bar_container](https://github.com/JeffDeCola/my-php-containers/tree/master/social_media_bar_container)
-
-  _Provide links to social media, built with Dynamic Items Container._
-
 * [video_container](https://github.com/JeffDeCola/my-php-containers/tree/master/video_container)
 
   _For Youtube or Vimeo with optional background._
