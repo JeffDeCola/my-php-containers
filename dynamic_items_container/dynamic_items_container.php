@@ -455,52 +455,62 @@
 
     <br />
     <br />
+    
     <p> HTML</p>
 
     <div class="code_container">
 
-    <pre class="prettyprint lang-html">&lt;div class=&quot;box_container&quot;&gt;
+        <pre class="prettyprint lang-html">
+            
+            &lt;div class=&quot;box_container&quot;&gt;
 
-        &lt;div class=&quot;box_items_container&quot;&gt;
+                &lt;div class=&quot;box_items_container&quot;&gt;
 
-              &lt;div class=&quot;box_item&quot;&gt;
-                  &lt;p&gt; box_item 1 &lt;/p&gt;
-              &lt;/div&gt;
+                    &lt;div class=&quot;box_item&quot;&gt;
+                        &lt;p&gt; box_item 1 &lt;/p&gt;
+                    &lt;/div&gt;
 
-              &lt;div class=&quot;box_item&quot;&gt;
-                  &lt;p&gt; box_item 2 &lt;/p&gt;
-              &lt;/div&gt;
+                    &lt;div class=&quot;box_item&quot;&gt;
+                        &lt;p&gt; box_item 2 &lt;/p&gt;
+                    &lt;/div&gt;
 
-              &lt;div class=&quot;box_item&quot;&gt;
-                  &lt;p&gt; box_item 3 &lt;/p&gt;
-              &lt;/div&gt;
+                    &lt;div class=&quot;box_item&quot;&gt;
+                        &lt;p&gt; box_item 3 &lt;/p&gt;
+                    &lt;/div&gt;
 
-        &lt;/div&gt;
+                &lt;/div&gt;
 
-    &lt;/div&gt;</pre>
+            &lt;/div&gt;
+            
+        </pre>
 
     </div>
 
     <br />
+    
     <p> CSS </p>
 
     <div class="code_container">
 
-    <pre class="prettyprint lang-css">.box_container {
-        text-align: center;
-    }
+        <pre class="prettyprint lang-css">
+            
+            .box_container {
+                text-align: center;
+            }
 
-    .box_items_container{
-        height: inherit;
-        left: 50%;
-        position: relative;
-    }
+            .box_items_container{
+                height: inherit;
+                left: 50%;
+                position: relative;
+            }
 
-    .box_item {
-        display: inline-block;
-        left: -50%;
-        position: relative;
-    }</pre>
+            .box_item {
+                display: inline-block;
+                left: -50%;
+                position: relative;
+            }
+        
+        </pre>
 
     </div>
 

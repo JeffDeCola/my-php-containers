@@ -1,10 +1,40 @@
 @charset "utf-8";
 /* NARROW_PICTURE_CONTAINER.CSS */
 
+/* #################### WRAPPER AND HEADER ########################### */
+
+#narrow_picture_container_wrapper {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.example_header_container {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #3f7cd3;
+}
+
+.example_header_container h3 {
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
+.example_header_container p {
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
 /* ####################### FOR ALL DYNAMIC CONTAINERS ############## */
 
+
 .narrow_picture_container {
-    /* padding: 10px; */
+    text-align:center;
     height: 300px;
     position: relative;
     margin-left: auto;
@@ -22,14 +52,14 @@
     bottom: 0;
 }
 
-/* ####################### FOO NARROW PICTURE CONTAINER ############ */
+/* ####################### EXAMPLE 1 ################################# */
 
-#foo_narrow_picture_container {
+#example_1_narrow_picture_container {
 }
 
-/* ####################### BAR NARROW PICTURE CONTAINER ############ */
+/* ####################### EXAMPLE 2 ################################# */
 
-#bar_narrow_picture_container {
+#example_2_narrow_picture_container {
 }
 
 /* ####################### THE BASIC PHP CODE  ################ */

@@ -15,16 +15,37 @@ vertical height centered.
 
 ## TO USE
 
-Create a div with class=narrow_picture_container
+It is really easy.
+
+Create a div as follows,
 
 ```php
-<div class="narrow_picture_container>
+    <div class="narrow_picture_container>
 
-    <img src="yourpicturelink.jpg" alt="your note"/>
+        <img src="yourpicturelink.jpg" alt="your note"/>
 
-</div>
+    </div>
 ```
 
-Place `.narrow_picture_container` and `.narrow_picture_container img` from
-[narrow_picture_container.css](https://github.com/JeffDeCola/my-php-containers/blob/master/narrow_picture_container/css/narrow_picture_container.css)
-file into your css.
+Use this .css code,
+
+```css
+    .narrow_picture_container {
+        text-align:center;
+        height: 300px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+
+    .narrow_picture_container img {
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+```
