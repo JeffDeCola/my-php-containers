@@ -13,3 +13,6 @@ _notes/
 
 # jeffs_tiny_url_container
 sql_pw-ignore.php
+
+# SFTP
+sftp.json
