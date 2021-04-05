@@ -1,6 +1,9 @@
 # CONCOURSE
 .credentials.yml
 
+# VSCODE
+.vscode/ 
+
 # GO
 coverage.out
 
@@ -14,5 +17,5 @@ _notes/
 # jeffs_tiny_url_container
 sql_pw-ignore.php
 
-# SFTP
+# SFTP VS CODE EXTENTION
 sftp.json
