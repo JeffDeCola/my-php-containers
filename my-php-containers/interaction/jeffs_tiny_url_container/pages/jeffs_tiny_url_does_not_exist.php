@@ -32,7 +32,7 @@
 
         <h1> TINY URL DOES NOT EXIST </h1>
         <br />
-        <p> <b> "<?php echo "http://JeffDeCola.com/s/".$_GET['bad_tiny_link'] ?>" </b> </p>
+        <p> <b> "<?php echo "http://JeffDeCola.com/t/".$_GET['bad_tiny_link'] ?>" </b> </p>
         <br/>
 
         <FORM>

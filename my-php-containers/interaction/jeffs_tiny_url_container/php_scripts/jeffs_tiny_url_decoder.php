@@ -18,7 +18,7 @@
         exit;
     }
 
-    // WHAT WAS THE CODE SENT FROM .htaccess (REDIRECTED 4 CHARACTERS AT END OF jeffdecola.com/s/????
+    // WHAT WAS THE CODE SENT FROM .htaccess (REDIRECTED 4 CHARACTERS AT END OF jeffdecola.com/t/????
     $decode_code_from_user = mysqli_real_escape_string($conn, $_GET["decode"]);
 
     //GET THE TABLE ROW

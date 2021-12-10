@@ -34,7 +34,7 @@
 
     <div id="jeffs_tiny_url_container">
 
-        <h1> TINY URL CREATED </h1>
+        <h1> TINY URL CREATED</h1>
         <br />
 
         <?php
@@ -53,7 +53,7 @@
         <h3> Tiny URL: </h3>
 
         <!-- ******* THIS LINKS POINTS TO TINY URL DIR WHERE .htaccess file is  -->
-        <p id="copy_me"> http://JeffDeCola.com/s/<?php echo $short_url ?> </p>
+        <p id="copy_me"> http://JeffDeCola.com/t/<?php echo $short_url ?> </p>
         <!-- ******* THIS LINKS POINTS TO TINY URL DIR WHERE .htaccess file is  -->
         <br />
         
