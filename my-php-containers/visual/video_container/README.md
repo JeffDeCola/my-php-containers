@@ -6,7 +6,7 @@ _A video container for Youtube or Vimeo with an optional background image._
 
 ## EXAMPLE
 
-![IMAGE - video_container - IMAGE](../../docs/pics/video_container_the_frontier.jpg)
+![IMAGE - video_container - IMAGE](../../../docs/pics/video_container_the_frontier.jpg)
 
 ## OVERVIEW
 

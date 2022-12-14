@@ -131,7 +131,7 @@
                     <li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=narrow_picture_container"> narrow_picture_container </a> </li>
                     <li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=video_container"> video_container </a> </li>
                     <br />
-                    <li><a href="https://github.com/JeffDeCola/my-php-containers"> MY PHP GITHUB REPO </a> </li>
+                    <li><a href="https://github.com/JeffDeCola/my-php-containers"> MY PHP CONTAINERS GITHUB REPO </a> </li>
                     <li><a href="http://www.jeffdecola.com"> HOME </a> </li>
                 </ul>
             </div>
