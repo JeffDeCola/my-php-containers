@@ -12,7 +12,7 @@ _Shorten Long URLs to Tiny URLs. Information stored in a mySQLi database._
 
 Enter a Long URL into the form. Submit sends
 the Long URL using POST to
-[jeffs_tiny_url_shorten.php](https://github.com/JeffDeCola/my-php-containers/blob/master/interaction/jeffs_tiny_url_container/php_scripts/jeffs_tiny_url_shorten.php).
+[jeffs_tiny_url_shorten.php](https://github.com/JeffDeCola/my-php-containers/blob/master/my-php-containers/interaction/jeffs_tiny_url_container/php_scripts/jeffs_tiny_url_shorten.php).
 
 This script will check you are human then creates a `Tiny URL
 Unique Number` and send the following to a MySQLi database.
@@ -44,7 +44,7 @@ RewriteRule ^([\w\d]{4})$ php_scripts/jeffs_tiny_url_decoder.php?decode=$1 [L]
 ```
 
 This calls the php script
-[jeffs_tiny_url_decoder.php](https://github.com/JeffDeCola/my-php-containers/blob/master/interaction/jeffs_tiny_url_container/php_scripts/jeffs_tiny_url_decoder.php)
+[jeffs_tiny_url_decoder.php](https://github.com/JeffDeCola/my-php-containers/blob/master/my-php-containers/interaction/jeffs_tiny_url_container/php_scripts/jeffs_tiny_url_decoder.php)
 which uses
 the `Tiny URL Unique Number` to look up the Long URL.  It then automatically
 links to the original webpage.  It's a cool trick.
