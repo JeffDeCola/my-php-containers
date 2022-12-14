@@ -106,7 +106,7 @@
 
             <h2 class="hidden"> HEADER </h2>
 
-            <h1> JEFF'S PHP CONTAINERS </h1>
+            <h1> MY PHP CONTAINERS </h1>
 
             <!-- <div id="header_container">
                 <p> tbd </p>
@@ -159,14 +159,14 @@
                             <h2> CONTACT FORM CONTAINER </h2>
                             <p> An online contact form that is sent to an email </p>
                             <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/interaction/contact_form_container"> here </a>
+                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/main/my-php-containers/interaction/contact_form_container"> here </a>
                             </p>
                         <?php }
                         elseif ($_GET['page'] == "dynamic_items_container") { ?>
                             <h2> DYNAMIC ITEMS CONTAINER </h2>
                             <p> Displays items (e.g. menu or picture) that will center and collapse properly on smaller screens </p>
                             <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/building-blocks/dynamic_items_container"> here </a>
+                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/main/my-php-containers/building-blocks/dynamic_items_container"> here </a>
                             </p>
                         <?php }
                         elseif ($_GET['page'] == "jeffs_tiny_url_container") { ?>
@@ -174,21 +174,21 @@
                             <p> Shorten Long URLs to Tiny URLs </p>
                             <p> Information stored in a mySQLi database </p>
                             <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/interaction/jeffs_tiny_url_container"> here </a>
+                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/main/my-php-containers/interaction/jeffs_tiny_url_container"> here </a>
                             </p>
                         <?php }
                         elseif ($_GET['page'] == "narrow_picture_container") { ?>
                             <h2> NARROW PICTURE CONTAINER </h2>
                             <p> Allow a picture to scale and display across the screen </p>
                             <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/visual/narrow_picture_container"> here </a>
+                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/main/my-php-containers/visual/narrow_picture_container"> here </a>
                             </p>
                         <?php }
                         elseif ($_GET['page'] == "video_container") { ?>
                             <h2> VIDEO CONTAINER </h2>
                             <p> A video container for Youtube or Vimeo with an optional background image </p>
                             <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/visual/video_container"> here </a>
+                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/main/my-php-containers/visual/video_container"> here </a>
                             </p>
                         <?php }
                         // For the index.php page
