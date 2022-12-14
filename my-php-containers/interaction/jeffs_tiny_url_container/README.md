@@ -6,7 +6,7 @@ _Shorten Long URLs to Tiny URLs. Information stored in a mySQLi database._
 
 ## EXAMPLE
 
-![IMAGE - jeffs_tiny_url_container - IMAGE](../../docs/pics/jeffs_tiny_url_container.jpg)
+![IMAGE - jeffs_tiny_url_container - IMAGE](../../../docs/pics/jeffs_tiny_url_container.jpg)
 
 ## OVERVIEW
 

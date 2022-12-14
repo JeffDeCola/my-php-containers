@@ -7,14 +7,14 @@ smaller screens._
 
 ## EXAMPLE
 
-![IMAGE - dynamic_items_container - IMAGE](../../docs/pics/dynamic_items_container.jpg)
+![IMAGE - dynamic_items_container - IMAGE](../../../docs/pics/dynamic_items_container.jpg)
 
 ## OVERVIEW
 
 This container is based around the following functionality.
 The red box represents the width of the screen.
 
-![IMAGE - dynamic_items_container - IMAGE](../../docs/pics/dynamic_items_container_wireimage.jpg)
+![IMAGE - dynamic_items_container - IMAGE](../../../docs/pics/dynamic_items_container_wireimage.jpg)
 
 PHP,
 
