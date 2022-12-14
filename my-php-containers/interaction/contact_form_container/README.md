@@ -6,7 +6,7 @@ _An online contact form that is sent to an email._
 
 ## EXAMPLE
 
-![IMAGE - contact_form_container - IMAGE](../../docs/pics/contact_form_container_pic.jpg)
+![IMAGE - contact_form_container - IMAGE](../../../docs/pics/contact_form_container_pic.jpg)
 
 ## OVERVIEW
 
