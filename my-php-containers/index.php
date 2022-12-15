@@ -78,7 +78,7 @@
 
     <!-- GOOGLE FONT -->
     <!-- Make sure to update Body tag in template.css with the font name -->
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Domine"/>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Domine"/>
 
     <!-- JQUERY -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -131,7 +131,7 @@
                     <li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=narrow_picture_container"> narrow_picture_container </a> </li>
                     <li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=video_container"> video_container </a> </li>
                     <br />
-                    <li><a href="https://github.com/JeffDeCola/my-php-containers"> MY PHP CONTAINERS GITHUB REPO </a> </li>
+                    <li><a href="https://github.com/JeffDeCola/my-php-containers"> ALL CODE ON MY GITHUB REPO </a> </li>
                     <li><a href="http://www.jeffdecola.com"> HOME </a> </li>
                 </ul>
             </div>
