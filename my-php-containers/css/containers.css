@@ -7,19 +7,19 @@
     color: #0048af;
 }
 
-/* ####################### CONTAINER HEADER CONTAINER ### */
+/* ####################### NAV CONTAINER ################ */
 
-/* #container_button {
-    color: #F2D1D1;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 5px;
-    margin-top: 7px;
-    background-color: #D76A6C;
-    width: 65px;
-} */
+.nav_client_type {
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav_client_bold {
+    font-weight: 900;
+}
+
+/* ####################### CONTAINER HEADER CONTAINER ### */
 
 .container_header_container {
     text-align: center;

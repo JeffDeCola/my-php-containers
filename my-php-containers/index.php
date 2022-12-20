@@ -106,7 +106,8 @@
 
             <h2 class="hidden"> HEADER </h2>
 
-            <h1> MY PHP CONTAINERS </h1>
+            <h1> <a href="http://www.jeffdecola.com/my-php-containers/index.php">
+                MY PHP CONTAINERS  </a> </h1>
 
             <!-- <div id="header_container">
                 <p> tbd </p>
@@ -125,11 +126,21 @@
 
              <div id="nav_container">
                 <ul>
-                    <li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=contact_form_container"> contact_form_container </a> </li>
-                    <li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=dynamic_items_container"> dynamic_items_container </a> </li>
-                    <li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=jeffs_tiny_url_container"> jeffs_tiny_url_container </a> </li>
-                    <li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=narrow_picture_container"> narrow_picture_container </a> </li>
-                    <li><a href="http://www.jeffdecola.com/my-php-containers/index.php?page=video_container"> video_container </a> </li>
+                    <li class="nav_client_type"> BUILDING BLOCKS </li>
+                    <?php if ($_GET['page'] == "dynamic_items_container") { ?> <li class="nav_client_bold"> <?php } else { ?> <li> <?php } ?> 
+                    <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=dynamic_items_container"> dynamic_items_container </a> </li>
+                    <BR />
+                    <li class="nav_client_type"> INTERACTION </li>
+                    <?php if ($_GET['page'] == "contact_form_container") { ?> <li class="nav_client_bold"> <?php } else { ?> <li> <?php } ?> 
+                    <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=contact_form_container"> contact_form_container </a> </li>
+                    <?php if ($_GET['page'] == "jeffs_tiny_url_container") { ?> <li class="nav_client_bold"> <?php } else { ?> <li> <?php } ?> 
+                    <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=jeffs_tiny_url_container"> jeffs_tiny_url_container </a> </li>
+                    <br />
+                    <li class="nav_client_type"> VISUAL </li>
+                    <?php if ($_GET['page'] == "narrow_picture_container") { ?> <li class="nav_client_bold"> <?php } else { ?> <li> <?php } ?> 
+                    <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=narrow_picture_container"> narrow_picture_container </a> </li>
+                    <?php if ($_GET['page'] == "video_container") { ?> <li class="nav_client_bold"> <?php } else { ?> <li> <?php } ?> 
+                    <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=video_container"> video_container </a> </li>
                     <br />
                     <li><a href="https://github.com/JeffDeCola/my-php-containers"> ALL CODE LOCATED AT MY GITHUB REPO </a> </li>
                     <li><a href="http://www.jeffdecola.com"> HOME </a> </li>
@@ -158,37 +169,42 @@
                         elseif ($_GET['page'] == "contact_form_container") { ?>
                             <h2> CONTACT FORM CONTAINER </h2>
                             <p> An online contact form that is sent to an email </p>
-                            <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/interaction/contact_form_container"> here </a>
-                            </p>
+                            <p> 
+                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/interaction/contact_form_container"> Code </a>
+                                written in php
+                            </p>                            
                         <?php }
                         elseif ($_GET['page'] == "dynamic_items_container") { ?>
                             <h2> DYNAMIC ITEMS CONTAINER </h2>
                             <p> Displays items (e.g. menu or picture) that will center and collapse properly on smaller screens </p>
-                            <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/building-blocks/dynamic_items_container"> here </a>
+                            <p>
+                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/building-blocks/dynamic_items_container"> Code </a>
+                                written in php
                             </p>
                         <?php }
                         elseif ($_GET['page'] == "jeffs_tiny_url_container") { ?>
                             <h2> JEFFS TINY URL CONTAINER </h2>
                             <p> Shorten Long URLs to Tiny URLs </p>
                             <p> Information stored in a mySQLi database </p>
-                            <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/interaction/jeffs_tiny_url_container"> here </a>
+                            <p>
+                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/interaction/jeffs_tiny_url_container"> Code </a>
+                                written in php
                             </p>
                         <?php }
                         elseif ($_GET['page'] == "narrow_picture_container") { ?>
                             <h2> NARROW PICTURE CONTAINER </h2>
                             <p> Allow a picture to scale and display across the screen </p>
-                            <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/visual/narrow_picture_container"> here </a>
+                            <p>
+                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/visual/narrow_picture_container"> Code </a>
+                                written in php
                             </p>
                         <?php }
                         elseif ($_GET['page'] == "video_container") { ?>
                             <h2> VIDEO CONTAINER </h2>
                             <p> A video container for Youtube or Vimeo with an optional background image </p>
-                            <p> Code located
-                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/visual/video_container"> here </a>
+                            <p>
+                                <a href="https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/visual/video_container"> Code </a>
+                                written in php
                             </p>
                         <?php }
                         // For the index.php page
