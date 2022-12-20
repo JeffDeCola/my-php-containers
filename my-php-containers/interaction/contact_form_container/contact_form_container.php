@@ -13,7 +13,8 @@
     ?>
 
     <form id="contact_form"
-    action="http://www.jeffdecola.com/my-php-containers/interaction/contact_form_container/php_scripts/contact_form.php" method="post">
+          action="https://www.jeffdecola.com/my-php-containers/interaction/contact_form_container/php_scripts/contact_form.php"
+          method="post">
 
         <table id="contact_table">
 

@@ -14,10 +14,9 @@
         $number2 = rand(1, 5);
     ?>
 
-    <form
-    id="jeffs_tiny_url_form"
-    action="http://www.jeffdecola.com/my-php-containers/interaction/jeffs_tiny_url_container/php_scripts/jeffs_tiny_url_shorten.php"
-    method="post">
+    <form id="jeffs_tiny_url_form"
+          action="https://www.jeffdecola.com/my-php-containers/interaction/jeffs_tiny_url_container/php_scripts/jeffs_tiny_url_shorten.php"
+          method="post">
 
         <table id="jeffs_tiny_url_table">
 

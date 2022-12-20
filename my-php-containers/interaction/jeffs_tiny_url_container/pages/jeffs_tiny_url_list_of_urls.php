@@ -52,17 +52,16 @@
         $password = $pw;
         $dbname = "jeffdeco_jeffs_tiny_url_container";
 
-        // CREATE DTABASE CONNECTION
+        // CREATE/OPEN DATABASE CONNECTION
         $conn = mysqli_connect($servername, $username, $password, $dbname);
-        // Check connection
-        if (mysqli_connect_errno($conn)) {
+        if (mysqli_connect_errno()) {
             header("Location: $database_error_page");
-            exit;
+            exit();
         }
 
         // GET ENTIRE CONTENTS OF TABLE - BY REVERSE ORDER - id is generic (could use random_number_id)
-        $sql = "SELECT * FROM JEFFS_TINY_URL_TABLE ORDER BY the_date DESC";
-        $data = mysqli_query($conn, $sql);
+        $query = "SELECT * FROM JEFFS_TINY_URL_TABLE ORDER BY the_date DESC";
+        $data = mysqli_query($conn, $query);
 
         // MAKE THE TABLE
         echo '<table table id="jeffs_tiny_url_list_table">';

@@ -11,19 +11,19 @@
     $password = $pw;
     $dbname = "jeffdeco_jeffs_tiny_url_container";
 
-    // CREATE DATABASE CONNECTION
+    // CREATE/OPEN DATABASE CONNECTION
     $conn = mysqli_connect($servername, $username, $password, $dbname);
-    if (mysqli_connect_errno($conn)) {
+    if (mysqli_connect_errno()) {
         header("Location: $database_error_page");
-        exit;
+        exit();
     }
-
+    
     // WHAT WAS THE CODE SENT FROM .htaccess (REDIRECTED 4 CHARACTERS AT END OF jeffdecola.com/t/????
     $decode_code_from_user = mysqli_real_escape_string($conn, $_GET["decode"]);
 
     //GET THE TABLE ROW
-    $sql = "SELECT * FROM JEFFS_TINY_URL_TABLE where short_url='$decode_code_from_user'";
-    $result = mysqli_query($conn, $sql);
+    $query = "SELECT * FROM JEFFS_TINY_URL_TABLE where short_url='$decode_code_from_user'";
+    $result = mysqli_query($conn, $query);
     $row = mysqli_fetch_array($result);
 
     // CLOSE DATABASE

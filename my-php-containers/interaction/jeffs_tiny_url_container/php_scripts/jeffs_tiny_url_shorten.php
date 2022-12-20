@@ -24,31 +24,36 @@
         exit;
     }
 
-    // OPEN THE DATABASE
     $servername = "localhost";
     $username = "jeffdeco_jeff";
     $password = $pw;
     $dbname = "jeffdeco_jeffs_tiny_url_container";
 
-    // CREATE DATABASE CONNECTION
+    // CREATE/OPEN DATABASE CONNECTION
     $conn = mysqli_connect($servername, $username, $password, $dbname);
-    if (mysqli_connect_errno($conn)) {
+    if (mysqli_connect_errno()) {
         header("Location: $database_error_page");
-        exit;
+        exit();
     }
 
     // CREATE A TABLE IF IT DOESN'T EXIST
-    // FORMAT OF DATABASE TABLE "the_date, random_number_id, long_url_escape, short_url"
-    $table = "CREATE TABLE JEFFS_TINY_URL_TABLE(
-            the_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-            random_number_id INT,
-            long_url_escape VARCHAR(200) NOT NULL,
-            short_url VARCHAR(100),
-            PRIMARY KEY (random_number_id))";
-    if(mysqli_query($conn, $table)){
-        echo "Table created successfully";
+    // SEE IF THERE IS A TABLE
+    $query = "SELECT the_date FROM JEFFS_TINY_URL_TABLE";
+    $result = mysqli_query($conn, $query);
+    if(empty($result)) {
+        // echo "Creating table JEFFS_TINY_URL_TABLE";
+        // FORMAT OF DATABASE TABLE "the_date, random_number_id, long_url_escape, short_url"
+        $table =    "CREATE TABLE JEFFS_TINY_URL_TABLE(
+                    the_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+                    random_number_id INT,
+                    long_url_escape VARCHAR(200) NOT NULL,
+                    short_url VARCHAR(100),
+                    PRIMARY KEY (random_number_id))";
+        $result = mysqli_query($conn, $query);
+    } else {
+        // echo "Table JEFFS_TINY_URL_TABLE already exists";
     }
-    
+
     // 1 - DATE AND TIME
     $the_date = date("Y-m-d H:i:s");
 
@@ -60,8 +65,8 @@
         // CHECK TO SEE IF THAT NUMBER HAS BEEN USED BEFORE
 
         //GET THE TABLE ROW
-        $sql = "SELECT * FROM JEFFS_TINY_URL_TABLE WHERE short_url='$short_url'";
-        $maybe_a_row = mysqli_query($conn, $sql);
+        $query = "SELECT * FROM JEFFS_TINY_URL_TABLE WHERE short_url='$short_url'";
+        $maybe_a_row = mysqli_query($conn, $query);
 
         // GET THE ENTIRE ROW
         $row = mysqli_fetch_assoc($maybe_a_row);
@@ -78,17 +83,17 @@
     $long_url_escape = mysqli_real_escape_string($conn, $long_url);
 
     // INSERT INTO TABLE
-    $sql =  "INSERT INTO JEFFS_TINY_URL_TABLE (the_date, random_number_id, long_url_escape, short_url) VALUES (
+    $query =  "INSERT INTO JEFFS_TINY_URL_TABLE (the_date, random_number_id, long_url_escape, short_url) VALUES (
             '$the_date',
             '$random_number_id',
             '$long_url_escape',
             '$short_url')";
     // Write to Table
-    mysqli_query($conn, $sql);
+    mysqli_query($conn, $query);
 
     // TEST TABLE -  PRINT OUT ENTIRE TABLE
-    /* $test = "SELECT the_date, random_number_id, long_url_escape, short_url FROM JEFFS_TINY_URL_TABLE";
-    $result = mysqli_query($conn, $test);
+    /* $query = "SELECT the_date, random_number_id, long_url_escape, short_url FROM JEFFS_TINY_URL_TABLE";
+    $result = mysqli_query($conn, $query);
     echo "<br> The entire table is: <br>";
     if (mysqli_num_rows($result) > 0) {
         // output data of each row
@@ -103,7 +108,7 @@
     echo "SLEEP";
     sleep(5); */
 
-    // CLOSE DATABASE
+    // CLOSE DATABASE CONNECTION
     mysqli_close($conn);
 
     // Encode long_url to pass (_GET) and have it display properly on shortened page
