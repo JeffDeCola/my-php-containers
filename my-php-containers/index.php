@@ -106,8 +106,14 @@
 
             <h2 class="hidden"> HEADER </h2>
 
-            <h1> <a href="http://www.jeffdecola.com/my-php-containers/index.php">
-                MY PHP CONTAINERS  </a> </h1>
+            <h1> <a href="http://www.jeffdecola.com/">
+                JEFFRY A. DECOLA  </a> </h1>
+
+            <h2> <a href="http://www.jeffdecola.com/my-php-containers/index.php">
+                MY PHP CONTAINERS  </a> </h2>
+            
+            <a href="https://github.com/JeffDeCola/my-php-containers">
+                GITHUB REPO </a>
 
             <!-- <div id="header_container">
                 <p> tbd </p>
@@ -142,8 +148,6 @@
                     <?php if ($_GET['page'] == "video_container") { ?> <li class="nav_client_bold"> <?php } else { ?> <li> <?php } ?> 
                     <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=video_container"> video_container </a> </li>
                     <br />
-                    <li><a href="https://github.com/JeffDeCola/my-php-containers"> ALL CODE LOCATED AT MY GITHUB REPO </a> </li>
-                    <li><a href="http://www.jeffdecola.com"> HOME </a> </li>
                 </ul>
             </div>
 
