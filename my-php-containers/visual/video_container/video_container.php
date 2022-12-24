@@ -7,7 +7,7 @@
 <div id="video_container_wrapper">
 
     <!-- ------------------------------------------------------------------------------------------------------- -->
-    <div class="example_header_container">
+    <div class="comment_container">
 
         <h3> VIMEO EXAMPLE </h3>
         
@@ -40,7 +40,7 @@
     <!-- END OF vimeo_video_container -->
 
     <!-- ------------------------------------------------------------------------------------------------------- -->
-    <div class="example_header_container">
+    <div class="comment_container">
 
         <h3> YOUTUBE EXAMPLE </h3>
 

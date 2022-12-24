@@ -74,7 +74,7 @@
     <link rel="stylesheet" type="text/css" href="../css/template.css?v=<?php echo date('his'); ?>"/>
     <link rel="stylesheet" type="text/css" href="../css/wrappers.css?v=<?php echo date('his'); ?>"/>
     <link rel="stylesheet" type="text/css" href="../css/containers.css?v=<?php echo date('his'); ?>"/>
-    <link rel="stylesheet" type="text/css" href="css/containers.css?v=<?php echo date('his'); ?>"/>
+    <link rel="stylesheet" type="text/css" href="css/php_containers.css?v=<?php echo date('his'); ?>"/>
 
     <!-- GOOGLE FONT -->
     <!-- Make sure to update Body tag in template.css with the font name -->
@@ -133,21 +133,44 @@
              <div id="nav_container">
                 <ul>
                     <li class="nav_client_type"> BUILDING BLOCKS </li>
-                    <?php if ($_GET['page'] == "dynamic_items_container") { ?> <li class="nav_client_bold"> <?php } else { ?> <li> <?php } ?> 
-                    <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=dynamic_items_container"> dynamic_items_container </a> </li>
-                    <BR />
+                    <?php if ($_GET['page'] == "dynamic_items_container") {
+                        ?> <li class="nav_client_bold"> <div class=dot> </div> <?php } else { ?> <li> <?php } ?> 
+                    <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=dynamic_items_container">
+                        dynamic_items_container </a> 
+                    <?php if ($_GET['page'] == "dynamic_items_container") { 
+                        ?> <div class=dot> </div> <?php } ?> </li>
+                    <br />
+
                     <li class="nav_client_type"> INTERACTION </li>
-                    <?php if ($_GET['page'] == "contact_form_container") { ?> <li class="nav_client_bold"> <?php } else { ?> <li> <?php } ?> 
-                    <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=contact_form_container"> contact_form_container </a> </li>
-                    <?php if ($_GET['page'] == "jeffs_tiny_url_container") { ?> <li class="nav_client_bold"> <?php } else { ?> <li> <?php } ?> 
-                    <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=jeffs_tiny_url_container"> jeffs_tiny_url_container </a> </li>
+                    <?php if ($_GET['page'] == "contact_form_container") {
+                        ?> <li class="nav_client_bold"> <div class=dot> </div> <?php } else { ?> <li> <?php } ?> 
+                    <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=contact_form_container">
+                        contact_form_container </a> 
+                    <?php if ($_GET['page'] == "contact_form_container") { 
+                        ?> <div class=dot> </div> <?php } ?> </li>
+                    <?php if ($_GET['page'] == "jeffs_tiny_url_container") {
+                        ?> <li class="nav_client_bold"> <div class=dot> </div> <?php } else { ?> <li> <?php } ?> 
+                    <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=jeffs_tiny_url_container">
+                        jeffs_tiny_url_container </a> 
+                    <?php if ($_GET['page'] == "jeffs_tiny_url_container") { 
+                        ?> <div class=dot> </div> <?php } ?> </li>
                     <br />
+
                     <li class="nav_client_type"> VISUAL </li>
-                    <?php if ($_GET['page'] == "narrow_picture_container") { ?> <li class="nav_client_bold"> <?php } else { ?> <li> <?php } ?> 
-                    <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=narrow_picture_container"> narrow_picture_container </a> </li>
-                    <?php if ($_GET['page'] == "video_container") { ?> <li class="nav_client_bold"> <?php } else { ?> <li> <?php } ?> 
-                    <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=video_container"> video_container </a> </li>
+                    <?php if ($_GET['page'] == "narrow_picture_container") {
+                        ?> <li class="nav_client_bold"> <div class=dot> </div> <?php } else { ?> <li> <?php } ?> 
+                    <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=narrow_picture_container">
+                        narrow_picture_container </a> 
+                    <?php if ($_GET['page'] == "narrow_picture_container") { 
+                        ?> <div class=dot> </div> <?php } ?> </li>
+                    <?php if ($_GET['page'] == "video_container") {
+                        ?> <li class="nav_client_bold"> <div class=dot> </div> <?php } else { ?> <li> <?php } ?> 
+                    <a href="http://www.jeffdecola.com/my-php-containers/index.php?page=video_container">
+                        video_container </a> 
+                    <?php if ($_GET['page'] == "video_container") { 
+                        ?> <div class=dot> </div> <?php } ?> </li>
                     <br />
+
                 </ul>
             </div>
 
@@ -162,7 +185,7 @@
 
             <h2 class="hidden"> SECTION </h2>
 
-            <div class="container_header_container">
+            <div class="title_container">
 
                 <?php
 
