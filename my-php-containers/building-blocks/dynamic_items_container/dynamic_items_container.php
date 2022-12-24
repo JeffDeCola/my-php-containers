@@ -5,7 +5,7 @@
 <div id="dynamic_items_container_wrapper">
 
     <!-- ------------------------------------------------------------------------------------------------------- -->
-    <div class="example_header_container">
+    <div class="comment_container">
 
         <h3> EXAMPLE 1 </h3>
         <p> Navigation Bar using Classes <p>
@@ -105,7 +105,7 @@
     <!-- END OF example_1_dynamic_items_container -->
 
     <!-- ------------------------------------------------------------------------------------------------------- -->
-    <div class="example_header_container">
+    <div class="comment_container">
 
         <h3> EXAMPLE 2 </h3>
         <p> A group of four items (middle aligned) <p>
@@ -188,7 +188,7 @@
     <!-- END OF example_2_dynamic_items_container -->
 
     <!-- ------------------------------------------------------------------------------------------------------- -->
-    <div class="example_header_container">
+    <div class="comment_container">
 
         <h3> EXAMPLE 3 </h3>
         <p> Two groups of items (top and bottom aligned) <p>
@@ -373,7 +373,7 @@
     <!-- END OF example_3_dynamic_items_container -->
 
     <!-- ------------------------------------------------------------------------------------------------------- -->
-    <div class="example_header_container">
+    <div class="comment_container">
 
         <h3> EXAMPLE 4 </h3>
         <p> Pictures <p>
@@ -412,7 +412,7 @@
     <!-- END OF example_4_dynamic_items_container -->
 
     <!-- ------------------------------------------------------------------------------------------------------- -->
-    <div class="example_header_container">
+    <div class="comment_container">
 
         <h3> HOW IT WORKS </h3>
         <p> Screen width is in red <p>

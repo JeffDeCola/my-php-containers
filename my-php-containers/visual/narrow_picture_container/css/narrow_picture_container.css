@@ -95,18 +95,3 @@
     right: 0;
     bottom: 0;
 }
-
-/* ####################### CODE CONTAINER ########################### */
-
-.code_container {
-    text-align:left;
-    /* background-color:#ABABAB; */
-    width: 90%;
-    min-width: 200px;
-    max-width: 500px;
-    margin: auto;
-    padding: 5px;
-    font-family: "Courier New", Courier, monospace;
-    font-size:14px;
-    font-weight:bold;
-}

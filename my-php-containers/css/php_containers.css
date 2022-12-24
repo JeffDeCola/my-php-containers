@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* PHP_CONTAINERS.CSS */
+
+/* SECTION I - COMMON TO ALL PAGES ------------------------------------------- */
+
+/* #### HEADER WRAPPER ######################################## */
+
+#header_wrapper h1 {
+    color: #0048af;
+}
+
+/* #### NAV CONTAINER ######################################### */
+
+.nav_client_type {
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav_client_bold {
+    font-weight: 900;
+}
+.nav_client_bold a:visited {
+    color: #0048af;
+}
+
+.dot {
+    height: 3px;
+    width: 13px;
+    background-color: #0048af;
+    /* border-radius: 50%; */
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* SECTION II - COMMON CONTAINERS -------------------------------------------- */
+
+/* #### TITLE CONTAINER ####################################### */
+
+.title_container {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(25,80,158,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+.title_container p {
+    margin-bottom: .8em;
+    color: #FFFFFF;
+}
+
+.title_container h2 {
+    color: #FFFFFF;
+}
+
+.title_container a:link, .title_container a:visited  {
+    color: #9ebcff;
+}
+
+.title_container a:hover, .title_container a:active  {
+    color: #001074;
+}
+
+/* #### COMMENT CONTAINER ##################################### */
+
+.comment_container {
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    width:100%;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(25,80,158,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+.comment_container h3 {
+    color: #ffffff;
+}
+
+.comment_container p {
+    color: #ffffff;
+}
+
+.comment_container a:visited {
+    color: #9ebcff;
+}
+
+/* #### CODE CONTAINER ######################################## */
+
+.code_container {
+    text-align:left;
+    /* background-color:#ABABAB; */
+    width: 90%;
+    min-width: 200px;
+    max-width: 500px;
+    margin: auto;
+    padding: 5px;
+    font-family: "Courier New", Courier, monospace;
+    font-size:14px;
+    font-weight:bold;
+}
+.code_container h3 {
+    color: #000000;
+    text-align: center;
+}
+
+/* SECTION III - PAGE SPECIFIC ----------------------------------------------- */
+
+/* Refer to there specific css */

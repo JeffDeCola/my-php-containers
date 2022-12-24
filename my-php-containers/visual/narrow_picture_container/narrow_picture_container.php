@@ -5,7 +5,7 @@
 <div id="narrow_picture_container_wrapper">
 
     <!-- ------------------------------------------------------------------------------------------------------- -->
-    <div class="example_header_container">
+    <div class="comment_container">
 
         <h3> EXAMPLE 1 </h3>
         <p> What it does <p>
@@ -25,7 +25,7 @@
     <br />
 
     <!-- ------------------------------------------------------------------------------------------------------- -->
-    <div class="example_header_container">
+    <div class="comment_container">
 
         <h3> EXAMPLE 2 </h3>
         <p> Another pic <p>
@@ -43,7 +43,7 @@
     <!-- END OF example_2_narrow_picture_container -->
 
     <!-- ------------------------------------------------------------------------------------------------------- -->
-    <div class="example_header_container">
+    <div class="comment_container">
 
         <h3> HOW IT WORKS </h3>
         <p> Sreen width is in red </p>
