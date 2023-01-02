@@ -11,8 +11,8 @@
         <p> Navigation Bar using Classes <p>
 
     </div>
-    <!-- ------------------------------------------------------------------------------------------------------- -->
 
+    <!-- ------------------------------------------------------------------------------------------------------- -->
     <div id="example_1_dynamic_items_container" class="dynamic_items_container">
 
         <div id="example_1_dynamic_items_width" class="dynamic_items_items_container">
@@ -111,8 +111,8 @@
         <p> A group of four items (middle aligned) <p>
 
     </div>
-    <!-- ------------------------------------------------------------------------------------------------------- -->
 
+    <!-- ------------------------------------------------------------------------------------------------------- -->
     <div id="example_2_dynamic_items_container" class="dynamic_items_container">
 
         <div id="example_2_dynamic_items_width" class="dynamic_items_items_container">
@@ -194,8 +194,8 @@
         <p> Two groups of items (top and bottom aligned) <p>
 
     </div>
-    <!-- ------------------------------------------------------------------------------------------------------- -->
 
+    <!-- ------------------------------------------------------------------------------------------------------- -->
     <div id="example_3_dynamic_items_container" class="dynamic_items_container">
 
         <div id="example_3_dynamic_items_width" class="dynamic_items_items_container">
@@ -379,8 +379,8 @@
         <p> Pictures <p>
 
     </div>
-    <!-- ------------------------------------------------------------------------------------------------------- -->
 
+    <!-- ------------------------------------------------------------------------------------------------------- -->
     <div id="example_4_dynamic_items_container" class="dynamic_items_container">
 
         <div id="example_4_dynamic_items_width" class="dynamic_items_items_container">
@@ -418,8 +418,8 @@
         <p> Screen width is in red <p>
 
     </div>
-    <!-- ------------------------------------------------------------------------------------------------------- -->
 
+    <!-- ------------------------------------------------------------------------------------------------------- -->
     <div id="wrapper_box_container">
 
         <div class="box_container">
@@ -456,9 +456,13 @@
     <br />
     <br />
     
-    <p> HTML</p>
-
     <div class="code_container">
+
+        <h3> 
+            <a href="https://github.com/JeffDeCola/my-php-containers/blob/master/my-php-containers/building-blocks/dynamic_items_container/dynamic_items_container.php">
+                HTML  
+            </a>
+        </h3>
 
         <pre class="prettyprint lang-html">
             
@@ -483,14 +487,12 @@
             &lt;/div&gt;
             
         </pre>
-
-    </div>
-
-    <br />
     
-    <p> CSS </p>
-
-    <div class="code_container">
+        <h3> 
+            <a href="https://github.com/JeffDeCola/my-php-containers/blob/master/my-php-containers/building-blocks/dynamic_items_container/css/dynamic_items_container.css">
+                CSS  
+            </a>
+        </h3>
 
         <pre class="prettyprint lang-css">
             

@@ -46,7 +46,7 @@
     <div class="comment_container">
 
         <h3> HOW IT WORKS </h3>
-        <p> Sreen width is in red </p>
+        <p> Screen width is in red </p>
         
     </div>
     <!-- ------------------------------------------------------------------------------------------------------- -->
@@ -69,12 +69,17 @@
 
     <br />
     <br />
-    <p> HTML </p>
 
     <div class="code_container">
 
+        <h3> 
+            <a href="https://github.com/JeffDeCola/my-php-containers/blob/master/my-php-containers/visual/narrow_picture_container/narrow_picture_container.php">
+                HTML  
+            </a>
+        </h3>
+
         <pre class="prettyprint lang-html">
-    
+            
             &lt;div class="narrow_picture_container"&gt;
 
                 &lt;img src="yourpicturelink.jpg" alt="your note"/&gt;
@@ -82,16 +87,15 @@
             &lt;/div&gt;
             
         </pre>
-
-    </div>
-
-    <br />
-    <p> CSS </p>
-
-    <div class="code_container">
+    
+        <h3> 
+            <a href="https://github.com/JeffDeCola/my-php-containers/blob/master/my-php-containers/visual/narrow_picture_container/css/narrow_picture_container.css">
+                CSS  
+            </a>
+        </h3>
 
         <pre class="prettyprint lang-css">
-        
+            
             .narrow_picture_container {
                 text-align:center;
                 height: 300px;
@@ -110,7 +114,7 @@
                 right: 0;
                 bottom: 0;
             }
-    
+        
         </pre>
 
     </div>

@@ -1,6 +1,6 @@
 # CONTACT FORM CONTAINER
 
-_An online contact form that is sent to an email._
+_An online contact form that is sent to an email using google's reCAPTCHA v3._
 
 [See offsite demo](http://www.jeffdecola.com/my-php-containers/index.php?page=contact_form_container)
 
@@ -13,7 +13,8 @@ _An online contact form that is sent to an email._
 Complete the form and the submit button will send
 the information using POST to
 [contact_form.php](https://github.com/JeffDeCola/my-php-containers/blob/master/my-php-containers/interaction/contact_form_container/php_scripts/contact_form.php).
-This script will also check is you are human and email that person.
+This script will also check is you are human
+using Google reCAPTCHA and asking to add two numbers.
 
 If there is an error will link to
 [contact_form_error.php](https://github.com/JeffDeCola/my-php-containers/blob/master/my-php-containers/interaction/contact_form_container/pages/contact_form_error.php).
@@ -22,6 +23,10 @@ If everything worked it will link to
 
 ## TO USE
 
+* Get a reCAPTCHA v3
+[site key](https://www.google.com/recaptcha/about/)
+from google and place in
+[contact_form_container.php](https://github.com/JeffDeCola/my-php-containers/blob/master/my-php-containers/interaction/contact_form_container/contact_form_container.php)
 * Copy and paste the php container code
   [contact_form_container.php](https://github.com/JeffDeCola/my-php-containers/blob/master/my-php-containers/interaction/contact_form_container/contact_form_container.php)
   into your php code

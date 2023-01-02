@@ -39,7 +39,7 @@ _All sections in alphabetical order._
 
 * [contact_form_container](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/interaction/contact_form_container)
 
-  _An online contact form that is sent to an email._
+  _An online contact form that is sent to an email using google's reCAPTCHA v3._
 
 * [jeffs_tiny_url_container](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/interaction/jeffs_tiny_url_container)
 
