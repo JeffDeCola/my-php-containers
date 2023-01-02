@@ -1,5 +1,8 @@
 <?php
 
+    // Google reCAPTCHA v3 API keys settings  
+    $secretKey = '6Ldefr0jAAAAABHOTZMa2S34BYCEJC9CLJLtAXOa';  
+
     // PAGES
     $formurl = "http://www.jeffdecola.com/my-php-containers";
     $errorurl = "http://www.jeffdecola.com/my-php-containers/interaction/contact_form_container/pages/contact_form_error.php";
@@ -29,20 +32,53 @@
         exit;
     }
 
-    // ARE YOU HUMAN
+    // SECURITY FEATURES ************************************************************************
+
+    // SECURITY FEATURE 1 - ARE YOU HUMAN
     if ($answer != ($number1 + $number2) ){
         header( "Location: $errorurl" );
         exit;
     }
 
-    // IF USING RECAPTCHA - THIS IS THE CHECK
-    if (strlen($my_recaptcha_private_key )) {
-        require_once( 'recaptchalib.php' );
-        $resp = recaptcha_check_answer ( $my_recaptcha_private_key, $_SERVER['REMOTE_ADDR'], $_POST['recaptcha_challenge_field'], $_POST['recaptcha_response_field'] );
-        if (!$resp->is_valid) {
-            header( "Location: $errorurl" );
-            exit;
-        }
+    // SECURITY FEATURE 2 - RECAPTCHA CHECK
+    // Google reCAPTCHA verification API Request  
+    $api_url = 'https://www.google.com/recaptcha/api/siteverify';  
+    $ip = $_SERVER['REMOTE_ADDR']; 
+    $resq_data = array(  
+        'secret' => $secretKey,
+        'response' => $_POST['g-recaptcha-response'],  
+        'remoteip' => $ip  
+    );  
+
+    $curlConfig = array(  
+        CURLOPT_URL => $api_url,  
+        CURLOPT_POST => true,  
+        CURLOPT_RETURNTRANSFER => true,  
+        CURLOPT_POSTFIELDS => $resq_data  
+    );  
+
+    $ch = curl_init();  
+    curl_setopt_array($ch, $curlConfig);  
+    $response = curl_exec($ch);  
+    curl_close($ch);  
+
+    // Decode JSON data of API response in array  
+    $reCAPTCHAResponseData = json_decode($response, true);  
+
+    if ($reCAPTCHAResponseData["success"]) {
+        $success = "true";
+    } else {
+        $success = "false";
+    }
+    $score = $reCAPTCHAResponseData["score"];
+    $action = $reCAPTCHAResponseData["action"];
+    $challenge_ts = $reCAPTCHAResponseData["challenge_ts"];
+    $hostname = $reCAPTCHAResponseData["hostname"];
+    $errorcodes = $reCAPTCHAResponseData["error-codes"];
+
+    if (($success == "false") && ($score < 0.8)) {
+        header( "Location: $errorurl" );
+        exit;
     }
 
     // OK, LETS DO THIS ************************************************************************
@@ -51,9 +87,9 @@
 
         $mailto = 'webmaster@jeffdecola.com' ;
 
-    // 2 - WAHT IS THE SUBJECT
+    // 2 - WHAT IS THE SUBJECT
 
-        $subject = "Contact Jeff Form at jeffdecola.com" ;
+        $subject = "PHP Container Contact at jeffdecola.com/my-php-containers";
 
     // 3 - CREATE THE MESSAGE TO SEND
 
@@ -69,14 +105,23 @@
         // Build the array to mail
         $messageproper =
             "-------------------------------------\n" .
-            "NAME:    $fullname \n" .
+            "NAME:   $fullname \n" .
             "EMAIL:   $email \n" .
             "PHONE:   $phonenumber \n" .
+            "IP ADR:   $ip \n" .
             "-------------------------------------\n\n" .
             "$comments" .
             "\n\n\n" .
+            "-------------------------------------\n" .
             "This email was sent from: \n" .
-            "$http_referrer \n\n" ;
+            "$http_referrer \n" .
+            "reCAPTCHA SUCCESS: $success \n" .
+            "reCAPTCHA SCORE: $score \n" .
+            "reCAPTCHA ACTION: $action \n" .
+            "reCAPTCHA TIME: $challenge_ts \n" .
+            "reCAPTCHA HOSTNAME: $hostname \n" .
+            "reCAPTCHA ERROR CODES: $errorcodes \n" .
+            "\n\n\n" .
 
     // 4 - CREATE THE HEADER
 
