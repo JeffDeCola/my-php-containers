@@ -1,7 +1,7 @@
 <?php
 
-    // Google reCAPTCHA v3 API keys settings  
-    $secretKey = '6Ldefr0jAAAAABHOTZMa2S34BYCEJC9CLJLtAXOa';  
+    // Google reCAPTCHA v3 API private keys settings
+    include '../../../../../reCAPTCHASecrets.php';
 
     // PAGES
     $formurl = "http://www.jeffdecola.com/my-php-containers";
@@ -45,7 +45,7 @@
     $api_url = 'https://www.google.com/recaptcha/api/siteverify';  
     $ip = $_SERVER['REMOTE_ADDR']; 
     $resq_data = array(  
-        'secret' => $secretKey,
+        'secret' => $secretKeyPHPContainer,
         'response' => $_POST['g-recaptcha-response'],  
         'remoteip' => $ip  
     );  

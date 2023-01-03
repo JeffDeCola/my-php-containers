@@ -22,7 +22,7 @@
 
     <!-- GOOGLE FONT -->
     <!-- Make sure to update Body tag in template.css with the font name -->
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Domine">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Domine">
 
 </head>
 

@@ -8,8 +8,8 @@
     <div class="comment_container">
 
         <h3> WORKING EXAMPLE </h3>
-        <p> This will send an email to you </p>
-        <p> Uses Google's invisible reCAPTCHA v3 </p>
+        <p> This will send an email to me </p>
+        <p> Security uses Google's invisible reCAPTCHA v3 and a simple math question </p>
 
     </div>
 
@@ -108,7 +108,7 @@
                 <tr>
                     <td>
                         <input  class="contact_button g-recaptcha" 
-                                data-sitekey="6Ldefr0jAAAAAA48rDS7tKUb3wZfGnFMfluPeHvb" 
+                                data-sitekey="6Lcng8cjAAAAAPWZT8jlxPebUhKlFDkMSyesKePp" 
                                 data-callback="onSubmit" 
                                 data-action="submit"
                                 type="submit"
