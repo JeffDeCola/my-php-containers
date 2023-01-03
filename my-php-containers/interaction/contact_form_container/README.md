@@ -13,8 +13,11 @@ _An online contact form that is sent to an email using google's reCAPTCHA v3._
 Complete the form and the submit button will send
 the information using POST to
 [contact_form.php](https://github.com/JeffDeCola/my-php-containers/blob/master/my-php-containers/interaction/contact_form_container/php_scripts/contact_form.php).
-This script will also check is you are human
-using Google reCAPTCHA and asking to add two numbers.
+
+Security Features,
+
+* Simple math question
+* Google's invisible reCAPTCHA v3
 
 If there is an error will link to
 [contact_form_error.php](https://github.com/JeffDeCola/my-php-containers/blob/master/my-php-containers/interaction/contact_form_container/pages/contact_form_error.php).
