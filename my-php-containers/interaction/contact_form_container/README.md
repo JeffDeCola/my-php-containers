@@ -27,9 +27,9 @@ If everything worked it will link to
 ## TO USE
 
 * Get a reCAPTCHA v3
-[site key](https://www.google.com/recaptcha/about/)
-from google and place in
-[contact_form_container.php](https://github.com/JeffDeCola/my-php-containers/blob/master/my-php-containers/interaction/contact_form_container/contact_form_container.php)
+  [site key](https://www.google.com/recaptcha/about/)
+  from google and place in
+  [contact_form_container.php](https://github.com/JeffDeCola/my-php-containers/blob/master/my-php-containers/interaction/contact_form_container/contact_form_container.php)
 * Copy and paste the php container code
   [contact_form_container.php](https://github.com/JeffDeCola/my-php-containers/blob/master/my-php-containers/interaction/contact_form_container/contact_form_container.php)
   into your php code
