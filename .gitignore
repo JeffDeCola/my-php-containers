@@ -1,9 +1,6 @@
 # CONCOURSE
 .credentials.yml
 
-# VSCODE
-.vscode/ 
-
 # GO
 coverage.out
 
@@ -12,10 +9,6 @@ coverage.out
 
 # Windows
 *.jpg:Zone.Identifier
-
-# DREAMWAVER
-dwsync.xml
-_notes/
 
 # jeffs_tiny_url_container
 sql_pw-ignore.php
