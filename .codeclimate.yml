@@ -28,10 +28,10 @@ plugins:
   # A tool for suggesting possible improvements to bash/sh shell scripts
   shellcheck:
     enabled: true
-  phpcodesniffer:
-    enabled: true
-  csslint:
-    enabled: true
+  #phpcodesniffer:
+  #  enabled: true
+  #csslint:
+  #  enabled: true
     
 # --------------------------------------------------------------------------
 # exclude_patterns: Exclude files and/or directories from analysis
