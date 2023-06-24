@@ -1,41 +1,35 @@
-# my-php-containers
+# MY PHP CONTAINERS
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a7fd79cc4717b3da27d6/maintainability)](https://codeclimate.com/github/JeffDeCola/my-php-containers/maintainability)
-[![Issue Count](https://codeclimate.com/github/JeffDeCola/my-php-containers/badges/issue_count.svg)](https://codeclimate.com/github/JeffDeCola/my-php-containers/issues)
-[![License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
+[![CodeClimate Issues](https://codeclimate.com/github/JeffDeCola/my-php-containers/badges/issue_count.svg)](https://codeclimate.com/github/JeffDeCola/my-php-containers/issues)
+[![MIT License](https://img.shields.io/:license-mit-blue.svg)](https://jeffdecola.mit-license.org)
+[![jeffdecola.com](https://img.shields.io/badge/website-jeffdecola.com-blue)](https://jeffdecola.com)
 
-_A place to keep my php containers.
-All containers designed for dynamic screen widths._
+_A place to keep my php containers._
 
-These containers also contain info I gathered from other sources.
-
-Table of Contents,
+Table of Contents
 
 * [BUILDING BLOCKS](https://github.com/JeffDeCola/my-php-containers#building-blocks)
 * [INTERACTION](https://github.com/JeffDeCola/my-php-containers#interaction)
 * [VISUAL](https://github.com/JeffDeCola/my-php-containers#visual)
 
-Documentation and reference,
+Documentation and Reference
 
 * [php-cheat-sheet](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/development/languages/php-cheat-sheet)
 * [See offsite demos](http://www.jeffdecola.com/my-php-containers/index.php)
+* This repos
+  [github webpage](https://jeffdecola.github.io/my-php-containers/)
+  _built with
+  [concourse](https://github.com/JeffDeCola/my-php-containers/blob/master/ci-README.md)_
 
-[GitHub Webpage](https://jeffdecola.github.io/my-php-containers/)
-_built with
-[concourse ci](https://github.com/JeffDeCola/my-php-containers/blob/master/ci-README.md)_
-
-## PHP CONTAINERS
-
-_All sections in alphabetical order._
-
-### BUILDING BLOCKS
+## BUILDING BLOCKS
 
 * [dynamic_items_container](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/building-blocks/dynamic_items_container)
 
   _Displays items (e.g. menu or picture) that will center and collapse properly on
   smaller screens._
 
-### INTERACTION
+## INTERACTION
 
 * [contact_form_container](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/interaction/contact_form_container)
 
@@ -45,7 +39,7 @@ _All sections in alphabetical order._
 
   _Shorten Long URLs to Tiny URLs. Information stored in a mySQLi database._
 
-### VISUAL
+## VISUAL
 
 * [narrow_picture_container](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/visual/narrow_picture_container)
 
