@@ -1,17 +1,17 @@
-# CONCOURSE
-.credentials.yml
+# website-my-php-containers-.gitignore
 
-# GO
-coverage.out
+# CONCOURSE SECRETS
+.credentials.yml
 
 # macOS
 .DS_Store
 
-# Windows
+# WINDOWS
 *.jpg:Zone.Identifier
+
+# EXTENSION - SFTP SECRETS
+.vscode/
+sftp.json
 
 # jeffs_tiny_url_container
 sql_pw-ignore.php
-
-# SFTP VS CODE EXTENTION
-sftp.json
