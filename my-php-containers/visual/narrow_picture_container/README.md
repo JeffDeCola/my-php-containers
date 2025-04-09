@@ -1,8 +1,19 @@
 # NARROW PICTURE CONTAINER
 
+[![jeffdecola.com](https://img.shields.io/badge/website-jeffdecola.com-blue)](https://jeffdecola.com)
+[![MIT License](https://img.shields.io/:license-mit-blue.svg)](https://jeffdecola.mit-license.org)
+
 _Allow a picture to scale and display across the screen._
 
-[See offsite demo](http://www.jeffdecola.com/my-php-containers/index.php?page=narrow_picture_container)
+Table of Contents
+
+* [EXAMPLE](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/visual/narrow_picture_container#example)
+* [OVERVIEW](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/visual/narrow_picture_container#overview)
+* [TO USE](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/visual/narrow_picture_container#to-use)
+
+Documentation and Reference
+
+* [offsite demo](http://www.jeffdecola.com/my-php-containers/index.php?page=narrow_picture_container)
 
 ## EXAMPLE
 

@@ -1,8 +1,23 @@
 # TINY URL CONTAINER
 
+[![jeffdecola.com](https://img.shields.io/badge/website-jeffdecola.com-blue)](https://jeffdecola.com)
+[![MIT License](https://img.shields.io/:license-mit-blue.svg)](https://jeffdecola.mit-license.org)
+
 _Shorten Long URLs to Tiny URLs. Information stored in a mySQLi database._
 
-[See offsite demo](http://www.jeffdecola.com/my-php-containers/index.php?page=jeffs_tiny_url_container)
+Table of Contents
+
+* [EXAMPLE](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/interaction/jeffs_tiny_url_container#example)
+* [OVERVIEW](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/interaction/jeffs_tiny_url_container#overview)
+* [TO USE](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/interaction/jeffs_tiny_url_container#to-use)
+  * [PLACE A .htaccess INTO YOUR TINY URL LOCATION](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/interaction/jeffs_tiny_url_container#place-a-htaccess-into-your-tiny-url-location)
+  * [CREATE mySQLi DATABASE](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/interaction/jeffs_tiny_url_container#create-mysqli-database)
+  * [YOUR mySQLi PASSWORD](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/interaction/jeffs_tiny_url_container#your-mysqli-password)
+  * [COPY PASTE CODE](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/interaction/jeffs_tiny_url_container#copy-paste-code)
+
+Documentation and Reference
+
+* [offsite demo](http://www.jeffdecola.com/my-php-containers/index.php?page=jeffs_tiny_url_container)
 
 ## EXAMPLE
 
