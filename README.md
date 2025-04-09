@@ -1,9 +1,7 @@
 # MY PHP CONTAINERS
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a7fd79cc4717b3da27d6/maintainability)](https://codeclimate.com/github/JeffDeCola/my-php-containers/maintainability)
-[![CodeClimate Issues](https://codeclimate.com/github/JeffDeCola/my-php-containers/badges/issue_count.svg)](https://codeclimate.com/github/JeffDeCola/my-php-containers/issues)
-[![MIT License](https://img.shields.io/:license-mit-blue.svg)](https://jeffdecola.mit-license.org)
 [![jeffdecola.com](https://img.shields.io/badge/website-jeffdecola.com-blue)](https://jeffdecola.com)
+[![MIT License](https://img.shields.io/:license-mit-blue.svg)](https://jeffdecola.mit-license.org)
 
 _A place to keep my php containers._
 
@@ -15,8 +13,8 @@ Table of Contents
 
 Documentation and Reference
 
-* [php-cheat-sheet](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/development/languages/php-cheat-sheet)
-* [See offsite demos](http://www.jeffdecola.com/my-php-containers/index.php)
+* [php](https://github.com/JeffDeCola/my-cheat-sheets/tree/master/software/development/languages/php-cheat-sheet)
+* [offsite demos](http://www.jeffdecola.com/my-php-containers/index.php)
 * This repos
   [github webpage](https://jeffdecola.github.io/my-php-containers/)
   _built with

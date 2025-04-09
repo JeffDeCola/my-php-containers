@@ -1,9 +1,20 @@
 # DYNAMIC ITEMS CONTAINER
 
+[![jeffdecola.com](https://img.shields.io/badge/website-jeffdecola.com-blue)](https://jeffdecola.com)
+[![MIT License](https://img.shields.io/:license-mit-blue.svg)](https://jeffdecola.mit-license.org)
+
 _Displays items (e.g. menu or picture) that will center and collapse properly on
 smaller screens._
 
-[See offsite demo](http://www.jeffdecola.com/my-php-containers/index.php?page=dynamic_items_container)
+Table of Contents
+
+* [EXAMPLE](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/building-blocks/dynamic_items_container#example)
+* [OVERVIEW](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/building-blocks/dynamic_items_container#overview)
+* [TO USE](https://github.com/JeffDeCola/my-php-containers/tree/master/my-php-containers/building-blocks/dynamic_items_container#to-use)
+
+Documentation and Reference
+
+* [offsite demo](http://www.jeffdecola.com/my-php-containers/index.php?page=dynamic_items_container)
 
 ## EXAMPLE
 
